@@ -379,3 +379,7 @@ sketch
 
 # Local History for Visual Studio Code
 .history/
+
+# GIS files
+**/*.gdb/*
+**/*.geojson
