@@ -383,3 +383,6 @@ sketch
 # GIS files
 **/*.gdb/*
 **/*.geojson
+
+# ods files (libreofficespreadsheets)
+**/*.ods

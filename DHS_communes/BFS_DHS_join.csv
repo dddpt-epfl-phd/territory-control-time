@@ -1,0 +1,390 @@
+bfs_GDEHISTID;bfs_GDENR;bfs_GdeName;dhs_name;dhs_id;dhs_category;dhs_url
+11751;5621;Aclens;Aclens;dhs-002427;commune;https://hls-dhs-dss.ch/fr/articles/002427/2009-06-23/
+11721;5742;Agiez;Agiez;dhs-002526;commune;https://hls-dhs-dss.ch/fr/articles/002526/2009-06-25/
+11734;5401;Aigle;Aigle (commune);dhs-002276;commune;https://hls-dhs-dss.ch/fr/articles/002276/2009-06-25/
+11732;5851;Allaman;Allaman;dhs-002596;commune;https://hls-dhs-dss.ch/fr/articles/002596/2009-06-30/
+11755;5421;Apples;Apples;dhs-002291;commune;https://hls-dhs-dss.ch/fr/articles/002291/2009-07-21/
+11766;5701;Arnex-sur-Nyon;Arnex-sur-Nyon;dhs-002493;commune;https://hls-dhs-dss.ch/fr/articles/002493/2009-08-20/
+11767;5743;Arnex-sur-Orbe;Arnex-sur-Orbe;dhs-002527;commune;https://hls-dhs-dss.ch/fr/articles/002527/2014-04-10/
+11725;5901;Arrissoules;Arrissoules;dhs-002622;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002622/2017-01-05/
+11671;5702;Arzier;Arzier;dhs-002494;commune;https://hls-dhs-dss.ch/fr/articles/002494/2014-05-22/
+11674;5511;Assens;Assens;dhs-002354;commune;https://hls-dhs-dss.ch/fr/articles/002354/2017-01-04/
+11679;5422;Aubonne;Aubonne (commune);dhs-002292;commune;https://hls-dhs-dss.ch/fr/articles/002292/2021-07-22/
+11661;5451;Avenches;Avenches (commune);dhs-002308;commune;https://hls-dhs-dss.ch/fr/articles/002308/2017-01-04/
+11708;5744;Ballaigues;Ballaigues;dhs-002528;commune;https://hls-dhs-dss.ch/fr/articles/002528/2014-06-24/
+11718;5423;Ballens;Ballens;dhs-002293;commune;https://hls-dhs-dss.ch/fr/articles/002293/2009-09-08/
+11695;5703;Bassins;Bassins;dhs-002495;commune;https://hls-dhs-dss.ch/fr/articles/002495/2004-05-06/
+11698;5745;Baulmes;Baulmes;dhs-002529;commune;https://hls-dhs-dss.ch/fr/articles/002529/2004-05-06/
+11700;5746;Bavois;Bavois;dhs-002530;commune;https://hls-dhs-dss.ch/fr/articles/002530/2004-11-04/
+11874;5704;Begnins;Begnins;dhs-002496;commune;https://hls-dhs-dss.ch/fr/articles/002496/2004-05-10/
+11870;5452;Bellerive (VD);Bellerive (VD);dhs-002309;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002309/2017-02-08/
+11884;5581;Belmont-sur-Lausanne;Belmont-sur-Lausanne;dhs-002403;commune;https://hls-dhs-dss.ch/fr/articles/002403/2004-05-10/
+11885;5902;Belmont-sur-Yverdon;Belmont-sur-Yverdon;dhs-002623;commune;https://hls-dhs-dss.ch/fr/articles/002623/2004-05-10/
+11248;5512;Bercher;Bercher;dhs-002355;commune;https://hls-dhs-dss.ch/fr/articles/002355/2004-05-11/
+11863;5424;Berolle;Berolle;dhs-002294;commune;https://hls-dhs-dss.ch/fr/articles/002294/2004-09-22/
+11906;5471;Bettens;Bettens;dhs-002321;commune;https://hls-dhs-dss.ch/fr/articles/002321/2004-04-29/
+11912;5402;Bex;Bex (commune);dhs-002277;commune;https://hls-dhs-dss.ch/fr/articles/002277/2004-09-30/
+11895;5903;Bioley-Magnoux;Bioley-Magnoux;dhs-002624;commune;https://hls-dhs-dss.ch/fr/articles/002624/2004-04-30/
+11887;5513;Bioley-Orjulaz;Bioley-Orjulaz;dhs-002356;commune;https://hls-dhs-dss.ch/fr/articles/002356/2004-09-30/
+11894;5425;Bière;Bière;dhs-002295;commune;https://hls-dhs-dss.ch/fr/articles/002295/2007-12-24/
+11813;5881;Blonay;Blonay;dhs-002612;commune;https://hls-dhs-dss.ch/fr/articles/002612/2014-07-03/
+11816;5747;Bofflens;Bofflens;dhs-002531;commune;https://hls-dhs-dss.ch/fr/articles/002531/2004-05-03/
+11794;5705;Bogis-Bossey;Bogis-Bossey;dhs-002497;commune;https://hls-dhs-dss.ch/fr/articles/002497/2004-05-03/
+11793;5551;Bonvillars;Bonvillars;dhs-002383;commune;https://hls-dhs-dss.ch/fr/articles/002383/2004-10-06/
+11795;5706;Borex;Borex;dhs-002498;commune;https://hls-dhs-dss.ch/fr/articles/002498/2004-10-12/
+11820;5514;Bottens;Bottens;dhs-002357;commune;https://hls-dhs-dss.ch/fr/articles/002357/2004-05-04/
+9570;9999;Bougy;Bougy-Villars;dhs-002296;commune;https://hls-dhs-dss.ch/fr/articles/002296/2004-11-04/
+11844;5661;Boulens;Boulens;dhs-002461;commune;https://hls-dhs-dss.ch/fr/articles/002461/2010-04-01/
+11847;5472;Bournens;Bournens;dhs-002322;commune;https://hls-dhs-dss.ch/fr/articles/002322/2002-12-18/
+11848;5473;Boussens;Boussens;dhs-002323;commune;https://hls-dhs-dss.ch/fr/articles/002323/2002-12-18/
+11823;5622;Bremblens;Bremblens;dhs-002428;commune;https://hls-dhs-dss.ch/fr/articles/002428/2004-05-04/
+11835;5662;Brenles;Brenles;dhs-002462;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002462/2017-01-13/
+11819;5515;Bretigny-sur-Morrens;Bretigny-sur-Morrens;dhs-002358;commune;https://hls-dhs-dss.ch/fr/articles/002358/2004-10-15/
+11829;5748;Bretonnières;Bretonnières;dhs-002532;commune;https://hls-dhs-dss.ch/fr/articles/002532/2004-10-15/
+9935;9999;Brétigny-Saint-Barthélemy;Saint-Barthélemy (VD);dhs-002378;commune;https://hls-dhs-dss.ch/fr/articles/002378/2011-02-08/
+11452;5623;Buchillon;Buchillon (VD);dhs-002429;commune;https://hls-dhs-dss.ch/fr/articles/002429/2004-10-25/
+11463;5552;Bullet;Bullet;dhs-002384;commune;https://hls-dhs-dss.ch/fr/articles/002384/2003-02-04/
+11517;5852;Bursinel;Bursinel;dhs-002597;commune;https://hls-dhs-dss.ch/fr/articles/002597/2003-03-14/
+11509;5853;Bursins;Bursins;dhs-002598;commune;https://hls-dhs-dss.ch/fr/articles/002598/2004-05-05/
+11501;5854;Burtigny;Burtigny;dhs-002599;commune;https://hls-dhs-dss.ch/fr/articles/002599/2004-11-03/
+9557;9999;Bussigny-sur-Morges;Bussigny-près-Lausanne;dhs-002430;commune;https://hls-dhs-dss.ch/fr/articles/002430/2011-05-05/
+11513;5781;Bussigny-sur-Oron;Bussigny-sur-Oron;dhs-002550;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002550/2017-01-05/
+11242;5625;Bussy-sur-Morges;Bussy-Chardonney;dhs-002431;commune;https://hls-dhs-dss.ch/fr/articles/002431/2003-03-14/
+11508;5663;Bussy-sur-Moudon;Bussy-sur-Moudon;dhs-002463;commune;https://hls-dhs-dss.ch/fr/articles/002463/2004-11-03/
+11410;5782;Carrouge (VD);Carrouge (VD);dhs-002551;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002551/2017-01-04/
+11399;5811;Cerniaz (VD);Cerniaz (VD);dhs-002573;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002573/2017-01-05/
+11395;5453;Chabrey;Chabrey;dhs-002310;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002310/2019-04-03/
+11398;5904;Chamblon;Chamblon;dhs-002625;commune;https://hls-dhs-dss.ch/fr/articles/002625/2003-11-10/
+11443;5553;Champagne;Champagne (VD);dhs-002385;commune;https://hls-dhs-dss.ch/fr/articles/002385/2005-05-24/
+11436;5454;Champmartin;Champmartin;dhs-002311;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002311/2017-02-06/
+11437;5812;Champtauroz;Champtauroz;dhs-002574;commune;https://hls-dhs-dss.ch/fr/articles/002574/2005-04-27/
+11438;5905;Champvent;Champvent (commune);dhs-002626;commune;https://hls-dhs-dss.ch/fr/articles/002626/2017-01-04/
+11442;5906;Chanéaz;Chanéaz;dhs-002627;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002627/2017-01-11/
+9575;9999;Chapelle (VD);Chapelle-sur-Moudon;dhs-002464;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002464/2017-01-04/
+11446;5882;Chardonne;Chardonne;dhs-002613;commune;https://hls-dhs-dss.ch/fr/articles/002613/2014-07-22/
+11243;5626;Chardonney-sur-Morges;Chardonney-sur-Morges;dhs-003325;ancienne commune;https://hls-dhs-dss.ch/fr/articles/003325/1998-07-13/
+11421;5707;Chavannes-de-Bogis;Chavannes-de-Bogis;dhs-002499;commune;https://hls-dhs-dss.ch/fr/articles/002499/2004-01-16/
+11422;5708;Chavannes-des-Bois;Chavannes-des-Bois;dhs-002500;commune;https://hls-dhs-dss.ch/fr/articles/002500/2003-12-29/
+11423;5907;Chavannes-le-Chêne;Chavannes-le-Chêne;dhs-002628;commune;https://hls-dhs-dss.ch/fr/articles/002628/2017-05-01/
+11433;5475;Chavannes-le-Veyron;Chavannes-le-Veyron;dhs-002325;commune;https://hls-dhs-dss.ch/fr/articles/002325/2003-12-29/
+11417;5627;Chavannes-près-Renens;Chavannes-près-Renens;dhs-002432;commune;https://hls-dhs-dss.ch/fr/articles/002432/2005-07-14/
+11428;5665;Chavannes-sur-Moudon;Chavannes-sur-Moudon;dhs-002465;commune;https://hls-dhs-dss.ch/fr/articles/002465/2003-12-29/
+11429;5749;Chavornay;Chavornay;dhs-002533;commune;https://hls-dhs-dss.ch/fr/articles/002533/2017-01-11/
+11603;5666;Chesalles-sur-Moudon;Chesalles-sur-Moudon;dhs-002466;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002466/2017-01-11/
+11604;5784;Chesalles-sur-Oron;Chesalles-sur-Oron;dhs-002553;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002553/2017-01-05/
+11605;5909;Cheseaux-Noréaz;Cheseaux-Noréaz;dhs-002630;commune;https://hls-dhs-dss.ch/fr/articles/002630/2003-12-30/
+11606;5582;Cheseaux-sur-Lausanne;Cheseaux-sur-Lausanne;dhs-002404;commune;https://hls-dhs-dss.ch/fr/articles/002404/2005-05-04/
+11609;5403;Chessel;Chessel;dhs-002278;commune;https://hls-dhs-dss.ch/fr/articles/002278/2004-01-27/
+11601;5476;Chevilly;Chevilly;dhs-002326;commune;https://hls-dhs-dss.ch/fr/articles/002326/2005-07-14/
+11611;5813;Chevroux;Chevroux;dhs-002575;commune;https://hls-dhs-dss.ch/fr/articles/002575/2019-04-03/
+11612;5601;Chexbres;Chexbres;dhs-002415;commune;https://hls-dhs-dss.ch/fr/articles/002415/2005-07-14/
+11593;5628;Chigny;Chigny;dhs-002433;commune;https://hls-dhs-dss.ch/fr/articles/002433/2003-12-30/
+11449;5841;Château-d'Oex;Château-d'Œx;dhs-002593;commune;https://hls-dhs-dss.ch/fr/articles/002593/2017-05-01/
+11441;5783;Châtillens;Châtillens;dhs-002552;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002552/2017-01-05/
+11607;5709;Chéserex;Chéserex;dhs-002501;commune;https://hls-dhs-dss.ch/fr/articles/002501/2003-12-30/
+9578;9999;Chêne-Paquier;Chêne-Pâquier;dhs-002629;commune;https://hls-dhs-dss.ch/fr/articles/002629/2005-07-14/
+11589;5629;Clarmont;Clarmont;dhs-002434;commune;https://hls-dhs-dss.ch/fr/articles/002434/2003-12-22/
+11585;5710;Coinsins;Coinsins;dhs-002502;commune;https://hls-dhs-dss.ch/fr/articles/002502/2003-12-23/
+11644;5630;Colombier (VD);Colombier (VD);dhs-002435;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002435/2017-01-04/
+11637;5814;Combremont-le-Grand;Combremont-le-Grand;dhs-002576;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002576/2017-01-12/
+11638;5815;Combremont-le-Petit;Combremont-le-Petit;dhs-002577;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002577/2017-01-05/
+11639;5711;Commugny;Commugny;dhs-002503;commune;https://hls-dhs-dss.ch/fr/articles/002503/2005-08-09/
+11641;5554;Concise;Concise;dhs-002386;commune;https://hls-dhs-dss.ch/fr/articles/002386/2019-04-03/
+11643;5455;Constantine;Constantine;dhs-002312;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002312/2017-01-12/
+11646;5712;Coppet;Coppet;dhs-002504;commune;https://hls-dhs-dss.ch/fr/articles/002504/2004-03-02/
+11647;5404;Corbeyrier;Corbeyrier;dhs-002279;commune;https://hls-dhs-dss.ch/fr/articles/002279/2004-03-02/
+11650;5785;Corcelles-le-Jorat;Corcelles-le-Jorat;dhs-002554;commune;https://hls-dhs-dss.ch/fr/articles/002554/2020-02-14/
+11627;5555;Corcelles-près-Concise;Corcelles-près-Concise;dhs-002387;commune;https://hls-dhs-dss.ch/fr/articles/002387/2019-04-03/
+11625;5816;Corcelles-près-Payerne;Corcelles-près-Payerne;dhs-002578;commune;https://hls-dhs-dss.ch/fr/articles/002578/2004-03-02/
+11642;5751;Corcelles-sur-Chavornay;Corcelles-sur-Chavornay;dhs-002535;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002535/2017-01-11/
+11630;5667;Correvon;Correvon;dhs-002467;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002467/2017-01-04/
+11632;5883;Corseaux;Corseaux;dhs-002614;commune;https://hls-dhs-dss.ch/fr/articles/002614/2005-08-11/
+9579;9999;Corsier (VD);Corsier-sur-Vevey;dhs-002615;commune;https://hls-dhs-dss.ch/fr/articles/002615/2010-09-23/
+11539;5477;Cossonay;Cossonay (commune);dhs-002327;commune;https://hls-dhs-dss.ch/fr/articles/002327/2018-02-05/
+11550;5478;Cottens (VD);Cottens (VD);dhs-002328;commune;https://hls-dhs-dss.ch/fr/articles/002328/2004-03-03/
+11541;5713;Crans-près-Céligny;Crans-près-Céligny;dhs-002505;commune;https://hls-dhs-dss.ch/fr/articles/002505/2004-03-16/
+11519;5714;Crassier;Crassier;dhs-002506;commune;https://hls-dhs-dss.ch/fr/articles/002506/2005-08-17/
+11520;5668;Cremin;Cremin;dhs-002468;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002468/2017-01-11/
+11525;5583;Crissier;Crissier;dhs-002405;commune;https://hls-dhs-dss.ch/fr/articles/002405/2005-08-17/
+11518;5910;Cronay;Cronay;dhs-002631;commune;https://hls-dhs-dss.ch/fr/articles/002631/2011-01-27/
+11527;5752;Croy;Croy;dhs-002536;commune;https://hls-dhs-dss.ch/fr/articles/002536/2005-08-17/
+11528;5479;Cuarnens;Cuarnens;dhs-002329;commune;https://hls-dhs-dss.ch/fr/articles/002329/2005-08-17/
+11529;5911;Cuarny;Cuarny;dhs-002632;commune;https://hls-dhs-dss.ch/fr/articles/002632/2010-04-01/
+11530;5456;Cudrefin;Cudrefin;dhs-002313;commune;https://hls-dhs-dss.ch/fr/articles/002313/2017-01-04/
+11552;5516;Cugy (VD);Cugy (VD);dhs-002359;commune;https://hls-dhs-dss.ch/fr/articles/002359/2005-09-08/
+11577;5602;Cully;Cully;dhs-002416;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002416/2017-05-04/
+11572;5669;Curtilles;Curtilles;dhs-002469;commune;https://hls-dhs-dss.ch/fr/articles/002469/2005-08-17/
+11576;5480;Daillens;Daillens;dhs-002330;commune;https://hls-dhs-dss.ch/fr/articles/002330/2016-01-06/
+11553;5631;Denens;Denens;dhs-002436;commune;https://hls-dhs-dss.ch/fr/articles/002436/2005-08-22/
+11554;5670;Denezy;Denezy;dhs-002470;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002470/2017-01-04/
+11555;5632;Denges;Denges;dhs-002437;commune;https://hls-dhs-dss.ch/fr/articles/002437/2005-08-22/
+11432;5481;Dizy;Dizy;dhs-002331;commune;https://hls-dhs-dss.ch/fr/articles/002331/2006-01-24/
+12190;5517;Dommartin;Dommartin;dhs-002360;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002360/2017-01-04/
+12188;5671;Dompierre (VD);Dompierre (VD);dhs-002471;commune;https://hls-dhs-dss.ch/fr/articles/002471/2004-04-14/
+12171;5457;Donatyre;Donatyre;dhs-002314;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002314/2017-01-04/
+12195;5913;Donneloye;Donneloye;dhs-002634;commune;https://hls-dhs-dss.ch/fr/articles/002634/2017-01-04/
+12200;5715;Duillier;Duillier;dhs-002507;commune;https://hls-dhs-dss.ch/fr/articles/002507/2004-07-27/
+12198;5855;Dully;Dully;dhs-002600;commune;https://hls-dhs-dss.ch/fr/articles/002600/2006-02-21/
+11575;5912;Démoret;Démoret;dhs-002633;commune;https://hls-dhs-dss.ch/fr/articles/002633/2004-03-24/
+12137;5518;Echallens;Echallens (commune);dhs-002361;commune;https://hls-dhs-dss.ch/fr/articles/002361/2006-02-28/
+12136;5633;Echandens;Echandens;dhs-002438;commune;https://hls-dhs-dss.ch/fr/articles/002438/2004-07-28/
+12121;5634;Echichens;Echichens;dhs-002439;commune;https://hls-dhs-dss.ch/fr/articles/002439/2017-01-04/
+12133;5519;Eclagnens;Eclagnens;dhs-002362;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002362/2017-02-06/
+12145;5482;Eclépens;Eclépens;dhs-002332;commune;https://hls-dhs-dss.ch/fr/articles/002332/2004-07-28/
+12131;5787;Ecoteaux;Ecoteaux;dhs-002556;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002556/2017-01-05/
+12129;5635;Ecublens (VD);Ecublens (VD);dhs-002440;commune;https://hls-dhs-dss.ch/fr/articles/002440/2014-08-07/
+11225;5753;Envy;Envy;dhs-003326;ancienne commune;https://hls-dhs-dss.ch/fr/articles/003326/2004-11-01/
+12308;5584;Epalinges;Epalinges;dhs-002406;commune;https://hls-dhs-dss.ch/fr/articles/002406/2004-09-02/
+12313;5914;Ependes (VD);Ependes (VD);dhs-002635;commune;https://hls-dhs-dss.ch/fr/articles/002635/2006-03-14/
+12311;5603;Epesses;Epesses;dhs-002417;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002417/2017-02-02/
+12224;5915;Essert-Pittet;Essert-Pittet;dhs-002636;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002636/2017-01-11/
+12223;5916;Essert-sous-Champvent;Essert-sous-Champvent;dhs-002637;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002637/2017-01-04/
+12257;5788;Essertes;Essertes;dhs-002557;commune;https://hls-dhs-dss.ch/fr/articles/002557/2003-01-08/
+12259;5856;Essertines-sur-Rolle;Essertines-sur-Rolle;dhs-002601;commune;https://hls-dhs-dss.ch/fr/articles/002601/2004-11-09/
+12234;5520;Essertines-sur-Yverdon;Essertines-sur-Yverdon;dhs-002363;commune;https://hls-dhs-dss.ch/fr/articles/002363/2004-08-23/
+12265;5521;Etagnières;Etagnières;dhs-002364;commune;https://hls-dhs-dss.ch/fr/articles/002364/2004-11-09/
+12264;5636;Etoy;Etoy;dhs-002441;commune;https://hls-dhs-dss.ch/fr/articles/002441/2014-04-03/
+12254;5716;Eysins;Eysins;dhs-002508;commune;https://hls-dhs-dss.ch/fr/articles/002508/2004-11-17/
+11947;5458;Faoug;Faoug;dhs-002315;commune;https://hls-dhs-dss.ch/fr/articles/002315/2004-11-17/
+11979;5789;Ferlens (VD);Ferlens (VD);dhs-002558;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002558/2017-01-04/
+11977;5483;Ferreyres;Ferreyres;dhs-002333;commune;https://hls-dhs-dss.ch/fr/articles/002333/2006-04-10/
+11982;5522;Fey;Fey;dhs-002365;commune;https://hls-dhs-dss.ch/fr/articles/002365/2006-04-10/
+12016;5556;Fiez;Fiez;dhs-002388;commune;https://hls-dhs-dss.ch/fr/articles/002388/2005-01-20/
+11929;5557;Fontaines-sur-Grandson;Fontaines-sur-Grandson;dhs-002389;commune;https://hls-dhs-dss.ch/fr/articles/002389/2007-05-03/
+11928;5558;Fontanezier;Fontanezier;dhs-002390;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002390/2017-01-05/
+11925;5604;Forel (Lavaux);Forel (Lavaux);dhs-002418;commune;https://hls-dhs-dss.ch/fr/articles/002418/2003-05-19/
+11924;5672;Forel-sur-Lucens;Forel-sur-Lucens;dhs-002472;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002472/2017-01-11/
+11932;5717;Founex;Founex;dhs-002509;commune;https://hls-dhs-dss.ch/fr/articles/002509/2007-05-01/
+11950;5523;Froideville;Froideville;dhs-002366;commune;https://hls-dhs-dss.ch/fr/articles/002366/2003-05-19/
+11990;5427;Féchy;Féchy;dhs-002297;commune;https://hls-dhs-dss.ch/fr/articles/002297/2005-01-11/
+12098;5718;Genolier;Genolier;dhs-002510;commune;https://hls-dhs-dss.ch/fr/articles/002510/2007-07-11/
+12025;5559;Giez;Giez;dhs-002391;commune;https://hls-dhs-dss.ch/fr/articles/002391/2004-06-28/
+12034;5857;Gilly;Gilly;dhs-002602;commune;https://hls-dhs-dss.ch/fr/articles/002602/2005-11-18/
+12069;5428;Gimel;Gimel;dhs-002298;commune;https://hls-dhs-dss.ch/fr/articles/002298/2011-08-03/
+12068;5719;Gingins;Gingins;dhs-002511;commune;https://hls-dhs-dss.ch/fr/articles/002511/2005-11-18/
+12046;5720;Givrins;Givrins;dhs-002512;commune;https://hls-dhs-dss.ch/fr/articles/002512/2005-10-14/
+12058;5721;Gland;Gland;dhs-002513;commune;https://hls-dhs-dss.ch/fr/articles/002513/2005-11-21/
+12048;5484;Gollion;Gollion;dhs-002334;commune;https://hls-dhs-dss.ch/fr/articles/002334/2007-04-05/
+12026;5917;Gossens;Gossens;dhs-002638;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002638/2017-01-06/
+12038;5524;Goumoens-la-Ville;Goumoens-la-Ville;dhs-002367;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002367/2017-02-06/
+12039;5525;Goumoens-le-Jux;Goumoens-le-Jux;dhs-002368;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002368/2017-02-06/
+12043;5485;Grancy;Grancy;dhs-002335;commune;https://hls-dhs-dss.ch/fr/articles/002335/2005-06-15/
+12072;5817;Grandcour;Grandcour;dhs-002579;commune;https://hls-dhs-dss.ch/fr/articles/002579/2007-07-17/
+12059;5560;Grandevent;Grandevent;dhs-002392;commune;https://hls-dhs-dss.ch/fr/articles/002392/2006-01-10/
+12101;5561;Grandson;Grandson (commune);dhs-002393;commune;https://hls-dhs-dss.ch/fr/articles/002393/2019-04-03/
+12105;5605;Grandvaux;Grandvaux;dhs-002419;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002419/2017-01-04/
+9582;9999;Granges (VD);Granges-près-Marnand;dhs-002580;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002580/2017-01-05/
+12083;5722;Grens;Grens;dhs-002514;commune;https://hls-dhs-dss.ch/fr/articles/002514/2006-01-24/
+12088;5918;Gressy;Gressy;dhs-002639;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002639/2017-01-05/
+11962;5405;Gryon;Gryon;dhs-002280;commune;https://hls-dhs-dss.ch/fr/articles/002280/2008-03-11/
+12242;5819;Henniez;Henniez;dhs-002581;commune;https://hls-dhs-dss.ch/fr/articles/002581/2010-12-16/
+12314;5673;Hermenches;Hermenches;dhs-002473;commune;https://hls-dhs-dss.ch/fr/articles/002473/2011-03-31/
+12660;5885;Jongny;Jongny;dhs-002616;commune;https://hls-dhs-dss.ch/fr/articles/002616/2009-02-17/
+12640;5585;Jouxtens-Mézery;Jouxtens-Mézery;dhs-002407;commune;https://hls-dhs-dss.ch/fr/articles/002407/2007-05-08/
+12641;5754;Juriens;Juriens;dhs-002537;commune;https://hls-dhs-dss.ch/fr/articles/002537/2009-02-19/
+12590;5871;L'Abbaye;Abbaye, L';dhs-002609;commune;https://hls-dhs-dss.ch/fr/articles/002609/2009-06-23/
+12599;5741;L'Abergement;Abergement, L';dhs-002525;commune;https://hls-dhs-dss.ch/fr/articles/002525/2009-06-23/
+12600;5486;L'Isle;Isle, L';dhs-002336;commune;https://hls-dhs-dss.ch/fr/articles/002336/2007-02-05/
+9585;9999;La Chaux (VD);Chaux, La (Cossonay);dhs-002324;commune;https://hls-dhs-dss.ch/fr/articles/002324/2005-05-03/
+12589;5758;La Praz;Praz, La;dhs-002541;commune;https://hls-dhs-dss.ch/fr/articles/002541/2013-03-14/
+12581;5726;La Rippe;Rippe, La;dhs-002518;commune;https://hls-dhs-dss.ch/fr/articles/002518/2010-11-11/
+12583;5797;La Rogivue;Rogivue, La;dhs-002566;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002566/2010-02-15/
+12585;5498;La Sarraz;Sarraz, La (commune);dhs-002348;commune;https://hls-dhs-dss.ch/fr/articles/002348/2010-03-16/
+12586;5889;La Tour-de-Peilz;Tour-de-Peilz, La;dhs-002619;commune;https://hls-dhs-dss.ch/fr/articles/002619/2014-02-25/
+12614;5586;Lausanne;Lausanne (commune);dhs-002408;commune;https://hls-dhs-dss.ch/fr/articles/002408/2009-04-02/
+9983;9999;Lavey;Lavey-Morcles;dhs-045882;commune;https://hls-dhs-dss.ch/fr/articles/045882/2009-03-18/
+12608;5637;Lavigny;Lavigny;dhs-002442;commune;https://hls-dhs-dss.ch/fr/articles/002442/2006-05-15/
+12621;5872;Le Chenit;Chenit, Le;dhs-002610;commune;https://hls-dhs-dss.ch/fr/articles/002610/2010-03-03/
+9586;9999;Le Châtelard-Montreux;Châtelard, Le (VD);dhs-003327;ancienne commune;https://hls-dhs-dss.ch/fr/articles/003327/2005-09-08/
+12615;5873;Le Lieu;Lieu, Le;dhs-002611;commune;https://hls-dhs-dss.ch/fr/articles/002611/2009-03-24/
+12617;5587;Le Mont-sur-Lausanne;Mont-sur-Lausanne, Le;dhs-002409;commune;https://hls-dhs-dss.ch/fr/articles/002409/2008-12-02/
+12719;5731;Le Vaud;Vaud, Le;dhs-002523;commune;https://hls-dhs-dss.ch/fr/articles/002523/2013-02-22/
+12794;5750;Les Clées;Clées, Les;dhs-002534;commune;https://hls-dhs-dss.ch/fr/articles/002534/2011-02-02/
+12795;5786;Les Cullayes;Cullayes, Les;dhs-002555;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002555/2017-01-05/
+9587;9999;Les Planches;Planches, Les;dhs-007564;ancienne commune;https://hls-dhs-dss.ch/fr/articles/007564/2010-02-11/
+12770;5800;Les Tavernes;Tavernes, Les;dhs-002569;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002569/2017-01-05/
+12771;5801;Les Thioleyres;Thioleyres, Les;dhs-002570;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002570/2017-01-05/
+12799;5407;Leysin;Leysin;dhs-002282;commune;https://hls-dhs-dss.ch/fr/articles/002282/2007-07-30/
+12818;5755;Lignerolle;Lignerolle;dhs-002538;commune;https://hls-dhs-dss.ch/fr/articles/002538/2009-03-24/
+12813;5638;Lonay;Lonay;dhs-002443;commune;https://hls-dhs-dss.ch/fr/articles/002443/2009-03-26/
+12805;5429;Longirod;Longirod;dhs-002299;commune;https://hls-dhs-dss.ch/fr/articles/002299/2008-02-06/
+12811;5674;Lovatens;Lovatens;dhs-002474;commune;https://hls-dhs-dss.ch/fr/articles/002474/2008-02-07/
+12758;5675;Lucens;Lucens;dhs-002475;commune;https://hls-dhs-dss.ch/fr/articles/002475/2017-02-06/
+12722;5858;Luins;Luins;dhs-002603;commune;https://hls-dhs-dss.ch/fr/articles/002603/2010-02-16/
+12733;5639;Lully (VD);Lully (VD);dhs-002444;commune;https://hls-dhs-dss.ch/fr/articles/002444/2008-07-23/
+12729;5487;Lussery;Lussery;dhs-002337;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002337/2009-12-01/
+9588;9999;Lussy (VD);Lussy-sur-Morges;dhs-002445;commune;https://hls-dhs-dss.ch/fr/articles/002445/2006-05-15/
+12704;5606;Lutry;Lutry;dhs-002420;commune;https://hls-dhs-dss.ch/fr/articles/002420/2010-02-16/
+12703;5526;Malapalud;Malapalud;dhs-002369;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002369/2017-01-04/
+12757;5790;Maracon;Maracon;dhs-002559;commune;https://hls-dhs-dss.ch/fr/articles/002559/2008-09-01/
+12759;5430;Marchissy;Marchissy;dhs-002300;commune;https://hls-dhs-dss.ch/fr/articles/002300/2008-09-01/
+12761;5820;Marnand;Marnand;dhs-002582;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002582/2017-01-05/
+12740;5676;Martherenges;Martherenges;dhs-002476;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002476/2017-01-04/
+12743;5919;Mathod;Mathod;dhs-002640;commune;https://hls-dhs-dss.ch/fr/articles/002640/2007-10-09/
+12748;5562;Mauborget;Mauborget;dhs-002394;commune;https://hls-dhs-dss.ch/fr/articles/002394/2009-12-17/
+12400;5488;Mauraz;Mauraz;dhs-002338;commune;https://hls-dhs-dss.ch/fr/articles/002338/2008-08-28/
+12435;5489;Mex (VD);Mex (VD);dhs-002339;commune;https://hls-dhs-dss.ch/fr/articles/002339/2010-01-12/
+12422;5723;Mies;Mies;dhs-002515;commune;https://hls-dhs-dss.ch/fr/articles/002515/2010-01-14/
+12417;5821;Missy;Missy;dhs-002583;commune;https://hls-dhs-dss.ch/fr/articles/002583/2010-01-19/
+12421;5490;Moiry;Moiry;dhs-002340;commune;https://hls-dhs-dss.ch/fr/articles/002340/2010-01-19/
+12423;5431;Mollens (VD);Mollens (VD);dhs-002301;commune;https://hls-dhs-dss.ch/fr/articles/002301/2008-09-09/
+12426;5921;Molondin;Molondin;dhs-002642;commune;https://hls-dhs-dss.ch/fr/articles/002642/2008-11-26/
+12428;5641;Monnaz;Monnaz;dhs-002446;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002446/2017-01-04/
+12374;5491;Mont-la-Ville;Mont-la-Ville;dhs-002341;commune;https://hls-dhs-dss.ch/fr/articles/002341/2008-12-02/
+12332;5859;Mont-sur-Rolle;Mont-sur-Rolle;dhs-002604;commune;https://hls-dhs-dss.ch/fr/articles/002604/2008-12-02/
+12339;5922;Montagny-près-Yverdon;Montagny-près-Yverdon;dhs-002643;commune;https://hls-dhs-dss.ch/fr/articles/002643/2008-05-21/
+12334;5677;Montaubion-Chardonney;Montaubion-Chardonney;dhs-002477;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002477/2017-01-04/
+12345;5756;Montcherand;Montcherand;dhs-002539;commune;https://hls-dhs-dss.ch/fr/articles/002539/2010-01-21/
+12322;5432;Montherod;Montherod;dhs-002302;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002302/2021-07-22/
+12333;5459;Montmagny;Montmagny;dhs-002316;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002316/2017-01-06/
+12318;5792;Montpreveyres;Montpreveyres;dhs-002561;commune;https://hls-dhs-dss.ch/fr/articles/002561/2008-12-02/
+12327;5492;Montricher;Montricher;dhs-002342;commune;https://hls-dhs-dss.ch/fr/articles/002342/2020-05-29/
+9982;9999;Morcles;Morcles;dhs-003328;ancienne commune;https://hls-dhs-dss.ch/fr/articles/003328/2010-01-26/
+12342;5642;Morges;Morges (commune);dhs-002447;commune;https://hls-dhs-dss.ch/fr/articles/002447/2019-04-03/
+12370;5527;Morrens (VD);Morrens (VD);dhs-002370;commune;https://hls-dhs-dss.ch/fr/articles/002370/2009-01-13/
+12377;5678;Moudon;Moudon (commune);dhs-002478;commune;https://hls-dhs-dss.ch/fr/articles/002478/2020-07-16/
+12363;5460;Mur (VD);Mur (VD);dhs-002317;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002317/2019-04-08/
+12529;5563;Mutrux;Mutrux;dhs-002395;commune;https://hls-dhs-dss.ch/fr/articles/002395/2009-06-23/
+12439;5920;Mézery-près-Donneloye;Mézery-près-Donneloye;dhs-002641;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002641/2017-01-04/
+12441;5791;Mézières (VD);Mézières (VD);dhs-002560;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002560/2017-01-04/
+12535;5528;Naz;Naz;dhs-002371;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002371/2017-01-04/
+9590;9999;Neyruz (VD);Neyruz-sur-Moudon;dhs-002479;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002479/2017-01-04/
+12858;5564;Novalles;Novalles;dhs-002396;commune;https://hls-dhs-dss.ch/fr/articles/002396/2009-08-18/
+12822;5408;Noville;Noville;dhs-002283;commune;https://hls-dhs-dss.ch/fr/articles/002283/2014-12-18/
+12542;5724;Nyon;Nyon (commune);dhs-002516;commune;https://hls-dhs-dss.ch/fr/articles/002516/2011-11-09/
+12503;5680;Ogens;Ogens;dhs-002480;commune;https://hls-dhs-dss.ch/fr/articles/002480/2010-11-23/
+12505;5461;Oleyres;Oleyres;dhs-002318;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002318/2017-01-04/
+12507;5409;Ollon;Ollon;dhs-002284;commune;https://hls-dhs-dss.ch/fr/articles/002284/2010-11-30/
+12480;5565;Onnens (VD);Onnens (VD);dhs-002397;commune;https://hls-dhs-dss.ch/fr/articles/002397/2009-10-28/
+12493;5923;Oppens;Oppens;dhs-002644;commune;https://hls-dhs-dss.ch/fr/articles/002644/2010-12-02/
+12478;5757;Orbe;Orbe (commune);dhs-002540;commune;https://hls-dhs-dss.ch/fr/articles/002540/2020-05-29/
+12487;5924;Orges;Orges;dhs-002645;commune;https://hls-dhs-dss.ch/fr/articles/002645/2008-09-16/
+12489;5410;Ormont-Dessous;Ormont-Dessous;dhs-002285;commune;https://hls-dhs-dss.ch/fr/articles/002285/2009-11-02/
+12490;5411;Ormont-Dessus;Ormont-Dessus;dhs-002286;commune;https://hls-dhs-dss.ch/fr/articles/002286/2010-12-07/
+12491;5493;Orny;Orny;dhs-002343;commune;https://hls-dhs-dss.ch/fr/articles/002343/2009-08-13/
+12492;5793;Oron-la-Ville;Oron-la-Ville;dhs-002562;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002562/2017-01-05/
+12399;5794;Oron-le-Châtel;Oron-le-Châtel;dhs-002563;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002563/2017-01-05/
+13131;5925;Orzens;Orzens;dhs-002646;commune;https://hls-dhs-dss.ch/fr/articles/002646/2009-11-03/
+13136;5529;Oulens-sous-Echallens;Oulens-sous-Echallens;dhs-002372;commune;https://hls-dhs-dss.ch/fr/articles/002372/2009-11-17/
+13122;5681;Oulens-sur-Lucens;Oulens-sur-Lucens;dhs-002481;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002481/2017-01-04/
+13121;5530;Pailly;Pailly;dhs-002373;commune;https://hls-dhs-dss.ch/fr/articles/002373/2009-11-18/
+13119;5795;Palézieux;Palézieux;dhs-002564;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002564/2017-01-05/
+13117;5494;Pampigny;Pampigny;dhs-002344;commune;https://hls-dhs-dss.ch/fr/articles/002344/2009-11-19/
+13115;5588;Paudex;Paudex;dhs-002410;commune;https://hls-dhs-dss.ch/fr/articles/002410/2011-01-04/
+13147;5822;Payerne;Payerne (commune);dhs-002584;commune;https://hls-dhs-dss.ch/fr/articles/002584/2011-01-04/
+13159;5796;Peney-le-Jorat;Peney-le-Jorat;dhs-002565;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002565/2017-01-04/
+13158;5495;Penthalaz;Penthalaz;dhs-002345;commune;https://hls-dhs-dss.ch/fr/articles/002345/2011-01-06/
+13157;5496;Penthaz;Penthaz;dhs-002346;commune;https://hls-dhs-dss.ch/fr/articles/002346/2011-01-06/
+13156;5531;Penthéréaz;Penthéréaz;dhs-002374;commune;https://hls-dhs-dss.ch/fr/articles/002374/2011-01-06/
+13154;5860;Perroy;Perroy;dhs-002605;commune;https://hls-dhs-dss.ch/fr/articles/002605/2011-01-11/
+13150;5682;Peyres-Possens;Peyres-Possens;dhs-002482;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002482/2017-01-04/
+13139;5433;Pizy;Pizy;dhs-002303;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002303/2017-01-04/
+13085;5533;Poliez-Pittet;Poliez-Pittet;dhs-002376;commune;https://hls-dhs-dss.ch/fr/articles/002376/2010-02-16/
+13086;5532;Poliez-le-Grand;Poliez-le-Grand;dhs-002375;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002375/2017-01-04/
+13083;5497;Pompaples;Pompaples;dhs-002347;commune;https://hls-dhs-dss.ch/fr/articles/002347/2012-03-30/
+13082;5926;Pomy;Pomy;dhs-002647;commune;https://hls-dhs-dss.ch/fr/articles/002647/2012-03-30/
+13070;5927;Prahins;Prahins;dhs-002648;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002648/2017-01-04/
+13069;5725;Prangins;Prangins;dhs-002517;commune;https://hls-dhs-dss.ch/fr/articles/002517/2010-07-06/
+13109;5759;Premier;Premier;dhs-002542;commune;https://hls-dhs-dss.ch/fr/articles/002542/2010-01-04/
+13089;5589;Prilly;Prilly;dhs-002411;commune;https://hls-dhs-dss.ch/fr/articles/002411/2012-04-12/
+13098;5566;Provence;Provence;dhs-002398;commune;https://hls-dhs-dss.ch/fr/articles/002398/2010-01-12/
+13106;5643;Préverenges;Préverenges;dhs-002448;commune;https://hls-dhs-dss.ch/fr/articles/002448/2010-02-17/
+13104;5683;Prévonloup;Prévonloup;dhs-002483;commune;https://hls-dhs-dss.ch/fr/articles/002483/2012-04-12/
+13096;5607;Puidoux;Puidoux;dhs-002421;commune;https://hls-dhs-dss.ch/fr/articles/002421/2012-04-12/
+13095;5590;Pully;Pully;dhs-002412;commune;https://hls-dhs-dss.ch/fr/articles/002412/2012-06-01/
+13163;5760;Rances;Rances;dhs-002543;commune;https://hls-dhs-dss.ch/fr/articles/002543/2010-08-03/
+13079;5591;Renens (VD);Renens (VD);dhs-002413;commune;https://hls-dhs-dss.ch/fr/articles/002413/2012-05-09/
+12860;5412;Rennaz;Rennaz;dhs-002287;commune;https://hls-dhs-dss.ch/fr/articles/002287/2010-08-25/
+12913;5644;Reverolle;Reverolle;dhs-002449;commune;https://hls-dhs-dss.ch/fr/articles/002449/2009-12-10/
+12892;5608;Riex;Riex;dhs-002422;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002422/2017-01-04/
+12945;5609;Rivaz;Rivaz;dhs-002423;commune;https://hls-dhs-dss.ch/fr/articles/002423/2013-09-24/
+12942;5413;Roche (VD);Roche (VD);dhs-002288;commune;https://hls-dhs-dss.ch/fr/articles/002288/2010-09-21/
+12932;5861;Rolle;Rolle (commune);dhs-002606;commune;https://hls-dhs-dss.ch/fr/articles/002606/2013-01-14/
+11268;5761;Romainmôtier;Romainmôtier (village);dhs-002544;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002544/2012-05-23/
+12947;5567;Romairon;Romairon;dhs-002399;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002399/2017-01-05/
+12930;5592;Romanel-sur-Lausanne;Romanel-sur-Lausanne;dhs-002414;commune;https://hls-dhs-dss.ch/fr/articles/002414/2010-11-11/
+12929;5645;Romanel-sur-Morges;Romanel-sur-Morges;dhs-002450;commune;https://hls-dhs-dss.ch/fr/articles/002450/2012-05-23/
+12920;5798;Ropraz;Ropraz;dhs-002567;commune;https://hls-dhs-dss.ch/fr/articles/002567/2010-11-15/
+12887;5684;Rossenges;Rossenges;dhs-002484;commune;https://hls-dhs-dss.ch/fr/articles/002484/2009-10-06/
+12843;5823;Rossens (VD);Rossens (VD);dhs-002585;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002585/2017-01-05/
+12902;5842;Rossinière;Rossinière;dhs-002594;commune;https://hls-dhs-dss.ch/fr/articles/002594/2010-11-16/
+12850;5843;Rougemont;Rougemont (commune);dhs-002595;commune;https://hls-dhs-dss.ch/fr/articles/002595/2012-05-25/
+12847;5928;Rovray;Rovray;dhs-002649;commune;https://hls-dhs-dss.ch/fr/articles/002649/2017-01-05/
+12842;5534;Rueyres;Rueyres;dhs-002377;commune;https://hls-dhs-dss.ch/fr/articles/002377/2010-11-23/
+12866;5727;Saint-Cergue;Saint-Cergue;dhs-002519;commune;https://hls-dhs-dss.ch/fr/articles/002519/2009-12-09/
+12865;5685;Saint-Cierges;Saint-Cierges;dhs-002485;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002485/2017-01-04/
+12864;5434;Saint-George;Saint-George;dhs-002304;commune;https://hls-dhs-dss.ch/fr/articles/002304/2012-06-01/
+12946;5435;Saint-Livres;Saint-Livres;dhs-002305;commune;https://hls-dhs-dss.ch/fr/articles/002305/2011-02-08/
+12975;5888;Saint-Légier-La Chiésaz;Saint-Légier-La Chiésaz;dhs-002618;commune;https://hls-dhs-dss.ch/fr/articles/002618/2012-06-01/
+13030;5436;Saint-Oyens;Saint-Oyens;dhs-002306;commune;https://hls-dhs-dss.ch/fr/articles/002306/2011-02-09/
+13029;5646;Saint-Prex;Saint-Prex;dhs-002451;commune;https://hls-dhs-dss.ch/fr/articles/002451/2021-01-19/
+13028;5610;Saint-Saphorin (Lavaux);Saint-Saphorin (Lavaux);dhs-002424;commune;https://hls-dhs-dss.ch/fr/articles/002424/2011-02-09/
+13027;5647;Saint-Saphorin-sur-Morges;Saint-Saphorin-sur-Morges;dhs-002452;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002452/2017-01-04/
+13025;5648;Saint-Sulpice (VD);Saint-Sulpice (VD);dhs-002453;commune;https://hls-dhs-dss.ch/fr/articles/002453/2012-06-01/
+13024;5568;Sainte-Croix;Sainte-Croix (commune);dhs-002400;commune;https://hls-dhs-dss.ch/fr/articles/002400/2011-02-08/
+13008;5686;Sarzens;Sarzens;dhs-002486;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002486/2017-01-11/
+13049;5824;Sassel;Sassel;dhs-002586;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002586/2017-01-05/
+13063;5437;Saubraz;Saubraz;dhs-002307;commune;https://hls-dhs-dss.ch/fr/articles/002307/2009-12-30/
+13060;5611;Savigny;Savigny;dhs-002425;commune;https://hls-dhs-dss.ch/fr/articles/002425/2009-11-17/
+12992;5826;Seigneux;Seigneux;dhs-002588;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002588/2017-01-05/
+12998;5499;Senarclens;Senarclens;dhs-002349;commune;https://hls-dhs-dss.ch/fr/articles/002349/2010-12-06/
+12995;5762;Sergey;Sergey;dhs-002545;commune;https://hls-dhs-dss.ch/fr/articles/002545/2013-04-25/
+12994;5799;Servion;Servion;dhs-002568;commune;https://hls-dhs-dss.ch/fr/articles/002568/2017-01-05/
+12986;5728;Signy-Avenex;Signy-Avenex;dhs-002520;commune;https://hls-dhs-dss.ch/fr/articles/002520/2010-06-15/
+10418;5687;Sottens;Sottens;dhs-002487;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002487/2017-01-04/
+10556;5929;Suchy;Suchy;dhs-002650;commune;https://hls-dhs-dss.ch/fr/articles/002650/2012-07-25/
+10600;5536;Sugnens;Sugnens;dhs-002379;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002379/2017-01-04/
+10542;5501;Sullens;Sullens;dhs-002351;commune;https://hls-dhs-dss.ch/fr/articles/002351/2011-12-08/
+10547;5930;Suscévaz;Suscévaz;dhs-002651;commune;https://hls-dhs-dss.ch/fr/articles/002651/2011-05-02/
+10548;5688;Syens;Syens;dhs-002488;commune;https://hls-dhs-dss.ch/fr/articles/002488/2011-04-29/
+12954;5825;Sédeilles;Sédeilles;dhs-002587;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002587/2017-01-05/
+13006;5500;Sévery;Sévery;dhs-002350;commune;https://hls-dhs-dss.ch/fr/articles/002350/2010-12-06/
+10553;5729;Tannay;Tannay;dhs-002521;commune;https://hls-dhs-dss.ch/fr/articles/002521/2011-07-04/
+10570;5862;Tartegnin;Tartegnin;dhs-002607;commune;https://hls-dhs-dss.ch/fr/articles/002607/2011-07-04/
+10568;5689;Thierrens;Thierrens;dhs-002489;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002489/2017-01-04/
+10876;5649;Tolochenaz;Tolochenaz;dhs-002454;commune;https://hls-dhs-dss.ch/fr/articles/002454/2014-02-25/
+10901;5827;Trey;Trey;dhs-002589;commune;https://hls-dhs-dss.ch/fr/articles/002589/2011-07-04/
+10887;5931;Treycovagnes;Treycovagnes;dhs-002652;commune;https://hls-dhs-dss.ch/fr/articles/002652/2014-02-25/
+10873;5828;Treytorrens (Payerne);Treytorrens (Payerne);dhs-002590;commune;https://hls-dhs-dss.ch/fr/articles/002590/2011-09-15/
+10884;5730;Trélex;Trélex;dhs-002522;commune;https://hls-dhs-dss.ch/fr/articles/002522/2012-11-05/
+10937;5932;Ursins;Ursins;dhs-002653;commune;https://hls-dhs-dss.ch/fr/articles/002653/2013-02-22/
+10939;5933;Valeyres-sous-Montagny;Valeyres-sous-Montagny;dhs-002654;commune;https://hls-dhs-dss.ch/fr/articles/002654/2014-03-05/
+10941;5763;Valeyres-sous-Rances;Valeyres-sous-Rances;dhs-002546;commune;https://hls-dhs-dss.ch/fr/articles/002546/2012-10-22/
+10928;5934;Valeyres-sous-Ursins;Valeyres-sous-Ursins;dhs-002655;commune;https://hls-dhs-dss.ch/fr/articles/002655/2012-05-23/
+10947;5462;Vallamand;Vallamand;dhs-002319;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002319/2017-02-08/
+10949;5764;Vallorbe;Vallorbe;dhs-002547;commune;https://hls-dhs-dss.ch/fr/articles/002547/2014-12-27/
+10905;5569;Vaugondry;Vaugondry;dhs-002401;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002401/2017-01-05/
+10915;5765;Vaulion;Vaulion;dhs-002548;commune;https://hls-dhs-dss.ch/fr/articles/002548/2015-02-03/
+10909;5650;Vaux-sur-Morges;Vaux-sur-Morges;dhs-002455;commune;https://hls-dhs-dss.ch/fr/articles/002455/2011-12-08/
+10924;5890;Vevey;Vevey (commune);dhs-002620;commune;https://hls-dhs-dss.ch/fr/articles/002620/2015-01-03/
+10903;5891;Veytaux;Veytaux;dhs-002621;commune;https://hls-dhs-dss.ch/fr/articles/002621/2013-03-04/
+10752;5732;Vich;Vich;dhs-002524;commune;https://hls-dhs-dss.ch/fr/articles/002524/2015-01-03/
+10765;5829;Villars-Bramard;Villars-Bramard;dhs-002591;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002591/2017-01-05/
+10766;5570;Villars-Burquin;Villars-Burquin;dhs-002402;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002402/2017-01-05/
+10783;5935;Villars-Epeney;Villars-Epeney;dhs-002656;commune;https://hls-dhs-dss.ch/fr/articles/002656/2011-08-31/
+10771;5502;Villars-Lussery;Villars-Lussery;dhs-002352;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002352/2013-03-07/
+10772;5691;Villars-Mendraz;Villars-Mendraz;dhs-002491;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002491/2017-01-04/
+10773;5651;Villars-Sainte-Croix;Villars-Sainte-Croix;dhs-002456;commune;https://hls-dhs-dss.ch/fr/articles/002456/2013-03-07/
+10163;5538;Villars-Tiercelin;Villars-Tiercelin;dhs-002381;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002381/2017-01-04/
+10768;5690;Villars-le-Comte;Villars-le-Comte;dhs-002490;commune;https://hls-dhs-dss.ch/fr/articles/002490/2013-06-06/
+10754;5463;Villars-le-Grand;Villars-le-Grand;dhs-002320;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002320/2017-01-06/
+10770;5537;Villars-le-Terroir;Villars-le-Terroir;dhs-002380;commune;https://hls-dhs-dss.ch/fr/articles/002380/2013-07-09/
+10774;5936;Villars-sous-Champvent;Villars-sous-Champvent;dhs-002657;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002657/2017-01-04/
+10841;5652;Villars-sous-Yens;Villars-sous-Yens;dhs-002457;commune;https://hls-dhs-dss.ch/fr/articles/002457/2013-07-09/
+10179;5830;Villarzel;Villarzel;dhs-002592;commune;https://hls-dhs-dss.ch/fr/articles/002592/2017-05-11/
+10206;5414;Villeneuve (VD);Villeneuve (VD);dhs-002289;commune;https://hls-dhs-dss.ch/fr/articles/002289/2017-11-23/
+10035;5612;Villette (Lavaux);Villette (Lavaux);dhs-002426;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002426/2017-01-06/
+10065;5863;Vinzel;Vinzel;dhs-002608;commune;https://hls-dhs-dss.ch/fr/articles/002608/2015-01-03/
+10361;5539;Vuarrens;Vuarrens;dhs-002382;commune;https://hls-dhs-dss.ch/fr/articles/002382/2013-03-14/
+10377;5692;Vucherens;Vucherens;dhs-002492;commune;https://hls-dhs-dss.ch/fr/articles/002492/2012-06-26/
+10379;5503;Vufflens-la-Ville;Vufflens-la-Ville;dhs-002353;commune;https://hls-dhs-dss.ch/fr/articles/002353/2015-01-05/
+10385;5653;Vufflens-le-Château;Vufflens-le-Château;dhs-002458;commune;https://hls-dhs-dss.ch/fr/articles/002458/2013-08-15/
+10386;5937;Vugelles-La Mothe;Vugelles-La-Mothe;dhs-002658;commune;https://hls-dhs-dss.ch/fr/articles/002658/2012-08-16/
+10387;5802;Vuibroye;Vuibroye;dhs-002571;ancienne commune;https://hls-dhs-dss.ch/fr/articles/002571/2017-01-05/
+10452;5766;Vuiteboeuf;Vuitebœuf;dhs-002549;commune;https://hls-dhs-dss.ch/fr/articles/002549/2013-08-15/
+10453;5803;Vulliens;Vulliens;dhs-002572;commune;https://hls-dhs-dss.ch/fr/articles/002572/2012-07-12/
+10454;5654;Vullierens;Vullierens;dhs-002459;commune;https://hls-dhs-dss.ch/fr/articles/002459/2013-04-08/
+10306;5655;Yens;Yens;dhs-002460;commune;https://hls-dhs-dss.ch/fr/articles/002460/2012-10-01/
+11339;5938;Yverdon;Yverdon-les-Bains;dhs-002659;commune;https://hls-dhs-dss.ch/fr/articles/002659/2019-04-03/
+10307;5939;Yvonand;Yvonand;dhs-002660;commune;https://hls-dhs-dss.ch/fr/articles/002660/2019-04-03/
+10308;5415;Yvorne;Yvorne;dhs-002290;commune;https://hls-dhs-dss.ch/fr/articles/002290/2013-04-22/

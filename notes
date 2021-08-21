@@ -1,0 +1,27 @@
+
+
+
+
+
+Steps:
+- look up a series of communes in the DHS and see what are the parameters of getting political control through time
+    ->  very unstructured, undoable in the same ways as population
+    -> 2 ways to get it: from commune, or from lordship/seigneurerie
+- get a map of the swiss municipalities with their properties listed
+- create a rough datasets of political control through time
+
+proposition:
+- liste communes+anciennes communes in VD
+- 
+
+
+todo:
+- DONE crosslink VD geometries with DHS entries for communes&anciennes communes
+    -> DONE get all VD communes & anciennes communes
+    -> DONE make a list of name of DHS communes vs list of geometries
+        -> DONE make them both coherent
+- create communes' political entities
+- create control links for every communes
+    -> look up communes' page
+    -> create higher political entities as needed
+        -> consult their page as needed

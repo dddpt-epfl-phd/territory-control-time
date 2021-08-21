@@ -37,4 +37,12 @@ g0g1848 = gpd.read_file(g0g1848_gdbfile)
 print(g0g1848.shape)
 g0g1848.head()
 
-# %%
+# %% to csv
+
+gdeVD = gde1848.loc[gde1848["GdeKT"]=="VD"]
+gdeVD = gdeVD[["GDEHISTID","GDENR","GdeName"]]
+gdeVD.sort_values(by="GdeName", inplace=True)
+gdeVD.to_csv("BFS_communes.csv",sep=";", index=False)
+
+
+
