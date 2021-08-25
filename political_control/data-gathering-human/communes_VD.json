@@ -1244,37 +1244,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-049574",
-    "name": "Bourg-en-Lavaux",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/049574/2016-09-28/",
-        "id": "dhs-049574",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-002322",
     "name": "Bournens",
     "category": "",
@@ -2106,37 +2075,6 @@
       {
         "url": "https://hls-dhs-dss.ch/fr/articles/003325/1998-07-13/",
         "id": "dhs-003325",
-        "tags": [
-          {
-            "tag": "Entités politiques / Ancienne commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007200."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-041243",
-    "name": "Châtaigneraie",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Ancienne commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/041243/2005-07-14/",
-        "id": "dhs-041243",
         "tags": [
           {
             "tag": "Entités politiques / Ancienne commune",
@@ -5606,37 +5544,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-049645",
-    "name": "Goumoëns (commune)",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/049645/2016-09-28/",
-        "id": "dhs-049645",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-002367",
     "name": "Goumoens-la-Ville",
     "category": "",
@@ -6116,68 +6023,6 @@
       {
         "url": "https://hls-dhs-dss.ch/fr/articles/002616/2009-02-17/",
         "id": "dhs-002616",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-049662",
-    "name": "Jorat-Menthue",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/049662/2016-09-28/",
-        "id": "dhs-049662",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-050190",
-    "name": "Jorat-Mézières",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/050190/2016-09-28/",
-        "id": "dhs-050190",
         "tags": [
           {
             "tag": "Entités politiques / Commune",
@@ -6692,37 +6537,6 @@
           {
             "tag": "Entités politiques / Ancienne commune",
             "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007200."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-045870",
-    "name": "Lussery-Villars",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/045870/2010-12-16/",
-        "id": "dhs-045870",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
           }
         ]
       }
@@ -7375,37 +7189,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-049908",
-    "name": "Montanaire",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/049908/2016-09-28/",
-        "id": "dhs-049908",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-002477",
     "name": "Montaubion-Chardonney",
     "category": "",
@@ -7499,37 +7282,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-049644",
-    "name": "Montilliez",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/049644/2016-09-28/",
-        "id": "dhs-049644",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-002341",
     "name": "Mont-la-Ville",
     "category": "",
@@ -7616,42 +7368,6 @@
           {
             "tag": "Entités politiques / Commune",
             "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-002617",
-    "name": "Montreux",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune",
-      "Ville (statistique)"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/002617/2017-06-15/",
-        "id": "dhs-002617",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          },
-          {
-            "tag": "Entités politiques / Ville (statistique)",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.008800."
           }
         ]
       }
@@ -8472,37 +8188,6 @@
       {
         "url": "https://hls-dhs-dss.ch/fr/articles/002343/2009-08-13/",
         "id": "dhs-002343",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-050191",
-    "name": "Oron (commune)",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/050191/2016-09-28/",
-        "id": "dhs-050191",
         "tags": [
           {
             "tag": "Entités politiques / Commune",
@@ -9937,37 +9622,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-045877",
-    "name": "Romainmôtier-Envy",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/045877/2010-01-04/",
-        "id": "dhs-045877",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-002399",
     "name": "Romairon",
     "category": "",
@@ -10979,37 +10633,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-041242",
-    "name": "Serraux",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Ancienne commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/041242/2014-10-02/",
-        "id": "dhs-041242",
-        "tags": [
-          {
-            "tag": "Entités politiques / Ancienne commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007200."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-002568",
     "name": "Servion",
     "category": "",
@@ -11382,37 +11005,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-049573",
-    "name": "Tévenon",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/049573/2011-08-10/",
-        "id": "dhs-049573",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-002489",
     "name": "Thierrens",
     "category": "",
@@ -11702,37 +11294,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-049661",
-    "name": "Valbroye",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/049661/2017-01-05/",
-        "id": "dhs-049661",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-002654",
     "name": "Valeyres-sous-Montagny",
     "category": "",
@@ -12005,37 +11566,6 @@
           {
             "tag": "Entités politiques / Commune",
             "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-028824",
-    "name": "Vernay, Le",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Ancienne commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/028824/2013-02-28/",
-        "id": "dhs-028824",
-        "tags": [
-          {
-            "tag": "Entités politiques / Ancienne commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007200."
           }
         ]
       }
@@ -12970,37 +12500,6 @@
       {
         "url": "https://hls-dhs-dss.ch/fr/articles/002459/2013-04-08/",
         "id": "dhs-002459",
-        "tags": [
-          {
-            "tag": "Entités politiques / Commune",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007800."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-049598",
-    "name": "Vully-les-Lacs",
-    "category": "",
-    "start": {
-      "type": "uncertainBoundedDate",
-      "latest": "1850",
-      "bestGuess": "1850"
-    },
-    "end": {
-      "type": "uncertainBoundedDate",
-      "earliest": "1850"
-    },
-    "tags": [
-      "Commune"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "url": "https://hls-dhs-dss.ch/fr/articles/049598/2019-04-03/",
-        "id": "dhs-049598",
         "tags": [
           {
             "tag": "Entités politiques / Commune",
