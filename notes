@@ -20,8 +20,10 @@ todo:
     -> DONE get all VD communes & anciennes communes
     -> DONE make a list of name of DHS communes vs list of geometries
         -> DONE make them both coherent
-- create communes' political entities
+- DONE create communes' political entities
+- DONE crawl all political entities from DHS to form basis
 - create control links for every communes
+    -> 1 file for communes PE, 1 file for higher-order PE
     -> look up communes' page
-    -> create higher political entities as needed
+    -> move higher PE in hoPE file as needed
         -> consult their page as needed

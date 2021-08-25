@@ -386,3 +386,4 @@ sketch
 
 # ods files (libreofficespreadsheets)
 **/*.ods
+**/.~lock.*
