@@ -3,7 +3,7 @@
     "type": "politicalEntity",
     "id": "dhs-002609",
     "name": "Abbaye, L'",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -14,7 +14,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -34,7 +34,7 @@
     "type": "politicalEntity",
     "id": "dhs-002525",
     "name": "Abergement, L'",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -45,7 +45,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -65,7 +65,7 @@
     "type": "politicalEntity",
     "id": "dhs-002427",
     "name": "Aclens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -76,7 +76,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -96,7 +96,7 @@
     "type": "politicalEntity",
     "id": "dhs-002526",
     "name": "Agiez",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -107,7 +107,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -127,7 +127,7 @@
     "type": "politicalEntity",
     "id": "dhs-002276",
     "name": "Aigle (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -168,7 +168,7 @@
     "type": "politicalEntity",
     "id": "dhs-002596",
     "name": "Allaman",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -179,7 +179,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -199,7 +199,7 @@
     "type": "politicalEntity",
     "id": "dhs-002291",
     "name": "Apples",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -210,7 +210,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -230,7 +230,7 @@
     "type": "politicalEntity",
     "id": "dhs-002493",
     "name": "Arnex-sur-Nyon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -241,7 +241,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -261,7 +261,7 @@
     "type": "politicalEntity",
     "id": "dhs-002527",
     "name": "Arnex-sur-Orbe",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -272,7 +272,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -292,7 +292,7 @@
     "type": "politicalEntity",
     "id": "dhs-002622",
     "name": "Arrissoules",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -303,7 +303,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -323,7 +323,7 @@
     "type": "politicalEntity",
     "id": "dhs-002494",
     "name": "Arzier",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -334,7 +334,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -354,7 +354,7 @@
     "type": "politicalEntity",
     "id": "dhs-002354",
     "name": "Assens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -365,7 +365,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -385,7 +385,7 @@
     "type": "politicalEntity",
     "id": "dhs-002292",
     "name": "Aubonne (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -421,7 +421,7 @@
     "type": "politicalEntity",
     "id": "dhs-002308",
     "name": "Avenches (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -457,7 +457,7 @@
     "type": "politicalEntity",
     "id": "dhs-002528",
     "name": "Ballaigues",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -468,7 +468,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -488,7 +488,7 @@
     "type": "politicalEntity",
     "id": "dhs-002293",
     "name": "Ballens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -499,7 +499,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -519,7 +519,7 @@
     "type": "politicalEntity",
     "id": "dhs-002495",
     "name": "Bassins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -530,7 +530,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -550,7 +550,7 @@
     "type": "politicalEntity",
     "id": "dhs-002529",
     "name": "Baulmes",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -606,7 +606,7 @@
     "type": "politicalEntity",
     "id": "dhs-002530",
     "name": "Bavois",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -642,7 +642,7 @@
     "type": "politicalEntity",
     "id": "dhs-002496",
     "name": "Begnins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -653,7 +653,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -673,7 +673,7 @@
     "type": "politicalEntity",
     "id": "dhs-002309",
     "name": "Bellerive (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -684,7 +684,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -704,7 +704,7 @@
     "type": "politicalEntity",
     "id": "dhs-002403",
     "name": "Belmont-sur-Lausanne",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -715,7 +715,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -735,7 +735,7 @@
     "type": "politicalEntity",
     "id": "dhs-002623",
     "name": "Belmont-sur-Yverdon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -771,7 +771,7 @@
     "type": "politicalEntity",
     "id": "dhs-002355",
     "name": "Bercher",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -807,7 +807,7 @@
     "type": "politicalEntity",
     "id": "dhs-002294",
     "name": "Berolle",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -818,7 +818,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -838,7 +838,7 @@
     "type": "politicalEntity",
     "id": "dhs-002321",
     "name": "Bettens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -849,7 +849,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -869,7 +869,7 @@
     "type": "politicalEntity",
     "id": "dhs-002277",
     "name": "Bex (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -880,7 +880,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -900,7 +900,7 @@
     "type": "politicalEntity",
     "id": "dhs-002295",
     "name": "Bière",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -911,7 +911,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -931,7 +931,7 @@
     "type": "politicalEntity",
     "id": "dhs-002624",
     "name": "Bioley-Magnoux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -967,7 +967,7 @@
     "type": "politicalEntity",
     "id": "dhs-002356",
     "name": "Bioley-Orjulaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -978,7 +978,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -998,7 +998,7 @@
     "type": "politicalEntity",
     "id": "dhs-002612",
     "name": "Blonay",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1009,7 +1009,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1029,7 +1029,7 @@
     "type": "politicalEntity",
     "id": "dhs-002531",
     "name": "Bofflens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1040,7 +1040,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1060,7 +1060,7 @@
     "type": "politicalEntity",
     "id": "dhs-002497",
     "name": "Bogis-Bossey",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1071,7 +1071,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1091,7 +1091,7 @@
     "type": "politicalEntity",
     "id": "dhs-002383",
     "name": "Bonvillars",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1102,7 +1102,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1122,7 +1122,7 @@
     "type": "politicalEntity",
     "id": "dhs-002498",
     "name": "Borex",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1133,7 +1133,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1153,7 +1153,7 @@
     "type": "politicalEntity",
     "id": "dhs-002357",
     "name": "Bottens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1164,7 +1164,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1184,7 +1184,7 @@
     "type": "politicalEntity",
     "id": "dhs-002296",
     "name": "Bougy-Villars",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1195,7 +1195,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1215,7 +1215,7 @@
     "type": "politicalEntity",
     "id": "dhs-002461",
     "name": "Boulens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1226,7 +1226,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1246,7 +1246,7 @@
     "type": "politicalEntity",
     "id": "dhs-002322",
     "name": "Bournens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1257,7 +1257,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1277,7 +1277,7 @@
     "type": "politicalEntity",
     "id": "dhs-002323",
     "name": "Boussens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1288,7 +1288,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1308,7 +1308,7 @@
     "type": "politicalEntity",
     "id": "dhs-002428",
     "name": "Bremblens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1319,7 +1319,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1339,7 +1339,7 @@
     "type": "politicalEntity",
     "id": "dhs-002462",
     "name": "Brenles",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1350,7 +1350,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -1370,7 +1370,7 @@
     "type": "politicalEntity",
     "id": "dhs-002358",
     "name": "Bretigny-sur-Morrens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1381,7 +1381,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1401,7 +1401,7 @@
     "type": "politicalEntity",
     "id": "dhs-002532",
     "name": "Bretonnières",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1412,7 +1412,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1432,7 +1432,7 @@
     "type": "politicalEntity",
     "id": "dhs-002429",
     "name": "Buchillon (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1443,7 +1443,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1463,7 +1463,7 @@
     "type": "politicalEntity",
     "id": "dhs-002384",
     "name": "Bullet",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1474,7 +1474,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1494,7 +1494,7 @@
     "type": "politicalEntity",
     "id": "dhs-002597",
     "name": "Bursinel",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1505,7 +1505,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1525,7 +1525,7 @@
     "type": "politicalEntity",
     "id": "dhs-002598",
     "name": "Bursins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1536,7 +1536,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1556,7 +1556,7 @@
     "type": "politicalEntity",
     "id": "dhs-002599",
     "name": "Burtigny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1567,7 +1567,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1587,7 +1587,7 @@
     "type": "politicalEntity",
     "id": "dhs-002430",
     "name": "Bussigny-près-Lausanne",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1623,7 +1623,7 @@
     "type": "politicalEntity",
     "id": "dhs-002550",
     "name": "Bussigny-sur-Oron",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1634,7 +1634,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -1654,7 +1654,7 @@
     "type": "politicalEntity",
     "id": "dhs-002431",
     "name": "Bussy-Chardonney",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1665,7 +1665,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1685,7 +1685,7 @@
     "type": "politicalEntity",
     "id": "dhs-002463",
     "name": "Bussy-sur-Moudon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1696,7 +1696,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1716,7 +1716,7 @@
     "type": "politicalEntity",
     "id": "dhs-002551",
     "name": "Carrouge (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1727,7 +1727,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -1747,7 +1747,7 @@
     "type": "politicalEntity",
     "id": "dhs-002573",
     "name": "Cerniaz (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1758,7 +1758,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -1778,7 +1778,7 @@
     "type": "politicalEntity",
     "id": "dhs-002310",
     "name": "Chabrey",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1789,7 +1789,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -1809,7 +1809,7 @@
     "type": "politicalEntity",
     "id": "dhs-002625",
     "name": "Chamblon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1820,7 +1820,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1840,7 +1840,7 @@
     "type": "politicalEntity",
     "id": "dhs-002385",
     "name": "Champagne (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1851,7 +1851,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1871,7 +1871,7 @@
     "type": "politicalEntity",
     "id": "dhs-002311",
     "name": "Champmartin",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1882,7 +1882,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -1902,7 +1902,7 @@
     "type": "politicalEntity",
     "id": "dhs-002574",
     "name": "Champtauroz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1913,7 +1913,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1933,7 +1933,7 @@
     "type": "politicalEntity",
     "id": "dhs-002626",
     "name": "Champvent (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1944,7 +1944,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -1964,7 +1964,7 @@
     "type": "politicalEntity",
     "id": "dhs-002627",
     "name": "Chanéaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -1975,7 +1975,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -1995,7 +1995,7 @@
     "type": "politicalEntity",
     "id": "dhs-002464",
     "name": "Chapelle-sur-Moudon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2006,7 +2006,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -2026,7 +2026,7 @@
     "type": "politicalEntity",
     "id": "dhs-002613",
     "name": "Chardonne",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2037,7 +2037,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2057,7 +2057,7 @@
     "type": "politicalEntity",
     "id": "dhs-003325",
     "name": "Chardonney-sur-Morges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2068,7 +2068,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -2088,7 +2088,7 @@
     "type": "politicalEntity",
     "id": "dhs-002593",
     "name": "Château-d'Œx",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2099,7 +2099,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2119,7 +2119,7 @@
     "type": "politicalEntity",
     "id": "dhs-003327",
     "name": "Châtelard, Le (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2130,7 +2130,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -2150,7 +2150,7 @@
     "type": "politicalEntity",
     "id": "dhs-002552",
     "name": "Châtillens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2161,7 +2161,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -2181,7 +2181,7 @@
     "type": "politicalEntity",
     "id": "dhs-002324",
     "name": "Chaux, La (Cossonay)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2217,7 +2217,7 @@
     "type": "politicalEntity",
     "id": "dhs-002499",
     "name": "Chavannes-de-Bogis",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2228,7 +2228,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2248,7 +2248,7 @@
     "type": "politicalEntity",
     "id": "dhs-002500",
     "name": "Chavannes-des-Bois",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2259,7 +2259,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2279,7 +2279,7 @@
     "type": "politicalEntity",
     "id": "dhs-002628",
     "name": "Chavannes-le-Chêne",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2290,7 +2290,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2310,7 +2310,7 @@
     "type": "politicalEntity",
     "id": "dhs-002325",
     "name": "Chavannes-le-Veyron",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2321,7 +2321,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2341,7 +2341,7 @@
     "type": "politicalEntity",
     "id": "dhs-002432",
     "name": "Chavannes-près-Renens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2352,7 +2352,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2372,7 +2372,7 @@
     "type": "politicalEntity",
     "id": "dhs-002465",
     "name": "Chavannes-sur-Moudon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2383,7 +2383,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2403,7 +2403,7 @@
     "type": "politicalEntity",
     "id": "dhs-002533",
     "name": "Chavornay",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2414,7 +2414,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2434,7 +2434,7 @@
     "type": "politicalEntity",
     "id": "dhs-002629",
     "name": "Chêne-Pâquier",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2445,7 +2445,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2465,7 +2465,7 @@
     "type": "politicalEntity",
     "id": "dhs-002610",
     "name": "Chenit, Le",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2476,7 +2476,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2496,7 +2496,7 @@
     "type": "politicalEntity",
     "id": "dhs-002466",
     "name": "Chesalles-sur-Moudon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2507,7 +2507,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -2527,7 +2527,7 @@
     "type": "politicalEntity",
     "id": "dhs-002553",
     "name": "Chesalles-sur-Oron",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2538,7 +2538,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -2558,7 +2558,7 @@
     "type": "politicalEntity",
     "id": "dhs-002630",
     "name": "Cheseaux-Noréaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2569,7 +2569,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2589,7 +2589,7 @@
     "type": "politicalEntity",
     "id": "dhs-002404",
     "name": "Cheseaux-sur-Lausanne",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2600,7 +2600,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2620,7 +2620,7 @@
     "type": "politicalEntity",
     "id": "dhs-002501",
     "name": "Chéserex",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2631,7 +2631,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2651,7 +2651,7 @@
     "type": "politicalEntity",
     "id": "dhs-002278",
     "name": "Chessel",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2662,7 +2662,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2682,7 +2682,7 @@
     "type": "politicalEntity",
     "id": "dhs-002326",
     "name": "Chevilly",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2693,7 +2693,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2713,7 +2713,7 @@
     "type": "politicalEntity",
     "id": "dhs-002575",
     "name": "Chevroux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2724,7 +2724,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2744,7 +2744,7 @@
     "type": "politicalEntity",
     "id": "dhs-002415",
     "name": "Chexbres",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2755,7 +2755,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2775,7 +2775,7 @@
     "type": "politicalEntity",
     "id": "dhs-002433",
     "name": "Chigny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2786,7 +2786,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2806,7 +2806,7 @@
     "type": "politicalEntity",
     "id": "dhs-002434",
     "name": "Clarmont",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2817,7 +2817,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2837,7 +2837,7 @@
     "type": "politicalEntity",
     "id": "dhs-002534",
     "name": "Clées, Les",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2878,7 +2878,7 @@
     "type": "politicalEntity",
     "id": "dhs-002502",
     "name": "Coinsins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2889,7 +2889,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -2909,7 +2909,7 @@
     "type": "politicalEntity",
     "id": "dhs-002435",
     "name": "Colombier (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2920,7 +2920,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -2940,7 +2940,7 @@
     "type": "politicalEntity",
     "id": "dhs-002576",
     "name": "Combremont-le-Grand",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2951,7 +2951,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -2971,7 +2971,7 @@
     "type": "politicalEntity",
     "id": "dhs-002577",
     "name": "Combremont-le-Petit",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -2982,7 +2982,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -3002,7 +3002,7 @@
     "type": "politicalEntity",
     "id": "dhs-002503",
     "name": "Commugny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3013,7 +3013,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3033,7 +3033,7 @@
     "type": "politicalEntity",
     "id": "dhs-002386",
     "name": "Concise",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3084,7 +3084,7 @@
     "type": "politicalEntity",
     "id": "dhs-002312",
     "name": "Constantine",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3095,7 +3095,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -3115,7 +3115,7 @@
     "type": "politicalEntity",
     "id": "dhs-002504",
     "name": "Coppet",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3156,7 +3156,7 @@
     "type": "politicalEntity",
     "id": "dhs-002279",
     "name": "Corbeyrier",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3167,7 +3167,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3187,7 +3187,7 @@
     "type": "politicalEntity",
     "id": "dhs-002554",
     "name": "Corcelles-le-Jorat",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3198,7 +3198,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3218,7 +3218,7 @@
     "type": "politicalEntity",
     "id": "dhs-002387",
     "name": "Corcelles-près-Concise",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3229,7 +3229,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3249,7 +3249,7 @@
     "type": "politicalEntity",
     "id": "dhs-002578",
     "name": "Corcelles-près-Payerne",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3260,7 +3260,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3280,7 +3280,7 @@
     "type": "politicalEntity",
     "id": "dhs-002535",
     "name": "Corcelles-sur-Chavornay",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3291,7 +3291,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -3311,7 +3311,7 @@
     "type": "politicalEntity",
     "id": "dhs-002467",
     "name": "Correvon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3322,7 +3322,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -3342,7 +3342,7 @@
     "type": "politicalEntity",
     "id": "dhs-002614",
     "name": "Corseaux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3378,7 +3378,7 @@
     "type": "politicalEntity",
     "id": "dhs-002615",
     "name": "Corsier-sur-Vevey",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3389,7 +3389,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3409,7 +3409,7 @@
     "type": "politicalEntity",
     "id": "dhs-002327",
     "name": "Cossonay (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3455,7 +3455,7 @@
     "type": "politicalEntity",
     "id": "dhs-002328",
     "name": "Cottens (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3466,7 +3466,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3486,7 +3486,7 @@
     "type": "politicalEntity",
     "id": "dhs-002505",
     "name": "Crans-près-Céligny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3497,7 +3497,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3517,7 +3517,7 @@
     "type": "politicalEntity",
     "id": "dhs-002506",
     "name": "Crassier",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3528,7 +3528,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3548,7 +3548,7 @@
     "type": "politicalEntity",
     "id": "dhs-002468",
     "name": "Cremin",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3559,7 +3559,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -3579,7 +3579,7 @@
     "type": "politicalEntity",
     "id": "dhs-002405",
     "name": "Crissier",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3615,7 +3615,7 @@
     "type": "politicalEntity",
     "id": "dhs-002631",
     "name": "Cronay",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3651,7 +3651,7 @@
     "type": "politicalEntity",
     "id": "dhs-002536",
     "name": "Croy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3662,7 +3662,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3682,7 +3682,7 @@
     "type": "politicalEntity",
     "id": "dhs-002329",
     "name": "Cuarnens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3693,7 +3693,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3713,7 +3713,7 @@
     "type": "politicalEntity",
     "id": "dhs-002632",
     "name": "Cuarny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3724,7 +3724,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3744,7 +3744,7 @@
     "type": "politicalEntity",
     "id": "dhs-002313",
     "name": "Cudrefin",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3780,7 +3780,7 @@
     "type": "politicalEntity",
     "id": "dhs-002359",
     "name": "Cugy (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3791,7 +3791,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3811,7 +3811,7 @@
     "type": "politicalEntity",
     "id": "dhs-002555",
     "name": "Cullayes, Les",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3822,7 +3822,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -3842,7 +3842,7 @@
     "type": "politicalEntity",
     "id": "dhs-002416",
     "name": "Cully",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3878,7 +3878,7 @@
     "type": "politicalEntity",
     "id": "dhs-002469",
     "name": "Curtilles",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3889,7 +3889,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3909,7 +3909,7 @@
     "type": "politicalEntity",
     "id": "dhs-002330",
     "name": "Daillens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3920,7 +3920,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3940,7 +3940,7 @@
     "type": "politicalEntity",
     "id": "dhs-002633",
     "name": "Démoret",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3951,7 +3951,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -3971,7 +3971,7 @@
     "type": "politicalEntity",
     "id": "dhs-002436",
     "name": "Denens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -3982,7 +3982,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4002,7 +4002,7 @@
     "type": "politicalEntity",
     "id": "dhs-002470",
     "name": "Denezy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4013,7 +4013,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -4033,7 +4033,7 @@
     "type": "politicalEntity",
     "id": "dhs-002437",
     "name": "Denges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4044,7 +4044,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4064,7 +4064,7 @@
     "type": "politicalEntity",
     "id": "dhs-002331",
     "name": "Dizy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4075,7 +4075,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4095,7 +4095,7 @@
     "type": "politicalEntity",
     "id": "dhs-002360",
     "name": "Dommartin",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4131,7 +4131,7 @@
     "type": "politicalEntity",
     "id": "dhs-002471",
     "name": "Dompierre (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4142,7 +4142,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4162,7 +4162,7 @@
     "type": "politicalEntity",
     "id": "dhs-002314",
     "name": "Donatyre",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4173,7 +4173,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -4193,7 +4193,7 @@
     "type": "politicalEntity",
     "id": "dhs-002634",
     "name": "Donneloye",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4204,7 +4204,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4224,7 +4224,7 @@
     "type": "politicalEntity",
     "id": "dhs-002507",
     "name": "Duillier",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4235,7 +4235,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4255,7 +4255,7 @@
     "type": "politicalEntity",
     "id": "dhs-002600",
     "name": "Dully",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4266,7 +4266,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4286,7 +4286,7 @@
     "type": "politicalEntity",
     "id": "dhs-002361",
     "name": "Echallens (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4327,7 +4327,7 @@
     "type": "politicalEntity",
     "id": "dhs-002438",
     "name": "Echandens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4338,7 +4338,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4358,7 +4358,7 @@
     "type": "politicalEntity",
     "id": "dhs-002439",
     "name": "Echichens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4369,7 +4369,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4389,7 +4389,7 @@
     "type": "politicalEntity",
     "id": "dhs-002362",
     "name": "Eclagnens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4400,7 +4400,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -4420,7 +4420,7 @@
     "type": "politicalEntity",
     "id": "dhs-002332",
     "name": "Eclépens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4431,7 +4431,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4451,7 +4451,7 @@
     "type": "politicalEntity",
     "id": "dhs-002556",
     "name": "Ecoteaux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4462,7 +4462,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -4482,7 +4482,7 @@
     "type": "politicalEntity",
     "id": "dhs-002440",
     "name": "Ecublens (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4518,7 +4518,7 @@
     "type": "politicalEntity",
     "id": "dhs-003326",
     "name": "Envy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4529,7 +4529,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -4549,7 +4549,7 @@
     "type": "politicalEntity",
     "id": "dhs-002406",
     "name": "Epalinges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4560,7 +4560,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4580,7 +4580,7 @@
     "type": "politicalEntity",
     "id": "dhs-002635",
     "name": "Ependes (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4591,7 +4591,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4611,7 +4611,7 @@
     "type": "politicalEntity",
     "id": "dhs-002417",
     "name": "Epesses",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4622,7 +4622,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -4642,7 +4642,7 @@
     "type": "politicalEntity",
     "id": "dhs-002557",
     "name": "Essertes",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4653,7 +4653,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4673,7 +4673,7 @@
     "type": "politicalEntity",
     "id": "dhs-002601",
     "name": "Essertines-sur-Rolle",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4684,7 +4684,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4704,7 +4704,7 @@
     "type": "politicalEntity",
     "id": "dhs-002363",
     "name": "Essertines-sur-Yverdon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4715,7 +4715,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4735,7 +4735,7 @@
     "type": "politicalEntity",
     "id": "dhs-002636",
     "name": "Essert-Pittet",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4746,7 +4746,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -4766,7 +4766,7 @@
     "type": "politicalEntity",
     "id": "dhs-002637",
     "name": "Essert-sous-Champvent",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4777,7 +4777,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -4797,7 +4797,7 @@
     "type": "politicalEntity",
     "id": "dhs-002364",
     "name": "Etagnières",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4808,7 +4808,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4828,7 +4828,7 @@
     "type": "politicalEntity",
     "id": "dhs-002441",
     "name": "Etoy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4839,7 +4839,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4859,7 +4859,7 @@
     "type": "politicalEntity",
     "id": "dhs-002508",
     "name": "Eysins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4870,7 +4870,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4890,7 +4890,7 @@
     "type": "politicalEntity",
     "id": "dhs-002315",
     "name": "Faoug",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4901,7 +4901,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4921,7 +4921,7 @@
     "type": "politicalEntity",
     "id": "dhs-002297",
     "name": "Féchy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4932,7 +4932,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -4952,7 +4952,7 @@
     "type": "politicalEntity",
     "id": "dhs-002558",
     "name": "Ferlens (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4963,7 +4963,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -4983,7 +4983,7 @@
     "type": "politicalEntity",
     "id": "dhs-002333",
     "name": "Ferreyres",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -4994,7 +4994,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5014,7 +5014,7 @@
     "type": "politicalEntity",
     "id": "dhs-002365",
     "name": "Fey",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5025,7 +5025,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5045,7 +5045,7 @@
     "type": "politicalEntity",
     "id": "dhs-002388",
     "name": "Fiez",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5056,7 +5056,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5076,7 +5076,7 @@
     "type": "politicalEntity",
     "id": "dhs-002389",
     "name": "Fontaines-sur-Grandson",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5087,7 +5087,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5107,7 +5107,7 @@
     "type": "politicalEntity",
     "id": "dhs-002390",
     "name": "Fontanezier",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5118,7 +5118,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -5138,7 +5138,7 @@
     "type": "politicalEntity",
     "id": "dhs-002418",
     "name": "Forel (Lavaux)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5149,7 +5149,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5169,7 +5169,7 @@
     "type": "politicalEntity",
     "id": "dhs-002472",
     "name": "Forel-sur-Lucens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5180,7 +5180,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -5200,7 +5200,7 @@
     "type": "politicalEntity",
     "id": "dhs-002509",
     "name": "Founex",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5211,7 +5211,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5231,7 +5231,7 @@
     "type": "politicalEntity",
     "id": "dhs-002366",
     "name": "Froideville",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5242,7 +5242,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5262,7 +5262,7 @@
     "type": "politicalEntity",
     "id": "dhs-002510",
     "name": "Genolier",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5273,7 +5273,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5293,7 +5293,7 @@
     "type": "politicalEntity",
     "id": "dhs-002391",
     "name": "Giez",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5304,7 +5304,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5324,7 +5324,7 @@
     "type": "politicalEntity",
     "id": "dhs-002602",
     "name": "Gilly",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5335,7 +5335,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5355,7 +5355,7 @@
     "type": "politicalEntity",
     "id": "dhs-002298",
     "name": "Gimel",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5366,7 +5366,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5386,7 +5386,7 @@
     "type": "politicalEntity",
     "id": "dhs-002511",
     "name": "Gingins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5397,7 +5397,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5417,7 +5417,7 @@
     "type": "politicalEntity",
     "id": "dhs-002512",
     "name": "Givrins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5428,7 +5428,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5448,7 +5448,7 @@
     "type": "politicalEntity",
     "id": "dhs-002513",
     "name": "Gland",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5484,7 +5484,7 @@
     "type": "politicalEntity",
     "id": "dhs-002334",
     "name": "Gollion",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5495,7 +5495,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5515,7 +5515,7 @@
     "type": "politicalEntity",
     "id": "dhs-002638",
     "name": "Gossens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5526,7 +5526,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -5546,7 +5546,7 @@
     "type": "politicalEntity",
     "id": "dhs-002367",
     "name": "Goumoens-la-Ville",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5557,7 +5557,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -5577,7 +5577,7 @@
     "type": "politicalEntity",
     "id": "dhs-002368",
     "name": "Goumoens-le-Jux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5588,7 +5588,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -5608,7 +5608,7 @@
     "type": "politicalEntity",
     "id": "dhs-002335",
     "name": "Grancy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5619,7 +5619,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5639,7 +5639,7 @@
     "type": "politicalEntity",
     "id": "dhs-002579",
     "name": "Grandcour",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5675,7 +5675,7 @@
     "type": "politicalEntity",
     "id": "dhs-002392",
     "name": "Grandevent",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5686,7 +5686,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5706,7 +5706,7 @@
     "type": "politicalEntity",
     "id": "dhs-002393",
     "name": "Grandson (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5752,7 +5752,7 @@
     "type": "politicalEntity",
     "id": "dhs-002419",
     "name": "Grandvaux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5763,7 +5763,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -5783,7 +5783,7 @@
     "type": "politicalEntity",
     "id": "dhs-002580",
     "name": "Granges-près-Marnand",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5794,7 +5794,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -5814,7 +5814,7 @@
     "type": "politicalEntity",
     "id": "dhs-002514",
     "name": "Grens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5825,7 +5825,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5845,7 +5845,7 @@
     "type": "politicalEntity",
     "id": "dhs-002639",
     "name": "Gressy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5856,7 +5856,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -5876,7 +5876,7 @@
     "type": "politicalEntity",
     "id": "dhs-002280",
     "name": "Gryon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5887,7 +5887,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5907,7 +5907,7 @@
     "type": "politicalEntity",
     "id": "dhs-002581",
     "name": "Henniez",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5918,7 +5918,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5938,7 +5938,7 @@
     "type": "politicalEntity",
     "id": "dhs-002473",
     "name": "Hermenches",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -5949,7 +5949,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -5969,7 +5969,7 @@
     "type": "politicalEntity",
     "id": "dhs-002336",
     "name": "Isle, L'",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6005,7 +6005,7 @@
     "type": "politicalEntity",
     "id": "dhs-002616",
     "name": "Jongny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6016,7 +6016,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6036,7 +6036,7 @@
     "type": "politicalEntity",
     "id": "dhs-002407",
     "name": "Jouxtens-Mézery",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6047,7 +6047,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6067,7 +6067,7 @@
     "type": "politicalEntity",
     "id": "dhs-002537",
     "name": "Juriens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6078,7 +6078,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6098,7 +6098,7 @@
     "type": "politicalEntity",
     "id": "dhs-002408",
     "name": "Lausanne (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6164,7 +6164,7 @@
     "type": "politicalEntity",
     "id": "dhs-045882",
     "name": "Lavey-Morcles",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6200,7 +6200,7 @@
     "type": "politicalEntity",
     "id": "dhs-002442",
     "name": "Lavigny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6211,7 +6211,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6231,7 +6231,7 @@
     "type": "politicalEntity",
     "id": "dhs-002282",
     "name": "Leysin",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6242,7 +6242,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6262,7 +6262,7 @@
     "type": "politicalEntity",
     "id": "dhs-002611",
     "name": "Lieu, Le",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6273,7 +6273,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6293,7 +6293,7 @@
     "type": "politicalEntity",
     "id": "dhs-002538",
     "name": "Lignerolle",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6304,7 +6304,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6324,7 +6324,7 @@
     "type": "politicalEntity",
     "id": "dhs-002443",
     "name": "Lonay",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6335,7 +6335,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6355,7 +6355,7 @@
     "type": "politicalEntity",
     "id": "dhs-002299",
     "name": "Longirod",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6366,7 +6366,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6386,7 +6386,7 @@
     "type": "politicalEntity",
     "id": "dhs-002474",
     "name": "Lovatens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6397,7 +6397,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6417,7 +6417,7 @@
     "type": "politicalEntity",
     "id": "dhs-002475",
     "name": "Lucens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6453,7 +6453,7 @@
     "type": "politicalEntity",
     "id": "dhs-002603",
     "name": "Luins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6464,7 +6464,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6484,7 +6484,7 @@
     "type": "politicalEntity",
     "id": "dhs-002444",
     "name": "Lully (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6495,7 +6495,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6515,7 +6515,7 @@
     "type": "politicalEntity",
     "id": "dhs-002337",
     "name": "Lussery",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6526,7 +6526,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -6546,7 +6546,7 @@
     "type": "politicalEntity",
     "id": "dhs-002445",
     "name": "Lussy-sur-Morges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6557,7 +6557,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6577,7 +6577,7 @@
     "type": "politicalEntity",
     "id": "dhs-002420",
     "name": "Lutry",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6633,7 +6633,7 @@
     "type": "politicalEntity",
     "id": "dhs-002369",
     "name": "Malapalud",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6644,7 +6644,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -6664,7 +6664,7 @@
     "type": "politicalEntity",
     "id": "dhs-002559",
     "name": "Maracon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6675,7 +6675,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6695,7 +6695,7 @@
     "type": "politicalEntity",
     "id": "dhs-002300",
     "name": "Marchissy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6706,7 +6706,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6726,7 +6726,7 @@
     "type": "politicalEntity",
     "id": "dhs-002582",
     "name": "Marnand",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6737,7 +6737,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -6757,7 +6757,7 @@
     "type": "politicalEntity",
     "id": "dhs-002476",
     "name": "Martherenges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6768,7 +6768,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -6788,7 +6788,7 @@
     "type": "politicalEntity",
     "id": "dhs-002640",
     "name": "Mathod",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6799,7 +6799,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6819,7 +6819,7 @@
     "type": "politicalEntity",
     "id": "dhs-002394",
     "name": "Mauborget",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6830,7 +6830,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6850,7 +6850,7 @@
     "type": "politicalEntity",
     "id": "dhs-002338",
     "name": "Mauraz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6861,7 +6861,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6881,7 +6881,7 @@
     "type": "politicalEntity",
     "id": "dhs-002339",
     "name": "Mex (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6892,7 +6892,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -6912,7 +6912,7 @@
     "type": "politicalEntity",
     "id": "dhs-002641",
     "name": "Mézery-près-Donneloye",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6923,7 +6923,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -6943,7 +6943,7 @@
     "type": "politicalEntity",
     "id": "dhs-002560",
     "name": "Mézières (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6954,7 +6954,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -6974,7 +6974,7 @@
     "type": "politicalEntity",
     "id": "dhs-002515",
     "name": "Mies",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -6985,7 +6985,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7005,7 +7005,7 @@
     "type": "politicalEntity",
     "id": "dhs-002583",
     "name": "Missy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7016,7 +7016,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7036,7 +7036,7 @@
     "type": "politicalEntity",
     "id": "dhs-002340",
     "name": "Moiry",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7047,7 +7047,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7067,7 +7067,7 @@
     "type": "politicalEntity",
     "id": "dhs-002301",
     "name": "Mollens (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7078,7 +7078,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7098,7 +7098,7 @@
     "type": "politicalEntity",
     "id": "dhs-002642",
     "name": "Molondin",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7109,7 +7109,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7129,7 +7129,7 @@
     "type": "politicalEntity",
     "id": "dhs-002446",
     "name": "Monnaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7140,7 +7140,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -7160,7 +7160,7 @@
     "type": "politicalEntity",
     "id": "dhs-002643",
     "name": "Montagny-près-Yverdon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7171,7 +7171,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7191,7 +7191,7 @@
     "type": "politicalEntity",
     "id": "dhs-002477",
     "name": "Montaubion-Chardonney",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7202,7 +7202,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -7222,7 +7222,7 @@
     "type": "politicalEntity",
     "id": "dhs-002539",
     "name": "Montcherand",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7233,7 +7233,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7253,7 +7253,7 @@
     "type": "politicalEntity",
     "id": "dhs-002302",
     "name": "Montherod",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7264,7 +7264,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -7284,7 +7284,7 @@
     "type": "politicalEntity",
     "id": "dhs-002341",
     "name": "Mont-la-Ville",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7295,7 +7295,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7315,7 +7315,7 @@
     "type": "politicalEntity",
     "id": "dhs-002316",
     "name": "Montmagny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7326,7 +7326,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -7346,7 +7346,7 @@
     "type": "politicalEntity",
     "id": "dhs-002561",
     "name": "Montpreveyres",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7357,7 +7357,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7377,7 +7377,7 @@
     "type": "politicalEntity",
     "id": "dhs-002342",
     "name": "Montricher",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7413,7 +7413,7 @@
     "type": "politicalEntity",
     "id": "dhs-002409",
     "name": "Mont-sur-Lausanne, Le",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7424,7 +7424,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7444,7 +7444,7 @@
     "type": "politicalEntity",
     "id": "dhs-002604",
     "name": "Mont-sur-Rolle",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7455,7 +7455,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7475,7 +7475,7 @@
     "type": "politicalEntity",
     "id": "dhs-003328",
     "name": "Morcles",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7486,7 +7486,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -7506,7 +7506,7 @@
     "type": "politicalEntity",
     "id": "dhs-002447",
     "name": "Morges (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7562,7 +7562,7 @@
     "type": "politicalEntity",
     "id": "dhs-002370",
     "name": "Morrens (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7573,7 +7573,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7593,7 +7593,7 @@
     "type": "politicalEntity",
     "id": "dhs-002478",
     "name": "Moudon (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7629,7 +7629,7 @@
     "type": "politicalEntity",
     "id": "dhs-002317",
     "name": "Mur (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7640,7 +7640,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -7660,7 +7660,7 @@
     "type": "politicalEntity",
     "id": "dhs-002395",
     "name": "Mutrux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7671,7 +7671,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7691,7 +7691,7 @@
     "type": "politicalEntity",
     "id": "dhs-002371",
     "name": "Naz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7702,7 +7702,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -7722,7 +7722,7 @@
     "type": "politicalEntity",
     "id": "dhs-002479",
     "name": "Neyruz-sur-Moudon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7733,7 +7733,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -7753,7 +7753,7 @@
     "type": "politicalEntity",
     "id": "dhs-002396",
     "name": "Novalles",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7764,7 +7764,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7784,7 +7784,7 @@
     "type": "politicalEntity",
     "id": "dhs-002283",
     "name": "Noville",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7795,7 +7795,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -7815,7 +7815,7 @@
     "type": "politicalEntity",
     "id": "dhs-002516",
     "name": "Nyon (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7861,7 +7861,7 @@
     "type": "politicalEntity",
     "id": "dhs-002480",
     "name": "Ogens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7897,7 +7897,7 @@
     "type": "politicalEntity",
     "id": "dhs-002318",
     "name": "Oleyres",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7908,7 +7908,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -7928,7 +7928,7 @@
     "type": "politicalEntity",
     "id": "dhs-002284",
     "name": "Ollon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7979,7 +7979,7 @@
     "type": "politicalEntity",
     "id": "dhs-002397",
     "name": "Onnens (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -7990,7 +7990,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8010,7 +8010,7 @@
     "type": "politicalEntity",
     "id": "dhs-002644",
     "name": "Oppens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8021,7 +8021,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8041,7 +8041,7 @@
     "type": "politicalEntity",
     "id": "dhs-002540",
     "name": "Orbe (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8077,7 +8077,7 @@
     "type": "politicalEntity",
     "id": "dhs-002645",
     "name": "Orges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8088,7 +8088,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8108,7 +8108,7 @@
     "type": "politicalEntity",
     "id": "dhs-002285",
     "name": "Ormont-Dessous",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8119,7 +8119,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8139,7 +8139,7 @@
     "type": "politicalEntity",
     "id": "dhs-002286",
     "name": "Ormont-Dessus",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8150,7 +8150,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8170,7 +8170,7 @@
     "type": "politicalEntity",
     "id": "dhs-002343",
     "name": "Orny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8181,7 +8181,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8201,7 +8201,7 @@
     "type": "politicalEntity",
     "id": "dhs-002562",
     "name": "Oron-la-Ville",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8212,7 +8212,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -8232,7 +8232,7 @@
     "type": "politicalEntity",
     "id": "dhs-002563",
     "name": "Oron-le-Châtel",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8268,7 +8268,7 @@
     "type": "politicalEntity",
     "id": "dhs-002646",
     "name": "Orzens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8279,7 +8279,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8299,7 +8299,7 @@
     "type": "politicalEntity",
     "id": "dhs-002372",
     "name": "Oulens-sous-Echallens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8310,7 +8310,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8330,7 +8330,7 @@
     "type": "politicalEntity",
     "id": "dhs-002481",
     "name": "Oulens-sur-Lucens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8341,7 +8341,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -8361,7 +8361,7 @@
     "type": "politicalEntity",
     "id": "dhs-002373",
     "name": "Pailly",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8372,7 +8372,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8392,7 +8392,7 @@
     "type": "politicalEntity",
     "id": "dhs-002564",
     "name": "Palézieux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8428,7 +8428,7 @@
     "type": "politicalEntity",
     "id": "dhs-002344",
     "name": "Pampigny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8439,7 +8439,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8459,7 +8459,7 @@
     "type": "politicalEntity",
     "id": "dhs-002410",
     "name": "Paudex",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8470,7 +8470,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8490,7 +8490,7 @@
     "type": "politicalEntity",
     "id": "dhs-002584",
     "name": "Payerne (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8531,7 +8531,7 @@
     "type": "politicalEntity",
     "id": "dhs-002565",
     "name": "Peney-le-Jorat",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8542,7 +8542,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -8562,7 +8562,7 @@
     "type": "politicalEntity",
     "id": "dhs-002345",
     "name": "Penthalaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8573,7 +8573,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8593,7 +8593,7 @@
     "type": "politicalEntity",
     "id": "dhs-002346",
     "name": "Penthaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8604,7 +8604,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8624,7 +8624,7 @@
     "type": "politicalEntity",
     "id": "dhs-002374",
     "name": "Penthéréaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8635,7 +8635,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8655,7 +8655,7 @@
     "type": "politicalEntity",
     "id": "dhs-002605",
     "name": "Perroy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8691,7 +8691,7 @@
     "type": "politicalEntity",
     "id": "dhs-002482",
     "name": "Peyres-Possens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8702,7 +8702,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -8722,7 +8722,7 @@
     "type": "politicalEntity",
     "id": "dhs-002303",
     "name": "Pizy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8733,7 +8733,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -8753,7 +8753,7 @@
     "type": "politicalEntity",
     "id": "dhs-007564",
     "name": "Planches, Les",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8764,7 +8764,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -8784,7 +8784,7 @@
     "type": "politicalEntity",
     "id": "dhs-002375",
     "name": "Poliez-le-Grand",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8795,7 +8795,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -8815,7 +8815,7 @@
     "type": "politicalEntity",
     "id": "dhs-002376",
     "name": "Poliez-Pittet",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8826,7 +8826,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8846,7 +8846,7 @@
     "type": "politicalEntity",
     "id": "dhs-002347",
     "name": "Pompaples",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8857,7 +8857,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8877,7 +8877,7 @@
     "type": "politicalEntity",
     "id": "dhs-002647",
     "name": "Pomy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8888,7 +8888,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8908,7 +8908,7 @@
     "type": "politicalEntity",
     "id": "dhs-002648",
     "name": "Prahins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8919,7 +8919,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -8939,7 +8939,7 @@
     "type": "politicalEntity",
     "id": "dhs-002517",
     "name": "Prangins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8950,7 +8950,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -8970,7 +8970,7 @@
     "type": "politicalEntity",
     "id": "dhs-002541",
     "name": "Praz, La",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -8981,7 +8981,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9001,7 +9001,7 @@
     "type": "politicalEntity",
     "id": "dhs-002542",
     "name": "Premier",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9012,7 +9012,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9032,7 +9032,7 @@
     "type": "politicalEntity",
     "id": "dhs-002448",
     "name": "Préverenges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9043,7 +9043,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9063,7 +9063,7 @@
     "type": "politicalEntity",
     "id": "dhs-002483",
     "name": "Prévonloup",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9074,7 +9074,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9094,7 +9094,7 @@
     "type": "politicalEntity",
     "id": "dhs-002411",
     "name": "Prilly",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9130,7 +9130,7 @@
     "type": "politicalEntity",
     "id": "dhs-002398",
     "name": "Provence",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9141,7 +9141,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9161,7 +9161,7 @@
     "type": "politicalEntity",
     "id": "dhs-002421",
     "name": "Puidoux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9172,7 +9172,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9192,7 +9192,7 @@
     "type": "politicalEntity",
     "id": "dhs-002412",
     "name": "Pully",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9243,7 +9243,7 @@
     "type": "politicalEntity",
     "id": "dhs-002543",
     "name": "Rances",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9299,7 +9299,7 @@
     "type": "politicalEntity",
     "id": "dhs-002413",
     "name": "Renens (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9335,7 +9335,7 @@
     "type": "politicalEntity",
     "id": "dhs-002287",
     "name": "Rennaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9346,7 +9346,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9366,7 +9366,7 @@
     "type": "politicalEntity",
     "id": "dhs-002449",
     "name": "Reverolle",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9377,7 +9377,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9397,7 +9397,7 @@
     "type": "politicalEntity",
     "id": "dhs-002422",
     "name": "Riex",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9408,7 +9408,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -9428,7 +9428,7 @@
     "type": "politicalEntity",
     "id": "dhs-002518",
     "name": "Rippe, La",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9439,7 +9439,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9459,7 +9459,7 @@
     "type": "politicalEntity",
     "id": "dhs-002423",
     "name": "Rivaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9470,7 +9470,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9490,7 +9490,7 @@
     "type": "politicalEntity",
     "id": "dhs-002288",
     "name": "Roche (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9501,7 +9501,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9521,7 +9521,7 @@
     "type": "politicalEntity",
     "id": "dhs-002566",
     "name": "Rogivue, La",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9532,7 +9532,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -9552,7 +9552,7 @@
     "type": "politicalEntity",
     "id": "dhs-002606",
     "name": "Rolle (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9588,7 +9588,7 @@
     "type": "politicalEntity",
     "id": "dhs-002544",
     "name": "Romainmôtier (village)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9624,7 +9624,7 @@
     "type": "politicalEntity",
     "id": "dhs-002399",
     "name": "Romairon",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9635,7 +9635,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -9655,7 +9655,7 @@
     "type": "politicalEntity",
     "id": "dhs-002414",
     "name": "Romanel-sur-Lausanne",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9666,7 +9666,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9686,7 +9686,7 @@
     "type": "politicalEntity",
     "id": "dhs-002450",
     "name": "Romanel-sur-Morges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9697,7 +9697,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9717,7 +9717,7 @@
     "type": "politicalEntity",
     "id": "dhs-002567",
     "name": "Ropraz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9728,7 +9728,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9748,7 +9748,7 @@
     "type": "politicalEntity",
     "id": "dhs-002484",
     "name": "Rossenges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9759,7 +9759,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9779,7 +9779,7 @@
     "type": "politicalEntity",
     "id": "dhs-002585",
     "name": "Rossens (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9790,7 +9790,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -9810,7 +9810,7 @@
     "type": "politicalEntity",
     "id": "dhs-002594",
     "name": "Rossinière",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9821,7 +9821,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9841,7 +9841,7 @@
     "type": "politicalEntity",
     "id": "dhs-002595",
     "name": "Rougemont (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9852,7 +9852,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9872,7 +9872,7 @@
     "type": "politicalEntity",
     "id": "dhs-002649",
     "name": "Rovray",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9883,7 +9883,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9903,7 +9903,7 @@
     "type": "politicalEntity",
     "id": "dhs-002377",
     "name": "Rueyres",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9914,7 +9914,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9934,7 +9934,7 @@
     "type": "politicalEntity",
     "id": "dhs-002378",
     "name": "Saint-Barthélemy (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -9945,7 +9945,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -9965,7 +9965,7 @@
     "type": "politicalEntity",
     "id": "dhs-002519",
     "name": "Saint-Cergue",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10001,7 +10001,7 @@
     "type": "politicalEntity",
     "id": "dhs-002485",
     "name": "Saint-Cierges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10012,7 +10012,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -10032,7 +10032,7 @@
     "type": "politicalEntity",
     "id": "dhs-002400",
     "name": "Sainte-Croix (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10068,7 +10068,7 @@
     "type": "politicalEntity",
     "id": "dhs-002304",
     "name": "Saint-George",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10079,7 +10079,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10099,7 +10099,7 @@
     "type": "politicalEntity",
     "id": "dhs-002618",
     "name": "Saint-Légier-La Chiésaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10110,7 +10110,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10130,7 +10130,7 @@
     "type": "politicalEntity",
     "id": "dhs-002305",
     "name": "Saint-Livres",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10141,7 +10141,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10161,7 +10161,7 @@
     "type": "politicalEntity",
     "id": "dhs-002306",
     "name": "Saint-Oyens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10172,7 +10172,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10192,7 +10192,7 @@
     "type": "politicalEntity",
     "id": "dhs-002451",
     "name": "Saint-Prex",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10228,7 +10228,7 @@
     "type": "politicalEntity",
     "id": "dhs-002424",
     "name": "Saint-Saphorin (Lavaux)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10239,7 +10239,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10259,7 +10259,7 @@
     "type": "politicalEntity",
     "id": "dhs-002452",
     "name": "Saint-Saphorin-sur-Morges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10270,7 +10270,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -10290,7 +10290,7 @@
     "type": "politicalEntity",
     "id": "dhs-002453",
     "name": "Saint-Sulpice (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10351,7 +10351,7 @@
     "type": "politicalEntity",
     "id": "dhs-002348",
     "name": "Sarraz, La (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10387,7 +10387,7 @@
     "type": "politicalEntity",
     "id": "dhs-002486",
     "name": "Sarzens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10398,7 +10398,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -10418,7 +10418,7 @@
     "type": "politicalEntity",
     "id": "dhs-002586",
     "name": "Sassel",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10429,7 +10429,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -10449,7 +10449,7 @@
     "type": "politicalEntity",
     "id": "dhs-002307",
     "name": "Saubraz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10460,7 +10460,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10480,7 +10480,7 @@
     "type": "politicalEntity",
     "id": "dhs-002425",
     "name": "Savigny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10491,7 +10491,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10511,7 +10511,7 @@
     "type": "politicalEntity",
     "id": "dhs-002587",
     "name": "Sédeilles",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10522,7 +10522,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -10542,7 +10542,7 @@
     "type": "politicalEntity",
     "id": "dhs-002588",
     "name": "Seigneux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10553,7 +10553,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -10573,7 +10573,7 @@
     "type": "politicalEntity",
     "id": "dhs-002349",
     "name": "Senarclens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10584,7 +10584,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10604,7 +10604,7 @@
     "type": "politicalEntity",
     "id": "dhs-002545",
     "name": "Sergey",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10615,7 +10615,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10635,7 +10635,7 @@
     "type": "politicalEntity",
     "id": "dhs-002568",
     "name": "Servion",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10646,7 +10646,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10666,7 +10666,7 @@
     "type": "politicalEntity",
     "id": "dhs-002350",
     "name": "Sévery",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10677,7 +10677,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10697,7 +10697,7 @@
     "type": "politicalEntity",
     "id": "dhs-002520",
     "name": "Signy-Avenex",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10708,7 +10708,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10728,7 +10728,7 @@
     "type": "politicalEntity",
     "id": "dhs-002487",
     "name": "Sottens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10739,7 +10739,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -10759,7 +10759,7 @@
     "type": "politicalEntity",
     "id": "dhs-002650",
     "name": "Suchy",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10770,7 +10770,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10790,7 +10790,7 @@
     "type": "politicalEntity",
     "id": "dhs-002379",
     "name": "Sugnens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10801,7 +10801,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -10821,7 +10821,7 @@
     "type": "politicalEntity",
     "id": "dhs-002351",
     "name": "Sullens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10832,7 +10832,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10852,7 +10852,7 @@
     "type": "politicalEntity",
     "id": "dhs-002651",
     "name": "Suscévaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10863,7 +10863,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10883,7 +10883,7 @@
     "type": "politicalEntity",
     "id": "dhs-002488",
     "name": "Syens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10894,7 +10894,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10914,7 +10914,7 @@
     "type": "politicalEntity",
     "id": "dhs-002521",
     "name": "Tannay",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10925,7 +10925,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10945,7 +10945,7 @@
     "type": "politicalEntity",
     "id": "dhs-002607",
     "name": "Tartegnin",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10956,7 +10956,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -10976,7 +10976,7 @@
     "type": "politicalEntity",
     "id": "dhs-002569",
     "name": "Tavernes, Les",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -10987,7 +10987,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11007,7 +11007,7 @@
     "type": "politicalEntity",
     "id": "dhs-002489",
     "name": "Thierrens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11018,7 +11018,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11038,7 +11038,7 @@
     "type": "politicalEntity",
     "id": "dhs-002570",
     "name": "Thioleyres, Les",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11049,7 +11049,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11069,7 +11069,7 @@
     "type": "politicalEntity",
     "id": "dhs-002454",
     "name": "Tolochenaz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11080,7 +11080,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11100,7 +11100,7 @@
     "type": "politicalEntity",
     "id": "dhs-002619",
     "name": "Tour-de-Peilz, La",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11141,7 +11141,7 @@
     "type": "politicalEntity",
     "id": "dhs-002522",
     "name": "Trélex",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11152,7 +11152,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11172,7 +11172,7 @@
     "type": "politicalEntity",
     "id": "dhs-002589",
     "name": "Trey",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11183,7 +11183,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11203,7 +11203,7 @@
     "type": "politicalEntity",
     "id": "dhs-002652",
     "name": "Treycovagnes",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11214,7 +11214,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11234,7 +11234,7 @@
     "type": "politicalEntity",
     "id": "dhs-002590",
     "name": "Treytorrens (Payerne)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11245,7 +11245,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11265,7 +11265,7 @@
     "type": "politicalEntity",
     "id": "dhs-002653",
     "name": "Ursins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11276,7 +11276,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11296,7 +11296,7 @@
     "type": "politicalEntity",
     "id": "dhs-002654",
     "name": "Valeyres-sous-Montagny",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11307,7 +11307,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11327,7 +11327,7 @@
     "type": "politicalEntity",
     "id": "dhs-002546",
     "name": "Valeyres-sous-Rances",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11338,7 +11338,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11358,7 +11358,7 @@
     "type": "politicalEntity",
     "id": "dhs-002655",
     "name": "Valeyres-sous-Ursins",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11369,7 +11369,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11389,7 +11389,7 @@
     "type": "politicalEntity",
     "id": "dhs-002319",
     "name": "Vallamand",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11400,7 +11400,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11420,7 +11420,7 @@
     "type": "politicalEntity",
     "id": "dhs-002547",
     "name": "Vallorbe",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11431,7 +11431,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11451,7 +11451,7 @@
     "type": "politicalEntity",
     "id": "dhs-002523",
     "name": "Vaud, Le",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11462,7 +11462,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11482,7 +11482,7 @@
     "type": "politicalEntity",
     "id": "dhs-002401",
     "name": "Vaugondry",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11493,7 +11493,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11513,7 +11513,7 @@
     "type": "politicalEntity",
     "id": "dhs-002548",
     "name": "Vaulion",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11524,7 +11524,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11544,7 +11544,7 @@
     "type": "politicalEntity",
     "id": "dhs-002455",
     "name": "Vaux-sur-Morges",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11555,7 +11555,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11575,7 +11575,7 @@
     "type": "politicalEntity",
     "id": "dhs-002620",
     "name": "Vevey (commune)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11641,7 +11641,7 @@
     "type": "politicalEntity",
     "id": "dhs-002621",
     "name": "Veytaux",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11652,7 +11652,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11672,7 +11672,7 @@
     "type": "politicalEntity",
     "id": "dhs-002524",
     "name": "Vich",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11683,7 +11683,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11703,7 +11703,7 @@
     "type": "politicalEntity",
     "id": "dhs-002591",
     "name": "Villars-Bramard",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11714,7 +11714,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11734,7 +11734,7 @@
     "type": "politicalEntity",
     "id": "dhs-002402",
     "name": "Villars-Burquin",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11745,7 +11745,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11765,7 +11765,7 @@
     "type": "politicalEntity",
     "id": "dhs-002656",
     "name": "Villars-Epeney",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11776,7 +11776,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11796,7 +11796,7 @@
     "type": "politicalEntity",
     "id": "dhs-002490",
     "name": "Villars-le-Comte",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11807,7 +11807,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11827,7 +11827,7 @@
     "type": "politicalEntity",
     "id": "dhs-002320",
     "name": "Villars-le-Grand",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11838,7 +11838,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11858,7 +11858,7 @@
     "type": "politicalEntity",
     "id": "dhs-002380",
     "name": "Villars-le-Terroir",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11869,7 +11869,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11889,7 +11889,7 @@
     "type": "politicalEntity",
     "id": "dhs-002352",
     "name": "Villars-Lussery",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11900,7 +11900,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11920,7 +11920,7 @@
     "type": "politicalEntity",
     "id": "dhs-002491",
     "name": "Villars-Mendraz",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11931,7 +11931,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -11951,7 +11951,7 @@
     "type": "politicalEntity",
     "id": "dhs-002456",
     "name": "Villars-Sainte-Croix",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11962,7 +11962,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -11982,7 +11982,7 @@
     "type": "politicalEntity",
     "id": "dhs-002657",
     "name": "Villars-sous-Champvent",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -11993,7 +11993,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -12013,7 +12013,7 @@
     "type": "politicalEntity",
     "id": "dhs-002457",
     "name": "Villars-sous-Yens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12024,7 +12024,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12044,7 +12044,7 @@
     "type": "politicalEntity",
     "id": "dhs-002381",
     "name": "Villars-Tiercelin",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12055,7 +12055,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -12075,7 +12075,7 @@
     "type": "politicalEntity",
     "id": "dhs-002592",
     "name": "Villarzel",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12111,7 +12111,7 @@
     "type": "politicalEntity",
     "id": "dhs-002289",
     "name": "Villeneuve (VD)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12172,7 +12172,7 @@
     "type": "politicalEntity",
     "id": "dhs-002426",
     "name": "Villette (Lavaux)",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12183,7 +12183,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -12203,7 +12203,7 @@
     "type": "politicalEntity",
     "id": "dhs-002608",
     "name": "Vinzel",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12214,7 +12214,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12234,7 +12234,7 @@
     "type": "politicalEntity",
     "id": "dhs-002382",
     "name": "Vuarrens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12245,7 +12245,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12265,7 +12265,7 @@
     "type": "politicalEntity",
     "id": "dhs-002492",
     "name": "Vucherens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12276,7 +12276,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12296,7 +12296,7 @@
     "type": "politicalEntity",
     "id": "dhs-002353",
     "name": "Vufflens-la-Ville",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12307,7 +12307,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12327,7 +12327,7 @@
     "type": "politicalEntity",
     "id": "dhs-002458",
     "name": "Vufflens-le-Château",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12338,7 +12338,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12358,7 +12358,7 @@
     "type": "politicalEntity",
     "id": "dhs-002658",
     "name": "Vugelles-La-Mothe",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12369,7 +12369,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12389,7 +12389,7 @@
     "type": "politicalEntity",
     "id": "dhs-002571",
     "name": "Vuibroye",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12400,7 +12400,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Ancienne commune"
+      "DHS-Ancienne Commune"
     ],
     "description": "",
     "sources": [
@@ -12420,7 +12420,7 @@
     "type": "politicalEntity",
     "id": "dhs-002549",
     "name": "Vuitebœuf",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12431,7 +12431,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12451,7 +12451,7 @@
     "type": "politicalEntity",
     "id": "dhs-002572",
     "name": "Vulliens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12462,7 +12462,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12482,7 +12482,7 @@
     "type": "politicalEntity",
     "id": "dhs-002459",
     "name": "Vullierens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12493,7 +12493,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12513,7 +12513,7 @@
     "type": "politicalEntity",
     "id": "dhs-002460",
     "name": "Yens",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12524,7 +12524,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12544,7 +12544,7 @@
     "type": "politicalEntity",
     "id": "dhs-002659",
     "name": "Yverdon-les-Bains",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12625,7 +12625,7 @@
     "type": "politicalEntity",
     "id": "dhs-002660",
     "name": "Yvonand",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12636,7 +12636,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [
@@ -12656,7 +12656,7 @@
     "type": "politicalEntity",
     "id": "dhs-002290",
     "name": "Yvorne",
-    "category": "",
+    "category": "territoire",
     "start": {
       "type": "uncertainBoundedDate",
       "latest": "1850",
@@ -12667,7 +12667,7 @@
       "earliest": "1850"
     },
     "tags": [
-      "Commune"
+      "DHS-Commune"
     ],
     "description": "",
     "sources": [

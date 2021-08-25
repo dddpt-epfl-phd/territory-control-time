@@ -88,14 +88,14 @@ const politicalEntitiesTypes = [
     },
     {
         type: "politicalEntity",
-        category: "territory/city/duchy/county/lordship etc..."
+        category: "territoire/ville/duché/comté/seigneurie etc..."
     },
     {
         type: "individual"
     },
     {
         type: "humanGroup",
-        category: "dynasty/bourgeois/artisans/peasants etc...",
+        category: "dynastie/bourgeois/artisans/paysans etc...",
         members: ["individuals-ids", "..."]
     }
 ]
