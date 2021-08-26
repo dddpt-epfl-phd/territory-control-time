@@ -3561,78 +3561,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-007575",
-    "name": "Sarraz, La (seigneurie)",
-    "category": "",
-    "start": {
-      "type": "exactDate",
-      "date": ""
-    },
-    "end": {
-      "type": "exactDate",
-      "date": ""
-    },
-    "tags": [
-      "Seigneurie"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "name": "Sarraz, La (seigneurie)",
-        "url": "https://hls-dhs-dss.ch/fr/articles/007575/2013-04-04/",
-        "id": "dhs-007575",
-        "tags": [
-          {
-            "tag": "Entités politiques / Seigneurie",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.008600."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-007574",
-    "name": "Grandson (seigneurie, district)",
-    "category": "",
-    "start": {
-      "type": "exactDate",
-      "date": ""
-    },
-    "end": {
-      "type": "exactDate",
-      "date": ""
-    },
-    "tags": [
-      "Bailliage, châtellenie",
-      "District",
-      "Seigneurie"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "name": "Grandson (seigneurie, district)",
-        "url": "https://hls-dhs-dss.ch/fr/articles/007574/2009-10-15/",
-        "id": "dhs-007574",
-        "tags": [
-          {
-            "tag": "Entités politiques / Bailliage, châtellenie",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.007300."
-          },
-          {
-            "tag": "Entités politiques / District",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.008000."
-          },
-          {
-            "tag": "Entités politiques / Seigneurie",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.008600."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-007665",
     "name": "Rorschach (bailliage)",
     "category": "",
@@ -28801,42 +28729,6 @@
   },
   {
     "type": "politicalEntity",
-    "id": "dhs-007572",
-    "name": "Champvent (seigneurie)",
-    "category": "",
-    "start": {
-      "type": "exactDate",
-      "date": ""
-    },
-    "end": {
-      "type": "exactDate",
-      "date": ""
-    },
-    "tags": [
-      "Seigneurie",
-      "Patrimoine / Château fort, tour, siège baillival"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "name": "Champvent (seigneurie)",
-        "url": "https://hls-dhs-dss.ch/fr/articles/007572/2005-08-29/",
-        "id": "dhs-007572",
-        "tags": [
-          {
-            "tag": "Entités politiques / Seigneurie",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.006900.008600."
-          },
-          {
-            "tag": "Patrimoine / Château fort, tour, siège baillival",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.012100.012600."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
     "id": "dhs-003359",
     "name": "Italie",
     "category": "",
@@ -34283,37 +34175,6 @@
           {
             "tag": "Patrimoine / Eglise, chapelle, cimetière",
             "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.012100.012700."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "politicalEntity",
-    "id": "dhs-012134",
-    "name": "Lac de Joux",
-    "category": "",
-    "start": {
-      "type": "exactDate",
-      "date": ""
-    },
-    "end": {
-      "type": "exactDate",
-      "date": ""
-    },
-    "tags": [
-      "Entités ecclésiastiques / Abbaye, couvent, monastère, prieuré"
-    ],
-    "description": "",
-    "sources": [
-      {
-        "name": "Lac de Joux",
-        "url": "https://hls-dhs-dss.ch/fr/articles/012134/2009-03-10/",
-        "id": "dhs-012134",
-        "tags": [
-          {
-            "tag": "Entités ecclésiastiques / Abbaye, couvent, monastère, prieuré",
-            "url": "/fr/search/category?f_hls.lexicofacet_string=2/006800.009500.009600."
           }
         ]
       }
