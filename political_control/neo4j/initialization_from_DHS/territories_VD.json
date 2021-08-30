@@ -1,16 +1,16 @@
 [
   {
-    "type": "politicalEntity",
-    "id": "dhs-002609",
+    "type": "Territory",
+    "dhsId": "dhs-002609",
     "name": "Abbaye, L'",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -31,17 +31,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002525",
+    "type": "Territory",
+    "dhsId": "dhs-002525",
     "name": "Abergement, L'",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -62,17 +62,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002427",
+    "type": "Territory",
+    "dhsId": "dhs-002427",
     "name": "Aclens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -93,17 +93,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002526",
+    "type": "Territory",
+    "dhsId": "dhs-002526",
     "name": "Agiez",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -124,17 +124,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002276",
+    "type": "Territory",
+    "dhsId": "dhs-002276",
     "name": "Aigle (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -165,17 +165,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002596",
+    "type": "Territory",
+    "dhsId": "dhs-002596",
     "name": "Allaman",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -196,17 +196,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002291",
+    "type": "Territory",
+    "dhsId": "dhs-002291",
     "name": "Apples",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -227,17 +227,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002493",
+    "type": "Territory",
+    "dhsId": "dhs-002493",
     "name": "Arnex-sur-Nyon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -258,17 +258,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002527",
+    "type": "Territory",
+    "dhsId": "dhs-002527",
     "name": "Arnex-sur-Orbe",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -289,17 +289,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002622",
+    "type": "Territory",
+    "dhsId": "dhs-002622",
     "name": "Arrissoules",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -320,17 +320,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002494",
+    "type": "Territory",
+    "dhsId": "dhs-002494",
     "name": "Arzier",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -351,17 +351,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002354",
+    "type": "Territory",
+    "dhsId": "dhs-002354",
     "name": "Assens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -382,17 +382,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002292",
+    "type": "Territory",
+    "dhsId": "dhs-002292",
     "name": "Aubonne (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -418,17 +418,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002308",
+    "type": "Territory",
+    "dhsId": "dhs-002308",
     "name": "Avenches (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -454,17 +454,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002528",
+    "type": "Territory",
+    "dhsId": "dhs-002528",
     "name": "Ballaigues",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -485,17 +485,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002293",
+    "type": "Territory",
+    "dhsId": "dhs-002293",
     "name": "Ballens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -516,17 +516,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002495",
+    "type": "Territory",
+    "dhsId": "dhs-002495",
     "name": "Bassins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -547,17 +547,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002529",
+    "type": "Territory",
+    "dhsId": "dhs-002529",
     "name": "Baulmes",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -603,17 +603,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002530",
+    "type": "Territory",
+    "dhsId": "dhs-002530",
     "name": "Bavois",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -639,17 +639,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002496",
+    "type": "Territory",
+    "dhsId": "dhs-002496",
     "name": "Begnins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -670,17 +670,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002309",
+    "type": "Territory",
+    "dhsId": "dhs-002309",
     "name": "Bellerive (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -701,17 +701,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002403",
+    "type": "Territory",
+    "dhsId": "dhs-002403",
     "name": "Belmont-sur-Lausanne",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -732,17 +732,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002623",
+    "type": "Territory",
+    "dhsId": "dhs-002623",
     "name": "Belmont-sur-Yverdon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -768,17 +768,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002355",
+    "type": "Territory",
+    "dhsId": "dhs-002355",
     "name": "Bercher",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -804,17 +804,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002294",
+    "type": "Territory",
+    "dhsId": "dhs-002294",
     "name": "Berolle",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -835,17 +835,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002321",
+    "type": "Territory",
+    "dhsId": "dhs-002321",
     "name": "Bettens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -866,17 +866,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002277",
+    "type": "Territory",
+    "dhsId": "dhs-002277",
     "name": "Bex (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -897,17 +897,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002295",
+    "type": "Territory",
+    "dhsId": "dhs-002295",
     "name": "Bière",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -928,17 +928,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002624",
+    "type": "Territory",
+    "dhsId": "dhs-002624",
     "name": "Bioley-Magnoux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -964,17 +964,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002356",
+    "type": "Territory",
+    "dhsId": "dhs-002356",
     "name": "Bioley-Orjulaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -995,17 +995,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002612",
+    "type": "Territory",
+    "dhsId": "dhs-002612",
     "name": "Blonay",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1026,17 +1026,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002531",
+    "type": "Territory",
+    "dhsId": "dhs-002531",
     "name": "Bofflens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1057,17 +1057,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002497",
+    "type": "Territory",
+    "dhsId": "dhs-002497",
     "name": "Bogis-Bossey",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1088,17 +1088,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002383",
+    "type": "Territory",
+    "dhsId": "dhs-002383",
     "name": "Bonvillars",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1119,17 +1119,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002498",
+    "type": "Territory",
+    "dhsId": "dhs-002498",
     "name": "Borex",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1150,17 +1150,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002357",
+    "type": "Territory",
+    "dhsId": "dhs-002357",
     "name": "Bottens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1181,17 +1181,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002296",
+    "type": "Territory",
+    "dhsId": "dhs-002296",
     "name": "Bougy-Villars",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1212,17 +1212,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002461",
+    "type": "Territory",
+    "dhsId": "dhs-002461",
     "name": "Boulens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1243,17 +1243,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002322",
+    "type": "Territory",
+    "dhsId": "dhs-002322",
     "name": "Bournens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1274,17 +1274,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002323",
+    "type": "Territory",
+    "dhsId": "dhs-002323",
     "name": "Boussens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1305,17 +1305,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002428",
+    "type": "Territory",
+    "dhsId": "dhs-002428",
     "name": "Bremblens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1336,17 +1336,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002462",
+    "type": "Territory",
+    "dhsId": "dhs-002462",
     "name": "Brenles",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1367,17 +1367,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002358",
+    "type": "Territory",
+    "dhsId": "dhs-002358",
     "name": "Bretigny-sur-Morrens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1398,17 +1398,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002532",
+    "type": "Territory",
+    "dhsId": "dhs-002532",
     "name": "Bretonnières",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1429,17 +1429,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002429",
+    "type": "Territory",
+    "dhsId": "dhs-002429",
     "name": "Buchillon (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1460,17 +1460,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002384",
+    "type": "Territory",
+    "dhsId": "dhs-002384",
     "name": "Bullet",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1491,17 +1491,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002597",
+    "type": "Territory",
+    "dhsId": "dhs-002597",
     "name": "Bursinel",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1522,17 +1522,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002598",
+    "type": "Territory",
+    "dhsId": "dhs-002598",
     "name": "Bursins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1553,17 +1553,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002599",
+    "type": "Territory",
+    "dhsId": "dhs-002599",
     "name": "Burtigny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1584,17 +1584,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002430",
+    "type": "Territory",
+    "dhsId": "dhs-002430",
     "name": "Bussigny-près-Lausanne",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1620,17 +1620,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002550",
+    "type": "Territory",
+    "dhsId": "dhs-002550",
     "name": "Bussigny-sur-Oron",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1651,17 +1651,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002431",
+    "type": "Territory",
+    "dhsId": "dhs-002431",
     "name": "Bussy-Chardonney",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1682,17 +1682,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002463",
+    "type": "Territory",
+    "dhsId": "dhs-002463",
     "name": "Bussy-sur-Moudon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1713,17 +1713,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002551",
+    "type": "Territory",
+    "dhsId": "dhs-002551",
     "name": "Carrouge (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1744,17 +1744,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002573",
+    "type": "Territory",
+    "dhsId": "dhs-002573",
     "name": "Cerniaz (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1775,17 +1775,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002310",
+    "type": "Territory",
+    "dhsId": "dhs-002310",
     "name": "Chabrey",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1806,17 +1806,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002625",
+    "type": "Territory",
+    "dhsId": "dhs-002625",
     "name": "Chamblon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1837,17 +1837,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002385",
+    "type": "Territory",
+    "dhsId": "dhs-002385",
     "name": "Champagne (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1868,17 +1868,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002311",
+    "type": "Territory",
+    "dhsId": "dhs-002311",
     "name": "Champmartin",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1899,17 +1899,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002574",
+    "type": "Territory",
+    "dhsId": "dhs-002574",
     "name": "Champtauroz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1930,17 +1930,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002626",
+    "type": "Territory",
+    "dhsId": "dhs-002626",
     "name": "Champvent (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1961,17 +1961,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002627",
+    "type": "Territory",
+    "dhsId": "dhs-002627",
     "name": "Chanéaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -1992,17 +1992,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002464",
+    "type": "Territory",
+    "dhsId": "dhs-002464",
     "name": "Chapelle-sur-Moudon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2023,17 +2023,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002613",
+    "type": "Territory",
+    "dhsId": "dhs-002613",
     "name": "Chardonne",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2054,17 +2054,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-003325",
+    "type": "Territory",
+    "dhsId": "dhs-003325",
     "name": "Chardonney-sur-Morges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2085,17 +2085,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002593",
+    "type": "Territory",
+    "dhsId": "dhs-002593",
     "name": "Château-d'Œx",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2116,17 +2116,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-003327",
+    "type": "Territory",
+    "dhsId": "dhs-003327",
     "name": "Châtelard, Le (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2147,17 +2147,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002552",
+    "type": "Territory",
+    "dhsId": "dhs-002552",
     "name": "Châtillens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2178,17 +2178,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002324",
+    "type": "Territory",
+    "dhsId": "dhs-002324",
     "name": "Chaux, La (Cossonay)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2214,17 +2214,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002499",
+    "type": "Territory",
+    "dhsId": "dhs-002499",
     "name": "Chavannes-de-Bogis",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2245,17 +2245,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002500",
+    "type": "Territory",
+    "dhsId": "dhs-002500",
     "name": "Chavannes-des-Bois",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2276,17 +2276,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002628",
+    "type": "Territory",
+    "dhsId": "dhs-002628",
     "name": "Chavannes-le-Chêne",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2307,17 +2307,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002325",
+    "type": "Territory",
+    "dhsId": "dhs-002325",
     "name": "Chavannes-le-Veyron",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2338,17 +2338,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002432",
+    "type": "Territory",
+    "dhsId": "dhs-002432",
     "name": "Chavannes-près-Renens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2369,17 +2369,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002465",
+    "type": "Territory",
+    "dhsId": "dhs-002465",
     "name": "Chavannes-sur-Moudon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2400,17 +2400,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002533",
+    "type": "Territory",
+    "dhsId": "dhs-002533",
     "name": "Chavornay",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2431,17 +2431,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002629",
+    "type": "Territory",
+    "dhsId": "dhs-002629",
     "name": "Chêne-Pâquier",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2462,17 +2462,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002610",
+    "type": "Territory",
+    "dhsId": "dhs-002610",
     "name": "Chenit, Le",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2493,17 +2493,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002466",
+    "type": "Territory",
+    "dhsId": "dhs-002466",
     "name": "Chesalles-sur-Moudon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2524,17 +2524,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002553",
+    "type": "Territory",
+    "dhsId": "dhs-002553",
     "name": "Chesalles-sur-Oron",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2555,17 +2555,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002630",
+    "type": "Territory",
+    "dhsId": "dhs-002630",
     "name": "Cheseaux-Noréaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2586,17 +2586,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002404",
+    "type": "Territory",
+    "dhsId": "dhs-002404",
     "name": "Cheseaux-sur-Lausanne",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2617,17 +2617,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002501",
+    "type": "Territory",
+    "dhsId": "dhs-002501",
     "name": "Chéserex",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2648,17 +2648,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002278",
+    "type": "Territory",
+    "dhsId": "dhs-002278",
     "name": "Chessel",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2679,17 +2679,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002326",
+    "type": "Territory",
+    "dhsId": "dhs-002326",
     "name": "Chevilly",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2710,17 +2710,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002575",
+    "type": "Territory",
+    "dhsId": "dhs-002575",
     "name": "Chevroux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2741,17 +2741,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002415",
+    "type": "Territory",
+    "dhsId": "dhs-002415",
     "name": "Chexbres",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2772,17 +2772,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002433",
+    "type": "Territory",
+    "dhsId": "dhs-002433",
     "name": "Chigny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2803,17 +2803,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002434",
+    "type": "Territory",
+    "dhsId": "dhs-002434",
     "name": "Clarmont",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2834,17 +2834,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002534",
+    "type": "Territory",
+    "dhsId": "dhs-002534",
     "name": "Clées, Les",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2875,17 +2875,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002502",
+    "type": "Territory",
+    "dhsId": "dhs-002502",
     "name": "Coinsins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2906,17 +2906,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002435",
+    "type": "Territory",
+    "dhsId": "dhs-002435",
     "name": "Colombier (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2937,17 +2937,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002576",
+    "type": "Territory",
+    "dhsId": "dhs-002576",
     "name": "Combremont-le-Grand",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2968,17 +2968,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002577",
+    "type": "Territory",
+    "dhsId": "dhs-002577",
     "name": "Combremont-le-Petit",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -2999,17 +2999,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002503",
+    "type": "Territory",
+    "dhsId": "dhs-002503",
     "name": "Commugny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3030,17 +3030,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002386",
+    "type": "Territory",
+    "dhsId": "dhs-002386",
     "name": "Concise",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3081,17 +3081,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002312",
+    "type": "Territory",
+    "dhsId": "dhs-002312",
     "name": "Constantine",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3112,17 +3112,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002504",
+    "type": "Territory",
+    "dhsId": "dhs-002504",
     "name": "Coppet",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3153,17 +3153,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002279",
+    "type": "Territory",
+    "dhsId": "dhs-002279",
     "name": "Corbeyrier",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3184,17 +3184,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002554",
+    "type": "Territory",
+    "dhsId": "dhs-002554",
     "name": "Corcelles-le-Jorat",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3215,17 +3215,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002387",
+    "type": "Territory",
+    "dhsId": "dhs-002387",
     "name": "Corcelles-près-Concise",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3246,17 +3246,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002578",
+    "type": "Territory",
+    "dhsId": "dhs-002578",
     "name": "Corcelles-près-Payerne",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3277,17 +3277,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002535",
+    "type": "Territory",
+    "dhsId": "dhs-002535",
     "name": "Corcelles-sur-Chavornay",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3308,17 +3308,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002467",
+    "type": "Territory",
+    "dhsId": "dhs-002467",
     "name": "Correvon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3339,17 +3339,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002614",
+    "type": "Territory",
+    "dhsId": "dhs-002614",
     "name": "Corseaux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3375,17 +3375,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002615",
+    "type": "Territory",
+    "dhsId": "dhs-002615",
     "name": "Corsier-sur-Vevey",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3406,17 +3406,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002327",
+    "type": "Territory",
+    "dhsId": "dhs-002327",
     "name": "Cossonay (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3452,17 +3452,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002328",
+    "type": "Territory",
+    "dhsId": "dhs-002328",
     "name": "Cottens (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3483,17 +3483,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002505",
+    "type": "Territory",
+    "dhsId": "dhs-002505",
     "name": "Crans-près-Céligny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3514,17 +3514,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002506",
+    "type": "Territory",
+    "dhsId": "dhs-002506",
     "name": "Crassier",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3545,17 +3545,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002468",
+    "type": "Territory",
+    "dhsId": "dhs-002468",
     "name": "Cremin",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3576,17 +3576,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002405",
+    "type": "Territory",
+    "dhsId": "dhs-002405",
     "name": "Crissier",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3612,17 +3612,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002631",
+    "type": "Territory",
+    "dhsId": "dhs-002631",
     "name": "Cronay",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3648,17 +3648,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002536",
+    "type": "Territory",
+    "dhsId": "dhs-002536",
     "name": "Croy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3679,17 +3679,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002329",
+    "type": "Territory",
+    "dhsId": "dhs-002329",
     "name": "Cuarnens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3710,17 +3710,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002632",
+    "type": "Territory",
+    "dhsId": "dhs-002632",
     "name": "Cuarny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3741,17 +3741,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002313",
+    "type": "Territory",
+    "dhsId": "dhs-002313",
     "name": "Cudrefin",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3777,17 +3777,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002359",
+    "type": "Territory",
+    "dhsId": "dhs-002359",
     "name": "Cugy (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3808,17 +3808,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002555",
+    "type": "Territory",
+    "dhsId": "dhs-002555",
     "name": "Cullayes, Les",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3839,17 +3839,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002416",
+    "type": "Territory",
+    "dhsId": "dhs-002416",
     "name": "Cully",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3875,17 +3875,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002469",
+    "type": "Territory",
+    "dhsId": "dhs-002469",
     "name": "Curtilles",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3906,17 +3906,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002330",
+    "type": "Territory",
+    "dhsId": "dhs-002330",
     "name": "Daillens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3937,17 +3937,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002633",
+    "type": "Territory",
+    "dhsId": "dhs-002633",
     "name": "Démoret",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3968,17 +3968,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002436",
+    "type": "Territory",
+    "dhsId": "dhs-002436",
     "name": "Denens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -3999,17 +3999,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002470",
+    "type": "Territory",
+    "dhsId": "dhs-002470",
     "name": "Denezy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4030,17 +4030,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002437",
+    "type": "Territory",
+    "dhsId": "dhs-002437",
     "name": "Denges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4061,17 +4061,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002331",
+    "type": "Territory",
+    "dhsId": "dhs-002331",
     "name": "Dizy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4092,17 +4092,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002360",
+    "type": "Territory",
+    "dhsId": "dhs-002360",
     "name": "Dommartin",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4128,17 +4128,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002471",
+    "type": "Territory",
+    "dhsId": "dhs-002471",
     "name": "Dompierre (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4159,17 +4159,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002314",
+    "type": "Territory",
+    "dhsId": "dhs-002314",
     "name": "Donatyre",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4190,17 +4190,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002634",
+    "type": "Territory",
+    "dhsId": "dhs-002634",
     "name": "Donneloye",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4221,17 +4221,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002507",
+    "type": "Territory",
+    "dhsId": "dhs-002507",
     "name": "Duillier",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4252,17 +4252,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002600",
+    "type": "Territory",
+    "dhsId": "dhs-002600",
     "name": "Dully",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4283,17 +4283,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002361",
+    "type": "Territory",
+    "dhsId": "dhs-002361",
     "name": "Echallens (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4324,17 +4324,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002438",
+    "type": "Territory",
+    "dhsId": "dhs-002438",
     "name": "Echandens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4355,17 +4355,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002439",
+    "type": "Territory",
+    "dhsId": "dhs-002439",
     "name": "Echichens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4386,17 +4386,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002362",
+    "type": "Territory",
+    "dhsId": "dhs-002362",
     "name": "Eclagnens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4417,17 +4417,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002332",
+    "type": "Territory",
+    "dhsId": "dhs-002332",
     "name": "Eclépens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4448,17 +4448,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002556",
+    "type": "Territory",
+    "dhsId": "dhs-002556",
     "name": "Ecoteaux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4479,17 +4479,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002440",
+    "type": "Territory",
+    "dhsId": "dhs-002440",
     "name": "Ecublens (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4515,17 +4515,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-003326",
+    "type": "Territory",
+    "dhsId": "dhs-003326",
     "name": "Envy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4546,17 +4546,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002406",
+    "type": "Territory",
+    "dhsId": "dhs-002406",
     "name": "Epalinges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4577,17 +4577,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002635",
+    "type": "Territory",
+    "dhsId": "dhs-002635",
     "name": "Ependes (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4608,17 +4608,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002417",
+    "type": "Territory",
+    "dhsId": "dhs-002417",
     "name": "Epesses",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4639,17 +4639,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002557",
+    "type": "Territory",
+    "dhsId": "dhs-002557",
     "name": "Essertes",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4670,17 +4670,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002601",
+    "type": "Territory",
+    "dhsId": "dhs-002601",
     "name": "Essertines-sur-Rolle",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4701,17 +4701,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002363",
+    "type": "Territory",
+    "dhsId": "dhs-002363",
     "name": "Essertines-sur-Yverdon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4732,17 +4732,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002636",
+    "type": "Territory",
+    "dhsId": "dhs-002636",
     "name": "Essert-Pittet",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4763,17 +4763,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002637",
+    "type": "Territory",
+    "dhsId": "dhs-002637",
     "name": "Essert-sous-Champvent",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4794,17 +4794,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002364",
+    "type": "Territory",
+    "dhsId": "dhs-002364",
     "name": "Etagnières",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4825,17 +4825,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002441",
+    "type": "Territory",
+    "dhsId": "dhs-002441",
     "name": "Etoy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4856,17 +4856,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002508",
+    "type": "Territory",
+    "dhsId": "dhs-002508",
     "name": "Eysins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4887,17 +4887,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002315",
+    "type": "Territory",
+    "dhsId": "dhs-002315",
     "name": "Faoug",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4918,17 +4918,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002297",
+    "type": "Territory",
+    "dhsId": "dhs-002297",
     "name": "Féchy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4949,17 +4949,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002558",
+    "type": "Territory",
+    "dhsId": "dhs-002558",
     "name": "Ferlens (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -4980,17 +4980,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002333",
+    "type": "Territory",
+    "dhsId": "dhs-002333",
     "name": "Ferreyres",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5011,17 +5011,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002365",
+    "type": "Territory",
+    "dhsId": "dhs-002365",
     "name": "Fey",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5042,17 +5042,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002388",
+    "type": "Territory",
+    "dhsId": "dhs-002388",
     "name": "Fiez",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5073,17 +5073,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002389",
+    "type": "Territory",
+    "dhsId": "dhs-002389",
     "name": "Fontaines-sur-Grandson",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5104,17 +5104,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002390",
+    "type": "Territory",
+    "dhsId": "dhs-002390",
     "name": "Fontanezier",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5135,17 +5135,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002418",
+    "type": "Territory",
+    "dhsId": "dhs-002418",
     "name": "Forel (Lavaux)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5166,17 +5166,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002472",
+    "type": "Territory",
+    "dhsId": "dhs-002472",
     "name": "Forel-sur-Lucens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5197,17 +5197,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002509",
+    "type": "Territory",
+    "dhsId": "dhs-002509",
     "name": "Founex",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5228,17 +5228,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002366",
+    "type": "Territory",
+    "dhsId": "dhs-002366",
     "name": "Froideville",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5259,17 +5259,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002510",
+    "type": "Territory",
+    "dhsId": "dhs-002510",
     "name": "Genolier",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5290,17 +5290,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002391",
+    "type": "Territory",
+    "dhsId": "dhs-002391",
     "name": "Giez",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5321,17 +5321,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002602",
+    "type": "Territory",
+    "dhsId": "dhs-002602",
     "name": "Gilly",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5352,17 +5352,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002298",
+    "type": "Territory",
+    "dhsId": "dhs-002298",
     "name": "Gimel",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5383,17 +5383,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002511",
+    "type": "Territory",
+    "dhsId": "dhs-002511",
     "name": "Gingins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5414,17 +5414,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002512",
+    "type": "Territory",
+    "dhsId": "dhs-002512",
     "name": "Givrins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5445,17 +5445,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002513",
+    "type": "Territory",
+    "dhsId": "dhs-002513",
     "name": "Gland",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5481,17 +5481,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002334",
+    "type": "Territory",
+    "dhsId": "dhs-002334",
     "name": "Gollion",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5512,17 +5512,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002638",
+    "type": "Territory",
+    "dhsId": "dhs-002638",
     "name": "Gossens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5543,17 +5543,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002367",
+    "type": "Territory",
+    "dhsId": "dhs-002367",
     "name": "Goumoens-la-Ville",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5574,17 +5574,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002368",
+    "type": "Territory",
+    "dhsId": "dhs-002368",
     "name": "Goumoens-le-Jux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5605,17 +5605,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002335",
+    "type": "Territory",
+    "dhsId": "dhs-002335",
     "name": "Grancy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5636,17 +5636,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002579",
+    "type": "Territory",
+    "dhsId": "dhs-002579",
     "name": "Grandcour",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5672,17 +5672,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002392",
+    "type": "Territory",
+    "dhsId": "dhs-002392",
     "name": "Grandevent",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5703,17 +5703,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002393",
+    "type": "Territory",
+    "dhsId": "dhs-002393",
     "name": "Grandson (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5749,17 +5749,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002419",
+    "type": "Territory",
+    "dhsId": "dhs-002419",
     "name": "Grandvaux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5780,17 +5780,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002580",
+    "type": "Territory",
+    "dhsId": "dhs-002580",
     "name": "Granges-près-Marnand",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5811,17 +5811,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002514",
+    "type": "Territory",
+    "dhsId": "dhs-002514",
     "name": "Grens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5842,17 +5842,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002639",
+    "type": "Territory",
+    "dhsId": "dhs-002639",
     "name": "Gressy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5873,17 +5873,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002280",
+    "type": "Territory",
+    "dhsId": "dhs-002280",
     "name": "Gryon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5904,17 +5904,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002581",
+    "type": "Territory",
+    "dhsId": "dhs-002581",
     "name": "Henniez",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5935,17 +5935,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002473",
+    "type": "Territory",
+    "dhsId": "dhs-002473",
     "name": "Hermenches",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -5966,17 +5966,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002336",
+    "type": "Territory",
+    "dhsId": "dhs-002336",
     "name": "Isle, L'",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6002,17 +6002,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002616",
+    "type": "Territory",
+    "dhsId": "dhs-002616",
     "name": "Jongny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6033,17 +6033,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002407",
+    "type": "Territory",
+    "dhsId": "dhs-002407",
     "name": "Jouxtens-Mézery",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6064,17 +6064,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002537",
+    "type": "Territory",
+    "dhsId": "dhs-002537",
     "name": "Juriens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6095,17 +6095,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002408",
+    "type": "Territory",
+    "dhsId": "dhs-002408",
     "name": "Lausanne (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6161,17 +6161,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-045882",
+    "type": "Territory",
+    "dhsId": "dhs-045882",
     "name": "Lavey-Morcles",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6197,17 +6197,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002442",
+    "type": "Territory",
+    "dhsId": "dhs-002442",
     "name": "Lavigny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6228,17 +6228,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002282",
+    "type": "Territory",
+    "dhsId": "dhs-002282",
     "name": "Leysin",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6259,17 +6259,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002611",
+    "type": "Territory",
+    "dhsId": "dhs-002611",
     "name": "Lieu, Le",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6290,17 +6290,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002538",
+    "type": "Territory",
+    "dhsId": "dhs-002538",
     "name": "Lignerolle",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6321,17 +6321,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002443",
+    "type": "Territory",
+    "dhsId": "dhs-002443",
     "name": "Lonay",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6352,17 +6352,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002299",
+    "type": "Territory",
+    "dhsId": "dhs-002299",
     "name": "Longirod",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6383,17 +6383,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002474",
+    "type": "Territory",
+    "dhsId": "dhs-002474",
     "name": "Lovatens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6414,17 +6414,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002475",
+    "type": "Territory",
+    "dhsId": "dhs-002475",
     "name": "Lucens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6450,17 +6450,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002603",
+    "type": "Territory",
+    "dhsId": "dhs-002603",
     "name": "Luins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6481,17 +6481,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002444",
+    "type": "Territory",
+    "dhsId": "dhs-002444",
     "name": "Lully (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6512,17 +6512,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002337",
+    "type": "Territory",
+    "dhsId": "dhs-002337",
     "name": "Lussery",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6543,17 +6543,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002445",
+    "type": "Territory",
+    "dhsId": "dhs-002445",
     "name": "Lussy-sur-Morges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6574,17 +6574,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002420",
+    "type": "Territory",
+    "dhsId": "dhs-002420",
     "name": "Lutry",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6630,17 +6630,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002369",
+    "type": "Territory",
+    "dhsId": "dhs-002369",
     "name": "Malapalud",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6661,17 +6661,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002559",
+    "type": "Territory",
+    "dhsId": "dhs-002559",
     "name": "Maracon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6692,17 +6692,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002300",
+    "type": "Territory",
+    "dhsId": "dhs-002300",
     "name": "Marchissy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6723,17 +6723,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002582",
+    "type": "Territory",
+    "dhsId": "dhs-002582",
     "name": "Marnand",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6754,17 +6754,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002476",
+    "type": "Territory",
+    "dhsId": "dhs-002476",
     "name": "Martherenges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6785,17 +6785,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002640",
+    "type": "Territory",
+    "dhsId": "dhs-002640",
     "name": "Mathod",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6816,17 +6816,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002394",
+    "type": "Territory",
+    "dhsId": "dhs-002394",
     "name": "Mauborget",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6847,17 +6847,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002338",
+    "type": "Territory",
+    "dhsId": "dhs-002338",
     "name": "Mauraz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6878,17 +6878,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002339",
+    "type": "Territory",
+    "dhsId": "dhs-002339",
     "name": "Mex (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6909,17 +6909,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002641",
+    "type": "Territory",
+    "dhsId": "dhs-002641",
     "name": "Mézery-près-Donneloye",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6940,17 +6940,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002560",
+    "type": "Territory",
+    "dhsId": "dhs-002560",
     "name": "Mézières (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -6971,17 +6971,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002515",
+    "type": "Territory",
+    "dhsId": "dhs-002515",
     "name": "Mies",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7002,17 +7002,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002583",
+    "type": "Territory",
+    "dhsId": "dhs-002583",
     "name": "Missy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7033,17 +7033,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002340",
+    "type": "Territory",
+    "dhsId": "dhs-002340",
     "name": "Moiry",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7064,17 +7064,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002301",
+    "type": "Territory",
+    "dhsId": "dhs-002301",
     "name": "Mollens (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7095,17 +7095,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002642",
+    "type": "Territory",
+    "dhsId": "dhs-002642",
     "name": "Molondin",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7126,17 +7126,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002446",
+    "type": "Territory",
+    "dhsId": "dhs-002446",
     "name": "Monnaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7157,17 +7157,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002643",
+    "type": "Territory",
+    "dhsId": "dhs-002643",
     "name": "Montagny-près-Yverdon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7188,17 +7188,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002477",
+    "type": "Territory",
+    "dhsId": "dhs-002477",
     "name": "Montaubion-Chardonney",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7219,17 +7219,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002539",
+    "type": "Territory",
+    "dhsId": "dhs-002539",
     "name": "Montcherand",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7250,17 +7250,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002302",
+    "type": "Territory",
+    "dhsId": "dhs-002302",
     "name": "Montherod",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7281,17 +7281,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002341",
+    "type": "Territory",
+    "dhsId": "dhs-002341",
     "name": "Mont-la-Ville",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7312,17 +7312,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002316",
+    "type": "Territory",
+    "dhsId": "dhs-002316",
     "name": "Montmagny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7343,17 +7343,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002561",
+    "type": "Territory",
+    "dhsId": "dhs-002561",
     "name": "Montpreveyres",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7374,17 +7374,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002342",
+    "type": "Territory",
+    "dhsId": "dhs-002342",
     "name": "Montricher",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7410,17 +7410,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002409",
+    "type": "Territory",
+    "dhsId": "dhs-002409",
     "name": "Mont-sur-Lausanne, Le",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7441,17 +7441,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002604",
+    "type": "Territory",
+    "dhsId": "dhs-002604",
     "name": "Mont-sur-Rolle",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7472,17 +7472,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-003328",
+    "type": "Territory",
+    "dhsId": "dhs-003328",
     "name": "Morcles",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7503,17 +7503,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002447",
+    "type": "Territory",
+    "dhsId": "dhs-002447",
     "name": "Morges (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7559,17 +7559,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002370",
+    "type": "Territory",
+    "dhsId": "dhs-002370",
     "name": "Morrens (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7590,17 +7590,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002478",
+    "type": "Territory",
+    "dhsId": "dhs-002478",
     "name": "Moudon (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7626,17 +7626,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002317",
+    "type": "Territory",
+    "dhsId": "dhs-002317",
     "name": "Mur (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7657,17 +7657,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002395",
+    "type": "Territory",
+    "dhsId": "dhs-002395",
     "name": "Mutrux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7688,17 +7688,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002371",
+    "type": "Territory",
+    "dhsId": "dhs-002371",
     "name": "Naz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7719,17 +7719,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002479",
+    "type": "Territory",
+    "dhsId": "dhs-002479",
     "name": "Neyruz-sur-Moudon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7750,17 +7750,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002396",
+    "type": "Territory",
+    "dhsId": "dhs-002396",
     "name": "Novalles",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7781,17 +7781,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002283",
+    "type": "Territory",
+    "dhsId": "dhs-002283",
     "name": "Noville",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7812,17 +7812,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002516",
+    "type": "Territory",
+    "dhsId": "dhs-002516",
     "name": "Nyon (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7858,17 +7858,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002480",
+    "type": "Territory",
+    "dhsId": "dhs-002480",
     "name": "Ogens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7894,17 +7894,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002318",
+    "type": "Territory",
+    "dhsId": "dhs-002318",
     "name": "Oleyres",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7925,17 +7925,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002284",
+    "type": "Territory",
+    "dhsId": "dhs-002284",
     "name": "Ollon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -7976,17 +7976,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002397",
+    "type": "Territory",
+    "dhsId": "dhs-002397",
     "name": "Onnens (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8007,17 +8007,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002644",
+    "type": "Territory",
+    "dhsId": "dhs-002644",
     "name": "Oppens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8038,17 +8038,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002540",
+    "type": "Territory",
+    "dhsId": "dhs-002540",
     "name": "Orbe (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8074,17 +8074,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002645",
+    "type": "Territory",
+    "dhsId": "dhs-002645",
     "name": "Orges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8105,17 +8105,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002285",
+    "type": "Territory",
+    "dhsId": "dhs-002285",
     "name": "Ormont-Dessous",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8136,17 +8136,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002286",
+    "type": "Territory",
+    "dhsId": "dhs-002286",
     "name": "Ormont-Dessus",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8167,17 +8167,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002343",
+    "type": "Territory",
+    "dhsId": "dhs-002343",
     "name": "Orny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8198,17 +8198,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002562",
+    "type": "Territory",
+    "dhsId": "dhs-002562",
     "name": "Oron-la-Ville",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8229,17 +8229,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002563",
+    "type": "Territory",
+    "dhsId": "dhs-002563",
     "name": "Oron-le-Châtel",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8265,17 +8265,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002646",
+    "type": "Territory",
+    "dhsId": "dhs-002646",
     "name": "Orzens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8296,17 +8296,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002372",
+    "type": "Territory",
+    "dhsId": "dhs-002372",
     "name": "Oulens-sous-Echallens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8327,17 +8327,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002481",
+    "type": "Territory",
+    "dhsId": "dhs-002481",
     "name": "Oulens-sur-Lucens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8358,17 +8358,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002373",
+    "type": "Territory",
+    "dhsId": "dhs-002373",
     "name": "Pailly",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8389,17 +8389,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002564",
+    "type": "Territory",
+    "dhsId": "dhs-002564",
     "name": "Palézieux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8425,17 +8425,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002344",
+    "type": "Territory",
+    "dhsId": "dhs-002344",
     "name": "Pampigny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8456,17 +8456,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002410",
+    "type": "Territory",
+    "dhsId": "dhs-002410",
     "name": "Paudex",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8487,17 +8487,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002584",
+    "type": "Territory",
+    "dhsId": "dhs-002584",
     "name": "Payerne (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8528,17 +8528,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002565",
+    "type": "Territory",
+    "dhsId": "dhs-002565",
     "name": "Peney-le-Jorat",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8559,17 +8559,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002345",
+    "type": "Territory",
+    "dhsId": "dhs-002345",
     "name": "Penthalaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8590,17 +8590,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002346",
+    "type": "Territory",
+    "dhsId": "dhs-002346",
     "name": "Penthaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8621,17 +8621,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002374",
+    "type": "Territory",
+    "dhsId": "dhs-002374",
     "name": "Penthéréaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8652,17 +8652,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002605",
+    "type": "Territory",
+    "dhsId": "dhs-002605",
     "name": "Perroy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8688,17 +8688,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002482",
+    "type": "Territory",
+    "dhsId": "dhs-002482",
     "name": "Peyres-Possens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8719,17 +8719,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002303",
+    "type": "Territory",
+    "dhsId": "dhs-002303",
     "name": "Pizy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8750,17 +8750,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-007564",
+    "type": "Territory",
+    "dhsId": "dhs-007564",
     "name": "Planches, Les",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8781,17 +8781,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002375",
+    "type": "Territory",
+    "dhsId": "dhs-002375",
     "name": "Poliez-le-Grand",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8812,17 +8812,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002376",
+    "type": "Territory",
+    "dhsId": "dhs-002376",
     "name": "Poliez-Pittet",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8843,17 +8843,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002347",
+    "type": "Territory",
+    "dhsId": "dhs-002347",
     "name": "Pompaples",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8874,17 +8874,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002647",
+    "type": "Territory",
+    "dhsId": "dhs-002647",
     "name": "Pomy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8905,17 +8905,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002648",
+    "type": "Territory",
+    "dhsId": "dhs-002648",
     "name": "Prahins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8936,17 +8936,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002517",
+    "type": "Territory",
+    "dhsId": "dhs-002517",
     "name": "Prangins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8967,17 +8967,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002541",
+    "type": "Territory",
+    "dhsId": "dhs-002541",
     "name": "Praz, La",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -8998,17 +8998,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002542",
+    "type": "Territory",
+    "dhsId": "dhs-002542",
     "name": "Premier",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9029,17 +9029,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002448",
+    "type": "Territory",
+    "dhsId": "dhs-002448",
     "name": "Préverenges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9060,17 +9060,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002483",
+    "type": "Territory",
+    "dhsId": "dhs-002483",
     "name": "Prévonloup",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9091,17 +9091,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002411",
+    "type": "Territory",
+    "dhsId": "dhs-002411",
     "name": "Prilly",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9127,17 +9127,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002398",
+    "type": "Territory",
+    "dhsId": "dhs-002398",
     "name": "Provence",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9158,17 +9158,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002421",
+    "type": "Territory",
+    "dhsId": "dhs-002421",
     "name": "Puidoux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9189,17 +9189,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002412",
+    "type": "Territory",
+    "dhsId": "dhs-002412",
     "name": "Pully",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9240,17 +9240,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002543",
+    "type": "Territory",
+    "dhsId": "dhs-002543",
     "name": "Rances",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9296,17 +9296,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002413",
+    "type": "Territory",
+    "dhsId": "dhs-002413",
     "name": "Renens (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9332,17 +9332,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002287",
+    "type": "Territory",
+    "dhsId": "dhs-002287",
     "name": "Rennaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9363,17 +9363,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002449",
+    "type": "Territory",
+    "dhsId": "dhs-002449",
     "name": "Reverolle",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9394,17 +9394,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002422",
+    "type": "Territory",
+    "dhsId": "dhs-002422",
     "name": "Riex",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9425,17 +9425,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002518",
+    "type": "Territory",
+    "dhsId": "dhs-002518",
     "name": "Rippe, La",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9456,17 +9456,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002423",
+    "type": "Territory",
+    "dhsId": "dhs-002423",
     "name": "Rivaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9487,17 +9487,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002288",
+    "type": "Territory",
+    "dhsId": "dhs-002288",
     "name": "Roche (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9518,17 +9518,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002566",
+    "type": "Territory",
+    "dhsId": "dhs-002566",
     "name": "Rogivue, La",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9549,17 +9549,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002606",
+    "type": "Territory",
+    "dhsId": "dhs-002606",
     "name": "Rolle (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9585,17 +9585,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002544",
+    "type": "Territory",
+    "dhsId": "dhs-002544",
     "name": "Romainmôtier (village)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9621,17 +9621,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002399",
+    "type": "Territory",
+    "dhsId": "dhs-002399",
     "name": "Romairon",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9652,17 +9652,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002414",
+    "type": "Territory",
+    "dhsId": "dhs-002414",
     "name": "Romanel-sur-Lausanne",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9683,17 +9683,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002450",
+    "type": "Territory",
+    "dhsId": "dhs-002450",
     "name": "Romanel-sur-Morges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9714,17 +9714,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002567",
+    "type": "Territory",
+    "dhsId": "dhs-002567",
     "name": "Ropraz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9745,17 +9745,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002484",
+    "type": "Territory",
+    "dhsId": "dhs-002484",
     "name": "Rossenges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9776,17 +9776,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002585",
+    "type": "Territory",
+    "dhsId": "dhs-002585",
     "name": "Rossens (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9807,17 +9807,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002594",
+    "type": "Territory",
+    "dhsId": "dhs-002594",
     "name": "Rossinière",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9838,17 +9838,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002595",
+    "type": "Territory",
+    "dhsId": "dhs-002595",
     "name": "Rougemont (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9869,17 +9869,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002649",
+    "type": "Territory",
+    "dhsId": "dhs-002649",
     "name": "Rovray",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9900,17 +9900,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002377",
+    "type": "Territory",
+    "dhsId": "dhs-002377",
     "name": "Rueyres",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9931,17 +9931,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002378",
+    "type": "Territory",
+    "dhsId": "dhs-002378",
     "name": "Saint-Barthélemy (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9962,17 +9962,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002519",
+    "type": "Territory",
+    "dhsId": "dhs-002519",
     "name": "Saint-Cergue",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -9998,17 +9998,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002485",
+    "type": "Territory",
+    "dhsId": "dhs-002485",
     "name": "Saint-Cierges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10029,17 +10029,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002400",
+    "type": "Territory",
+    "dhsId": "dhs-002400",
     "name": "Sainte-Croix (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10065,17 +10065,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002304",
+    "type": "Territory",
+    "dhsId": "dhs-002304",
     "name": "Saint-George",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10096,17 +10096,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002618",
+    "type": "Territory",
+    "dhsId": "dhs-002618",
     "name": "Saint-Légier-La Chiésaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10127,17 +10127,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002305",
+    "type": "Territory",
+    "dhsId": "dhs-002305",
     "name": "Saint-Livres",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10158,17 +10158,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002306",
+    "type": "Territory",
+    "dhsId": "dhs-002306",
     "name": "Saint-Oyens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10189,17 +10189,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002451",
+    "type": "Territory",
+    "dhsId": "dhs-002451",
     "name": "Saint-Prex",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10225,17 +10225,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002424",
+    "type": "Territory",
+    "dhsId": "dhs-002424",
     "name": "Saint-Saphorin (Lavaux)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10256,17 +10256,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002452",
+    "type": "Territory",
+    "dhsId": "dhs-002452",
     "name": "Saint-Saphorin-sur-Morges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10287,17 +10287,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002453",
+    "type": "Territory",
+    "dhsId": "dhs-002453",
     "name": "Saint-Sulpice (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10348,17 +10348,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002348",
+    "type": "Territory",
+    "dhsId": "dhs-002348",
     "name": "Sarraz, La (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10384,17 +10384,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002486",
+    "type": "Territory",
+    "dhsId": "dhs-002486",
     "name": "Sarzens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10415,17 +10415,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002586",
+    "type": "Territory",
+    "dhsId": "dhs-002586",
     "name": "Sassel",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10446,17 +10446,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002307",
+    "type": "Territory",
+    "dhsId": "dhs-002307",
     "name": "Saubraz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10477,17 +10477,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002425",
+    "type": "Territory",
+    "dhsId": "dhs-002425",
     "name": "Savigny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10508,17 +10508,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002587",
+    "type": "Territory",
+    "dhsId": "dhs-002587",
     "name": "Sédeilles",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10539,17 +10539,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002588",
+    "type": "Territory",
+    "dhsId": "dhs-002588",
     "name": "Seigneux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10570,17 +10570,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002349",
+    "type": "Territory",
+    "dhsId": "dhs-002349",
     "name": "Senarclens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10601,17 +10601,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002545",
+    "type": "Territory",
+    "dhsId": "dhs-002545",
     "name": "Sergey",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10632,17 +10632,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002568",
+    "type": "Territory",
+    "dhsId": "dhs-002568",
     "name": "Servion",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10663,17 +10663,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002350",
+    "type": "Territory",
+    "dhsId": "dhs-002350",
     "name": "Sévery",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10694,17 +10694,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002520",
+    "type": "Territory",
+    "dhsId": "dhs-002520",
     "name": "Signy-Avenex",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10725,17 +10725,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002487",
+    "type": "Territory",
+    "dhsId": "dhs-002487",
     "name": "Sottens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10756,17 +10756,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002650",
+    "type": "Territory",
+    "dhsId": "dhs-002650",
     "name": "Suchy",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10787,17 +10787,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002379",
+    "type": "Territory",
+    "dhsId": "dhs-002379",
     "name": "Sugnens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10818,17 +10818,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002351",
+    "type": "Territory",
+    "dhsId": "dhs-002351",
     "name": "Sullens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10849,17 +10849,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002651",
+    "type": "Territory",
+    "dhsId": "dhs-002651",
     "name": "Suscévaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10880,17 +10880,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002488",
+    "type": "Territory",
+    "dhsId": "dhs-002488",
     "name": "Syens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10911,17 +10911,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002521",
+    "type": "Territory",
+    "dhsId": "dhs-002521",
     "name": "Tannay",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10942,17 +10942,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002607",
+    "type": "Territory",
+    "dhsId": "dhs-002607",
     "name": "Tartegnin",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -10973,17 +10973,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002569",
+    "type": "Territory",
+    "dhsId": "dhs-002569",
     "name": "Tavernes, Les",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11004,17 +11004,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002489",
+    "type": "Territory",
+    "dhsId": "dhs-002489",
     "name": "Thierrens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11035,17 +11035,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002570",
+    "type": "Territory",
+    "dhsId": "dhs-002570",
     "name": "Thioleyres, Les",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11066,17 +11066,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002454",
+    "type": "Territory",
+    "dhsId": "dhs-002454",
     "name": "Tolochenaz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11097,17 +11097,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002619",
+    "type": "Territory",
+    "dhsId": "dhs-002619",
     "name": "Tour-de-Peilz, La",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11138,17 +11138,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002522",
+    "type": "Territory",
+    "dhsId": "dhs-002522",
     "name": "Trélex",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11169,17 +11169,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002589",
+    "type": "Territory",
+    "dhsId": "dhs-002589",
     "name": "Trey",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11200,17 +11200,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002652",
+    "type": "Territory",
+    "dhsId": "dhs-002652",
     "name": "Treycovagnes",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11231,17 +11231,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002590",
+    "type": "Territory",
+    "dhsId": "dhs-002590",
     "name": "Treytorrens (Payerne)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11262,17 +11262,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002653",
+    "type": "Territory",
+    "dhsId": "dhs-002653",
     "name": "Ursins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11293,17 +11293,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002654",
+    "type": "Territory",
+    "dhsId": "dhs-002654",
     "name": "Valeyres-sous-Montagny",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11324,17 +11324,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002546",
+    "type": "Territory",
+    "dhsId": "dhs-002546",
     "name": "Valeyres-sous-Rances",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11355,17 +11355,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002655",
+    "type": "Territory",
+    "dhsId": "dhs-002655",
     "name": "Valeyres-sous-Ursins",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11386,17 +11386,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002319",
+    "type": "Territory",
+    "dhsId": "dhs-002319",
     "name": "Vallamand",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11417,17 +11417,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002547",
+    "type": "Territory",
+    "dhsId": "dhs-002547",
     "name": "Vallorbe",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11448,17 +11448,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002523",
+    "type": "Territory",
+    "dhsId": "dhs-002523",
     "name": "Vaud, Le",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11479,17 +11479,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002401",
+    "type": "Territory",
+    "dhsId": "dhs-002401",
     "name": "Vaugondry",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11510,17 +11510,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002548",
+    "type": "Territory",
+    "dhsId": "dhs-002548",
     "name": "Vaulion",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11541,17 +11541,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002455",
+    "type": "Territory",
+    "dhsId": "dhs-002455",
     "name": "Vaux-sur-Morges",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11572,17 +11572,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002620",
+    "type": "Territory",
+    "dhsId": "dhs-002620",
     "name": "Vevey (commune)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11638,17 +11638,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002621",
+    "type": "Territory",
+    "dhsId": "dhs-002621",
     "name": "Veytaux",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11669,17 +11669,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002524",
+    "type": "Territory",
+    "dhsId": "dhs-002524",
     "name": "Vich",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11700,17 +11700,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002591",
+    "type": "Territory",
+    "dhsId": "dhs-002591",
     "name": "Villars-Bramard",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11731,17 +11731,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002402",
+    "type": "Territory",
+    "dhsId": "dhs-002402",
     "name": "Villars-Burquin",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11762,17 +11762,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002656",
+    "type": "Territory",
+    "dhsId": "dhs-002656",
     "name": "Villars-Epeney",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11793,17 +11793,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002490",
+    "type": "Territory",
+    "dhsId": "dhs-002490",
     "name": "Villars-le-Comte",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11824,17 +11824,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002320",
+    "type": "Territory",
+    "dhsId": "dhs-002320",
     "name": "Villars-le-Grand",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11855,17 +11855,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002380",
+    "type": "Territory",
+    "dhsId": "dhs-002380",
     "name": "Villars-le-Terroir",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11886,17 +11886,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002352",
+    "type": "Territory",
+    "dhsId": "dhs-002352",
     "name": "Villars-Lussery",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11917,17 +11917,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002491",
+    "type": "Territory",
+    "dhsId": "dhs-002491",
     "name": "Villars-Mendraz",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11948,17 +11948,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002456",
+    "type": "Territory",
+    "dhsId": "dhs-002456",
     "name": "Villars-Sainte-Croix",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -11979,17 +11979,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002657",
+    "type": "Territory",
+    "dhsId": "dhs-002657",
     "name": "Villars-sous-Champvent",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12010,17 +12010,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002457",
+    "type": "Territory",
+    "dhsId": "dhs-002457",
     "name": "Villars-sous-Yens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12041,17 +12041,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002381",
+    "type": "Territory",
+    "dhsId": "dhs-002381",
     "name": "Villars-Tiercelin",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12072,17 +12072,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002592",
+    "type": "Territory",
+    "dhsId": "dhs-002592",
     "name": "Villarzel",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12108,17 +12108,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002289",
+    "type": "Territory",
+    "dhsId": "dhs-002289",
     "name": "Villeneuve (VD)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12169,17 +12169,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002426",
+    "type": "Territory",
+    "dhsId": "dhs-002426",
     "name": "Villette (Lavaux)",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12200,17 +12200,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002608",
+    "type": "Territory",
+    "dhsId": "dhs-002608",
     "name": "Vinzel",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12231,17 +12231,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002382",
+    "type": "Territory",
+    "dhsId": "dhs-002382",
     "name": "Vuarrens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12262,17 +12262,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002492",
+    "type": "Territory",
+    "dhsId": "dhs-002492",
     "name": "Vucherens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12293,17 +12293,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002353",
+    "type": "Territory",
+    "dhsId": "dhs-002353",
     "name": "Vufflens-la-Ville",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12324,17 +12324,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002458",
+    "type": "Territory",
+    "dhsId": "dhs-002458",
     "name": "Vufflens-le-Château",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12355,17 +12355,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002658",
+    "type": "Territory",
+    "dhsId": "dhs-002658",
     "name": "Vugelles-La-Mothe",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12386,17 +12386,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002571",
+    "type": "Territory",
+    "dhsId": "dhs-002571",
     "name": "Vuibroye",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12417,17 +12417,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002549",
+    "type": "Territory",
+    "dhsId": "dhs-002549",
     "name": "Vuitebœuf",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12448,17 +12448,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002572",
+    "type": "Territory",
+    "dhsId": "dhs-002572",
     "name": "Vulliens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12479,17 +12479,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002459",
+    "type": "Territory",
+    "dhsId": "dhs-002459",
     "name": "Vullierens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12510,17 +12510,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002460",
+    "type": "Territory",
+    "dhsId": "dhs-002460",
     "name": "Yens",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12541,17 +12541,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002659",
+    "type": "Territory",
+    "dhsId": "dhs-002659",
     "name": "Yverdon-les-Bains",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12622,17 +12622,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002660",
+    "type": "Territory",
+    "dhsId": "dhs-002660",
     "name": "Yvonand",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [
@@ -12653,17 +12653,17 @@
     ]
   },
   {
-    "type": "politicalEntity",
-    "id": "dhs-002290",
+    "type": "Territory",
+    "dhsId": "dhs-002290",
     "name": "Yvorne",
     "category": "territoire",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1850",
       "bestGuess": "1850"
     },
     "end": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "earliest": "1850"
     },
     "tags": [

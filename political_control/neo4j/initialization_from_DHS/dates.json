@@ -1,0 +1,41 @@
+[
+    {
+      "readableId": "conquete-vaud-par-berne",
+      "type":"KnownDate",
+      "date": "1536"
+    },
+    {
+      "readableId": "fin-ancien-regime-suisse",
+      "type":"KnownDate",
+      "date": "1798"
+    },
+    {
+      "readableId": "creation-principaute-neuchatel",
+      "type":"UncertainAroundDate",
+      "date": "1640",
+      "uncertainty": "10Y"
+    },
+    {
+      "readableId": "partage-seigneurie-grandson",
+      "type":"KnownDate",
+      "date": "1234"
+    },
+    {
+      "readableId": "dissolution-seigneurie-grandson",
+      "type":"KnownDate",
+      "date": "1476"
+    },
+    {
+      "readableId": "fondation-abbaye-lac-de-joux",
+      "type":"UncertainBoundedDate",
+      "earliest": "1126",
+      "latest": "1134"
+    },
+    {
+      "readableId": "fin-conflit-abbayes-joux-st-claude",
+      "type":"UncertainBoundedDate",
+      "earliest": "1204",
+      "latest": "1219",
+      "bestGuess": "1204"
+    }
+]

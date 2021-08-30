@@ -47,7 +47,13 @@ Proposition:
 - WIP create py2neo routines for bulk creation
     - DONE create data model
     - add json-parsing to data model
+        - implement date from_readable_id()
     - fit existing json to data model expected json format
+        - DONE remove empty end/start
+        - DONE date id-> readableId
+        - DONE exactDate -> KnownDate
+        - DONE add first upper case to types
+        - DONE id-> dhsId, tags->dhsTags
     - create script importing DHS jsons
 - populate neo4j db with DHS entries
 - add entries by hand

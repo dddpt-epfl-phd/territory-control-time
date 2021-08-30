@@ -2,8 +2,8 @@
 
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-012134",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-012134",
     "name": "Abbaye du Lac de Joux",
     "category": "abbaye",
     "start": "fondation-abbaye-lac-de-joux",
@@ -33,17 +33,17 @@
 
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-007107",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-007107",
     "name": "Abbaye de Saint-Claude",
     "category": "abbaye",
     "start": {
-        "type":"uncertainAroundDate",
+        "type": "UncertainAroundDate",
         "date":"430",
         "uncertainty": "10Y"
     },
     "end": {
-      "type": "exactDate",
+      "type": "KnownDate",
       "date": "1791"
     },
     "tags": [
@@ -73,18 +73,10 @@
 
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-002534",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-002534",
     "name": "Clées, Les",
     "category": "",
-    "start": {
-      "type": "exactDate",
-      "date": ""
-    },
-    "end": {
-      "type": "exactDate",
-      "date": ""
-    },
     "tags": [
       "Commune",
       "Seigneurie",
@@ -116,8 +108,8 @@
 
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-007572",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-007572",
     "name": "Seigneurie de Champvent",
     "category": "",
     "start": "partage-seigneurie-grandson",
@@ -147,12 +139,12 @@
   },
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-007575",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-007575",
     "name": "Seigneurie de La Sarraz",
     "category": "baronnie",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1100",
     },
     "end": "fin-ancien-regime-suisse",
@@ -176,12 +168,12 @@
   },
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-007574",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-007574",
     "name": "Seigneurie de Grandson",
     "category": "seigneurie",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1100",
     },
     "end": "dissolution-seigneurie-grandson",
@@ -216,12 +208,12 @@
 
 
   {
-    "type": "politicalEntity",
-    "id": "comte-neuchatel",
+    "type": "PoliticalEntity",
+    "dhsId": "comte-neuchatel",
     "name": "Comté de Neuchâtel",
     "category": "comté",
     "start": {
-      "type": "uncertainBoundedDate",
+      "type": "UncertainBoundedDate",
       "latest": "1143"
     },
     "end": "creation-principaute-neuchatel",
@@ -255,17 +247,17 @@
   },
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-008148",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-008148",
     "name": "Comté de Gruyère",
     "category": "comté",
     "start": {
-        "type":"uncertainAroundDate",
+        "type": "UncertainAroundDate",
         "date":"1150", 
         "uncertainty": "50Y"
     },
     "end": {
-      "type": "exactDate",
+      "type": "KnownDate",
       "date": "1555"
     },
     "tags": [
@@ -304,8 +296,8 @@
   },
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-007574",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-007574",
     "name": "Baillage de Grandson",
     "category": "baillage",
     "start": "dissolution-seigneurie-grandson",
@@ -326,8 +318,8 @@
   },
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-007585",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-007585",
     "name": "Baillage d'Yverdon",
     "category": "baillage",
     "start": "conquete-vaud-par-berne",
@@ -356,12 +348,12 @@
   },
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-007582",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-007582",
     "name": "Romainmôtier (seigneurie, bailliage)",
     "category": "baillage",
     "start": {
-      "type": "exactDate",
+      "type": "KnownDate",
       "date": "1537"
     },
     "end": "fin-ancien-regime-suisse",
@@ -389,17 +381,17 @@
   },
 
   {
-    "type": "politicalEntity",
-    "id": "dhs-007281",
+    "type": "PoliticalEntity",
+    "dhsId": "dhs-007281",
     "name": "Duché de Bourgogne",
     "category": "duché",
     "start": {
-      "type":"uncertainAroundDate",
+      "type": "UncertainAroundDate",
       "date": "900",
       "uncertainty": "10Y"
     },
     "end": {
-      "type": "exactDate",
+      "type": "KnownDate",
       "date": "1477"
     },
     "tags": [

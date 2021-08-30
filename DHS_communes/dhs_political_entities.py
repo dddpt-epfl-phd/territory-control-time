@@ -107,19 +107,19 @@ def format_dhs_results_to_political_entities(dhs_pe):
     ep_regex = re.compile(r"Entités politiques / ")
     # fetching all the pages
     return [{
-        "type": "politicalEntity",
-        "id": e["id"],
+        "type": "PoliticalEntity",
+        "dhsId": e["id"],
         "name": e["name"],
         "category": "",
-        "start": {
-            "type":"exactDate",
-            "date":"" 
-        },
-        "end": {
-            "type":"exactDate",
-            "date":""
-        },
-        "tags": [ep_regex.sub("", t["tag"]) for t in e["tags"]],
+        # "start": {
+        #     "type":"exactDate",
+        #     "date":"" 
+        # },
+        # "end": {
+        #     "type":"exactDate",
+        #     "date":""
+        # },
+        "dhsTags": [ep_regex.sub("", t["tag"]) for t in e["tags"]],
         "description": "",
         "sources": [e]
     } for n,e in dhs_pe.items() if n in tagged_entries]
@@ -163,14 +163,14 @@ political_entity_template = {
     "id": "",
     "name": "",
     "category": "",
-    "start": {
-        "type":"exactDate",
-        "date":"" 
-    },
-    "end": {
-        "type":"exactDate",
-        "date":""
-    },
+    # "start": {
+    #     "type":"exactDate",
+    #     "date":"" 
+    # },
+    # "end": {
+    #     "type":"exactDate",
+    #     "date":""
+    # },
     "tags": [],
     "description": "",
     "sources": []

@@ -9,6 +9,8 @@ from py2neo.ogm import GraphObject, Property, RelatedTo, RelatedFrom, Label
 #######################################################
 
 class HistoricalDate(GraphObject):
+    __primaryvalue__="readable_id"
+    
     historical_date=Label()
 
     readableId=Property()
@@ -17,18 +19,28 @@ class HistoricalDate(GraphObject):
         super().__init__(*args, **kwargs)
         self.historical_date=True
 
+    """ @property
+    def readable_id(self):
+        return self.readableId
+    @readable_id.setter
+    def readable_id(self, readable_id):
+        self.readableId = readable_id
+    @readable_id.deleter
+    def readable_id(self):
+        del self.readableId """
+
     @abstractmethod
     def is_in_interval(self, start, end, certain=False, whole_interval=False):
         raise Exception("HistoricalDate.is_in_interval() must be implemented in subclass",self.__class__)
 
     @staticmethod
-    def parse_json(d):
+    def parse_json(d, graph=None):
         if isinstance(d, str):
-            return HistoricalDate.fromReadableId(d)
+            return HistoricalDate.from_readable_id(graph, d)
         if "type" not in d:
             raise Exception("HistoricalDate.parse_json() date missing type:"+json.dumps(d))
         date = None
-        if d["type"]=="exactDate":
+        if d["type"]=="KnownDate":
             if d["date"]:
                 date = KnownDate._parse_json(d)
             else:
@@ -47,8 +59,14 @@ class HistoricalDate(GraphObject):
         return date
 
     @staticmethod
-    def fromReadableId(d):
-        raise Exception("Date.fromReadableId() not implemented")
+    def from_readable_id(graph, d):
+        if not graph:
+            raise Exception("Date.from_readable_id(): graph is None, must be set for it to work. date readableId: "+d)
+            #raise Exception("Date.from_readable_id() not implemented")
+        date = HistoricalDate.match(graph, primary_value=d).first()
+        if not date:
+            raise Exception("Date.from_readable_id(): no matching date found for date readableId: "+d)
+        return date
 
 class KnownDate(HistoricalDate):
     date=Property()
@@ -87,7 +105,7 @@ class UncertainBoundedDate(HistoricalDate):
 
 
 class UncertainPossibilitiesDate(HistoricalDate):
-    possibilities=RelatedTo("HAS_POSSIBILITY", "HistoricalDate")
+    possibilities=RelatedTo("HistoricalDate", "HAS_POSSIBILITY")
 
     def _parse_json(d):
         date = UncertainPossibilitiesDate()
@@ -113,8 +131,8 @@ class HistoricalEntity(GraphObject):
     historical_entity=Label()
     DHS_sourced=Label()
 
-    start=RelatedTo("START", "HistoricalDate")
-    end=RelatedTo("END", "HistoricalDate")
+    start=RelatedTo("HistoricalDate", "START")
+    end=RelatedTo("HistoricalDate", "END")
     
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -126,26 +144,38 @@ class HistoricalEntity(GraphObject):
 
 
 class PoliticalEntity(HistoricalEntity):
-    dhs_id=Property()
+    dhsId=Property()
     political_entity=Label()
 
     name=Property()
     category=Property()
     description=Property()
 
-    sources=RelatedTo("HAS_SOURCE", "Source")
+    sources=RelatedTo("Source", "HAS_SOURCE")
 
-    controlling=RelatedTo("HAS_CONTROL", "PoliticalControl")
-    controlled_by=RelatedFrom("CONTROL_OVER", "PoliticalControl")
+    controlling=RelatedTo("PoliticalControl", "HAS_CONTROL")
+    controlled_by=RelatedFrom("PoliticalControl", "CONTROL_OVER")
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.political_entity=True
 
+    """ @property
+    def dhs_id(self):
+        return self.dhsId
+    @dhs_id.setter
+    def dhs_id(self, dhs_id):
+        self.dhsId = dhs_id
+    @dhs_id.deleter
+    def dhs_id(self):
+        del self.dhsId """
+    
+    @dhs_id.deleter
+
     @staticmethod
     def parse_json(pe, DHS_sourced = False):
         if isinstance(pe, str):
-            return HistoricalDate.fromReadableId(pe)
+            return HistoricalDate.from_readable_id(pe)
         if "type" not in pe:
             raise Exception("PoliticalEntity.parse_json() missing type:"+json.dumps(pe))
         political_entity = None
@@ -157,7 +187,8 @@ class PoliticalEntity(HistoricalEntity):
             political_entity = Individual._parse_json(pe)
         else:
             political_entity = PoliticalEntity()
-        political_entity.dhs_id=pe["id"]
+        if "dhsId" in pe:
+            political_entity.dhsId=pe["dhsId"]
         political_entity.name = pe["name"]
         political_entity.category= pe["category"]
         if "start" in pe:
@@ -185,7 +216,7 @@ class Individual(PoliticalEntity):
         pass
 
 class HumanGroup(PoliticalEntity):
-    members=RelatedFrom("IS_MEMBER", "Individual")
+    members=RelatedFrom("Individual", "IS_MEMBER")
 
     @staticmethod
     def _parse_json(t):
@@ -198,10 +229,10 @@ class HumanGroup(PoliticalEntity):
 class PoliticalControl(HistoricalEntity):
     political_control=Label()
 
-    controllers=RelatedFrom("HAS_CONTROL", "PoliticalEntity")
-    controlled=RelatedTo("CONTROL_OVER", "PoliticalEntity")
+    controllers=RelatedFrom("PoliticalEntity", "HAS_CONTROL")
+    controlled=RelatedTo("PoliticalEntity", "CONTROL_OVER")
 
-    sources=RelatedTo("HAS_SOURCE", "Source")
+    sources=RelatedTo("Source", "HAS_SOURCE")
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -248,22 +279,22 @@ class UnknownControl(PoliticalControl):
         return control
 
 class SharedControl(PoliticalControl):
-    main_controller=RelatedFrom("IS_MAIN_CONTROLLER", "PoliticalEntity")
+    main_controller=RelatedFrom("PoliticalEntity", "IS_MAIN_CONTROLLER")
     @staticmethod
     def _parse_json(t):
         control = SharedControl()
         return control
 
 class ContestedControl(PoliticalControl):
-    main_controller=RelatedFrom("IS_MAIN_CONTROLLER", "PoliticalEntity")
+    main_controller=RelatedFrom("PoliticalEntity", "IS_MAIN_CONTROLLER")
     @staticmethod
     def _parse_json(t):
         control = ContestedControl()
         return control
 
 class UncertainOneOfControl(PoliticalControl):
-    likeliest_controller=RelatedTo("HAS_POSSIBLE_CONTROL", "PoliticalControl")
-    possible_controls=RelatedTo("IS_LIKELIEST_CONTROL", "PoliticalControl")
+    likeliest_controller=RelatedTo("PoliticalControl", "HAS_POSSIBLE_CONTROL")
+    possible_controls=RelatedTo("PoliticalControl", "IS_LIKELIEST_CONTROL")
     @staticmethod
     def _parse_json(t):
         control = UncertainOneOfControl()
@@ -282,7 +313,7 @@ class ControlOver(Relationship):
 # Sources & references
 #######################################################
 
-class Source(Node):
+class Source(GraphObject):
     source=Label()
 
     description=Property()
@@ -329,9 +360,19 @@ class URLSource(Source):
 dhs_article_id_regex = re.compile(r"articles/(.+?)/")
 class DHSArticle(URLSource):
     __primarykey__="dhsId"
-    dhs_id=Property()
+    dhsId=Property()
 
-    tags = RelatedFrom("DHS_TAG_OF","DHSTag")
+    tags = RelatedTo("DHSTag", "HAS_DHS_TAG")
+
+    """ @property
+    def dhs_id(self):
+        return self.dhsId
+    @dhs_id.setter
+    def dhs_id(self, dhs_id):
+        self.dhsId = dhs_id
+    @dhs_id.deleter
+    def dhs_id(self):
+        del self.dhsId """
 
     @staticmethod
     def parse_json(dhsa):
@@ -344,7 +385,7 @@ class DHSArticle(URLSource):
 
         article_id_match = dhs_article_id_regex.search(dhsa["url"])
         if article_id_match:
-            article.dhs_id = "dhs-"+article_id_match.group(1)
+            article.dhsId = "dhs-"+article_id_match.group(1)
         
         for tag in dhsa["tags"]:
             article.tags.add(DHSTag.parse_json(tag))
@@ -356,12 +397,13 @@ class DHSTag(GraphObject):
     tag=Property()
     url=Property()
 
-    tagging = RelatedTo("DHS_TAG_OF","DHSArticle")
+    tagging = RelatedFrom("DHSArticle", "HAS_DHS_TAG")
 
     @staticmethod
     def parse_json(dt):
         tag = DHSTag()
         tag.url=dt["url"]
         tag.tag=dt["tag"]
+        return tag
 
 
