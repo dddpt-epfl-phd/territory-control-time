@@ -210,7 +210,7 @@ class PoliticalControl(HistoricalEntity):
     @staticmethod
     def parse_json(pc, DHS_sourced = False):
         if "type" not in pc:
-            raise Exception("PoliticalControl.parse_json() missing type:"+json.dumps(pc))f pe["type"]=="Territory":
+            raise Exception("PoliticalControl.parse_json() missing type:"+json.dumps(pc))
 
         political_control = None
         if pc["type"]=="DirectControl":
@@ -224,7 +224,7 @@ class PoliticalControl(HistoricalEntity):
         elif pc["type"]=="UncertainOneOfControl":
             political_control = UncertainOneOfControl._parse_json(pc)
         else:
-            raise Exception("PoliticalControl.parse_json() unknown type:"+json.dumps(pc))f pe["type"]=="Territory":
+            raise Exception("PoliticalControl.parse_json() unknown type:"+json.dumps(pc))
 
         if "start" in pc:
             political_control.start.add(HistoricalDate.parse_json(pc["start"]))
