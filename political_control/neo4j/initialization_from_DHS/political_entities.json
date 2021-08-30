@@ -145,7 +145,7 @@
     "category": "baronnie",
     "start": {
       "type": "UncertainBoundedDate",
-      "latest": "1100",
+      "latest": "1100"
     },
     "end": "fin-ancien-regime-suisse",
     "tags": [
@@ -174,7 +174,7 @@
     "category": "seigneurie",
     "start": {
       "type": "UncertainBoundedDate",
-      "latest": "1100",
+      "latest": "1100"
     },
     "end": "dissolution-seigneurie-grandson",
     "tags": [
@@ -311,7 +311,7 @@
     "sources": [
       {
         "url": "https://hls-dhs-dss.ch/fr/articles/007574/2009-10-15/",
-        "id": "dhs-007574",
+        "id": "dhs-007574"
         
       }
     ]
@@ -411,5 +411,5 @@
         ]
       }
     ]
-  },
+  }
 ]

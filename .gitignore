@@ -387,3 +387,6 @@ sketch
 # ods files (libreofficespreadsheets)
 **/*.ods
 **/.~lock.*
+
+# neo4j files
+**/neo4j_db/
