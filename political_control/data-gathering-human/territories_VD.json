@@ -1,4 +1,4 @@
-const territories = [
+[
   {
     "type": "politicalEntity",
     "id": "dhs-002609",

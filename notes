@@ -27,3 +27,28 @@ todo:
     -> look up communes' page
     -> move higher PE in hoPE file as needed
         -> consult their page as needed
+
+
+
+Towards Neo4j
+=====================================
+
+problems:
+- hand-json editing is tedious and error-prone
+- neo4j provides the right tool to do what I want
+-> using py2neo to create the required objects
+
+Proposition:
+- DONE think about graph model
+    -> sources
+    -> territories (~1850 communes)
+    -> political entities
+    -> links from territories, PE to sources
+- WIP create py2neo routines for bulk creation
+    - DONE create data model
+    - add json-parsing to data model
+    - fit existing json to data model expected json format
+    - create script importing DHS jsons
+- populate neo4j db with DHS entries
+- add entries by hand
+
