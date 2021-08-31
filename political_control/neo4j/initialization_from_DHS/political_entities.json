@@ -74,8 +74,8 @@
 
   {
     "type": "PoliticalEntity",
-    "dhsId": "dhs-002534",
-    "name": "Clées, Les",
+    "dhsId": "dhs-002534-2",
+    "name": "Seigneurie des Clées",
     "category": "",
     "tags": [
       "Commune",
@@ -209,7 +209,6 @@
 
   {
     "type": "PoliticalEntity",
-    "dhsId": "comte-neuchatel",
     "name": "Comté de Neuchâtel",
     "category": "comté",
     "start": {
@@ -297,7 +296,7 @@
 
   {
     "type": "PoliticalEntity",
-    "dhsId": "dhs-007574",
+    "dhsId": "dhs-007574-2",
     "name": "Baillage de Grandson",
     "category": "baillage",
     "start": "dissolution-seigneurie-grandson",
@@ -350,7 +349,7 @@
   {
     "type": "PoliticalEntity",
     "dhsId": "dhs-007582",
-    "name": "Romainmôtier (seigneurie, bailliage)",
+    "name": "Baillage de Romainmôtier",
     "category": "baillage",
     "start": {
       "type": "KnownDate",

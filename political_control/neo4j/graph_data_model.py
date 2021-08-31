@@ -196,7 +196,7 @@ class PoliticalEntity(HistoricalEntity):
         if "start" in pe:
             political_entity.start.add(HistoricalDate.parse_json(pe["start"], graph))
         if "end" in pe:
-            political_entity.start.add(HistoricalDate.parse_json(pe["end"], graph))
+            political_entity.end.add(HistoricalDate.parse_json(pe["end"], graph))
         for s in pe["sources"]:
             political_entity.sources.add(Source.parse_json(s, graph))
         political_entity.DHS_sourced = DHS_sourced
