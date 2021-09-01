@@ -1,10 +1,19 @@
 from abc import abstractmethod
+from collections.abc import Iterable
 import json
+from os import read, stat
 import re
 from warnings import warn
 
 from py2neo import Node, Relationship
 from py2neo.ogm import GraphObject, Property, RelatedTo, RelatedFrom, Label
+
+
+def short_dhsId(dhsId):
+    return re.sub("dhs-","", dhsId)
+def format_dhsId(dhsId):
+    return "dhs-"+short_dhsId(dhsId)
+
 
 # Dates
 #######################################################
@@ -59,18 +68,23 @@ class HistoricalDate(GraphObject):
         return date
 
     @staticmethod
-    def from_readable_id(d, graph=None):
+    def from_readable_id(readableId, graph=None, strict_match=True):
         date=None
+        if not strict_match:
+            ".*"+readableId+".*"
         if graph:
-            date = HistoricalDate.match(graph).where("_.readableId='"+d+"'").first()
+            date = HistoricalDate.match(graph).where("_.readableId=~'"+readableId+"'")
         if not date:
             if graph:
-                warn("Date.from_readable_id(): no matching date found for date readableId: "+d)
+                warn("Date.from_readable_id(): no matching date found for date readableId: "+readableId)
             else:
-                warn("Date.from_readable_id(): no graph, creating empty HDate for date readableId: "+d)
+                warn("Date.from_readable_id(): no graph, creating empty HDate for date readableId: "+readableId)
                 date = HistoricalDate()
-                date.readableId=d
-        return date
+                date.readableId=readableId
+        if len(date)>1:
+            warn("Date.from_readable_id(): multiple matches for readableId: "+readableId)
+            return list(date)
+        return date.first()
 
 class KnownDate(HistoricalDate):
     date=Property()
@@ -80,6 +94,14 @@ class KnownDate(HistoricalDate):
         date = KnownDate()
         date.date=d["date"]
         return date
+
+    @staticmethod
+    def new(readable_id, date):
+        d = KnownDate()
+        d.readableId=readable_id
+        d.date=date
+        return d
+        
 
 
 class UncertainAroundDate(HistoricalDate):
@@ -91,6 +113,14 @@ class UncertainAroundDate(HistoricalDate):
         date.date=d["date"]
         date.uncertainty=d["uncertainty"]
         return date
+
+    @staticmethod
+    def new(readable_id, date, uncertainty):
+        d = UncertainAroundDate()
+        d.readableId=readable_id
+        d.date=date
+        d.uncertainty=uncertainty
+        return d
 
 
 class UncertainBoundedDate(HistoricalDate):
@@ -107,6 +137,14 @@ class UncertainBoundedDate(HistoricalDate):
             date.bestGuess=d["bestGuess"]
         return date
 
+    @staticmethod
+    def new(readable_id, earliest=None, latest=None):
+        d = UncertainBoundedDate()
+        d.readableId=readable_id
+        d.earliest=earliest
+        d.latest=latest
+        return d
+
 
 class UncertainPossibilitiesDate(HistoricalDate):
     possibilities=RelatedTo("HistoricalDate", "HAS_POSSIBILITY")
@@ -118,6 +156,14 @@ class UncertainPossibilitiesDate(HistoricalDate):
         if "bestGuess" in d:
             date.bestGuess=d["bestGuess"]
         return date
+
+    @staticmethod
+    def new(readable_id, possibilities):
+        d = UncertainPossibilitiesDate()
+        d.readableId=readable_id
+        for p in possibilities:
+            d.possibilities.add(d)
+        return d
 
 
 # date relationships
@@ -160,9 +206,13 @@ class PoliticalEntity(HistoricalEntity):
     controlling=RelatedTo("PoliticalControl", "HAS_CONTROL")
     controlled_by=RelatedFrom("PoliticalControl", "CONTROL_OVER")
 
+    predecessors=RelatedTo("PoliticalEntity", "SUCCESSOR_OF")
+    successors=RelatedFrom("PoliticalEntity", "SUCCESSOR_OF")
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.political_entity=True
+
 
     """ @property
     def dhs_id(self):
@@ -202,6 +252,54 @@ class PoliticalEntity(HistoricalEntity):
         political_entity.DHS_sourced = DHS_sourced
         return political_entity
 
+    @staticmethod
+    def from_dhsId(graph, dhsId, more_than_one_expected = False, strict_match=False):
+        if not strict_match:
+            dhsId+=".*"
+        gpes = [gpe for gpe in 
+            PoliticalEntity.match(graph).where(r"_.dhsId=~'(dhs-)?"+dhsId+"'")
+        ]
+        if len(gpes)>1 and not more_than_one_expected:
+            warn("PoliticalEntity.from_dhsId() more than 1 political entity")
+        return gpes
+    
+    @staticmethod
+    def from_name(graph, name_regex, strict_match=False):
+        if not strict_match:
+            name_regex=".*"+name_regex+".*"
+        return [go for go in PoliticalEntity.match(graph).where(r"_.name=~'"+name_regex+r"'")]
+    
+    @staticmethod
+    def dhsIds_from_name(graph, name_regex, strict_match=False):
+        matches = PoliticalEntity.from_name(graph, name_regex, strict_match)
+        return [(go.dhsId,go.name) for go in matches]
+
+    @staticmethod
+    def new(name, category, start, end, sources, predecessors=None,
+            dhsId=None, description=None):
+        pe = PoliticalEntity()
+        pe.name=name
+        pe.category=category
+        pe.start=start
+        pe.end=end
+        if dhsId:
+            pe.dhsId=dhsId
+        if description:
+            pe.description=description
+
+        if not isinstance(sources, Iterable):
+            sources=[sources]
+        for s in sources:
+            pe.sources.add(s)
+
+        if not isinstance(predecessors, Iterable):
+            predecessors=[predecessors]
+        for p in predecessors:
+            pe.predecessors.add(p)
+            
+        return pe
+
+
 class Territory(PoliticalEntity):
     geometry_id=Property()
 
@@ -231,7 +329,7 @@ class HumanGroup(PoliticalEntity):
 class PoliticalControl(HistoricalEntity):
     political_control=Label()
 
-    controllers=RelatedFrom("PoliticalEntity", "HAS_CONTROL")
+    main_controller=RelatedFrom("PoliticalEntity", "IS_MAIN_CONTROLLER")
     controlled=RelatedTo("PoliticalEntity", "CONTROL_OVER")
 
     sources=RelatedTo("Source", "HAS_SOURCE")
@@ -268,11 +366,34 @@ class PoliticalControl(HistoricalEntity):
         political_control.DHS_sourced = DHS_sourced
         return political_control
 
+    @staticmethod
+    def _new(political_control_object, main_controller, controlled, start, end, sources):
+        political_control_object.main_controller.add(main_controller)
+        if not isinstance(controlled, Iterable):
+            controlled=[controlled]
+        for c in controlled:
+            political_control_object.controlled.add(c)
+        political_control_object.start.add(start)
+        political_control_object.end.add(end)
+        if not isinstance(sources, Iterable):
+            sources=[sources]
+        for s in sources:
+            political_control_object.sources.add(s)
+        return political_control_object
+
+    @staticmethod
+    def new(main_controller, controlled, start, end, sources):
+        return PoliticalControl._new(PoliticalControl(), main_controller, controlled, start, end, sources)
+
 class DirectControl(PoliticalControl):
     @staticmethod
     def _parse_json(t, graph=None):
         control = DirectControl()
         return control
+
+    @staticmethod
+    def new(main_controller, controlled, start, end, sources):
+        return PoliticalControl._new(DirectControl(), main_controller, controlled, start, end, sources)
 
 class UnknownControl(PoliticalControl):
     @staticmethod
@@ -280,27 +401,56 @@ class UnknownControl(PoliticalControl):
         control = UnknownControl()
         return control
 
-class SharedControl(PoliticalControl):
-    main_controller=RelatedFrom("PoliticalEntity", "IS_MAIN_CONTROLLER")
+    @staticmethod
+    def new(main_controller, controlled, start, end, sources):
+        return PoliticalControl._new(UnknownControl(), main_controller, controlled, start, end, sources)
+
+class MultiControl(PoliticalControl):
+    controllers=RelatedFrom("PoliticalEntity", "IS_AMONG_CONTROLLERS")
+    @staticmethod
+    def _parse_json(t, graph=None):
+        control = MultiControl()
+        return control
+
+    @staticmethod
+    def _new(multi_control_object, main_controller, controllers, controlled, start, end, sources):
+        pco =  PoliticalControl._new(multi_control_object, main_controller, controlled, start, end, sources)
+        for c in controllers:
+            pco.controllers.add(c)
+        return pco
+
+class SharedControl(MultiControl):
     @staticmethod
     def _parse_json(t, graph=None):
         control = SharedControl()
         return control
 
-class ContestedControl(PoliticalControl):
-    main_controller=RelatedFrom("PoliticalEntity", "IS_MAIN_CONTROLLER")
+    @staticmethod
+    def new(main_controller, controllers, controlled, start, end, sources):
+        pco =  MultiControl._new(SharedControl(), main_controller, controllers, controlled, start, end, sources)
+        return pco
+
+class ContestedControl(MultiControl):
     @staticmethod
     def _parse_json(t, graph=None):
         control = ContestedControl()
         return control
 
-class UncertainOneOfControl(PoliticalControl):
-    likeliest_controller=RelatedTo("PoliticalControl", "HAS_POSSIBLE_CONTROL")
-    possible_controls=RelatedTo("PoliticalControl", "IS_LIKELIEST_CONTROL")
+    @staticmethod
+    def new(main_controller, controllers, controlled, start, end, sources):
+        pco =  MultiControl._new(ContestedControl(), main_controller, controllers, controlled, start, end, sources)
+        return pco
+
+class UncertainOneOfControl(MultiControl):
     @staticmethod
     def _parse_json(t, graph=None):
         control = UncertainOneOfControl()
         return control
+
+    @staticmethod
+    def new(main_controller, controllers, controlled, start, end, sources):
+        pco =  MultiControl._new(UncertainOneOfControl(), main_controller, controllers, controlled, start, end, sources)
+        return pco
 
 # control relationships
 # ------------------------
@@ -394,6 +544,29 @@ class DHSArticle(URLSource):
                 article.tags.add(DHSTag.parse_json(tag, graph))
         return article
 
+    @staticmethod
+    def from_dhsId(graph, dhsId):
+        return DHSArticle.match(graph).where(r"_.dhsId=~'(dhs-)?"+dhsId+"'").first()
+
+    @staticmethod
+    def scrape_from_dhs(dhsId):
+        import requests as r
+        from lxml import html
+
+        real_dhsId = re.sub("dhs-","", dhsId)
+        url = "https://hls-dhs-dss.ch/fr/articles/"+real_dhsId
+        page = r.get(url)
+        pagetree = html.fromstring(page.content)
+        tags = [{"tag":el.text_content(),"url":el.xpath("@href")[0]} for el in pagetree.cssselect(".hls-service-box-right a")]
+        
+        article = DHSArticle()
+        article.dhsId="dhs-"+real_dhsId
+        for t in tags:
+            tag = DHSTag()
+            tag.tag=t["tag"]
+            tag.url=t["url"]
+            article.tags.add(tag)
+        return article
 
 class DHSTag(GraphObject):
     __primarykey__="tag"

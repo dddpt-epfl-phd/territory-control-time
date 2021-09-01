@@ -55,6 +55,9 @@ Proposition:
         - DONE add first upper case to types
         - DONE id-> dhsId, tags->dhsTags
     - create script importing DHS jsons
-- populate neo4j db with DHS entries
+        - DONE
+- DONE populate neo4j db with DHS entries
 - add entries by hand
+    - create functions for fast control objects creation
+        -> add role to controllers?
 
