@@ -1,5 +1,15 @@
 
 
+from py2neo import Graph
+
+
+def neo4j_connect():
+    neo4j_pwd=None
+    with open('neo4j_db/.neo4j_pwd', 'r') as file:
+        neo4j_pwd = file.read()
+
+    return Graph(user="neo4j", password=neo4j_pwd)
+
 def gnames(graph_objects):
     return [go.name for go in graph_objects]
 def gdhsIds(graph_objects):
