@@ -17,8 +17,8 @@
     },
     {
       "readableId": "partage-seigneurie-grandson",
-      "type":"KnownDate",
-      "date": "1234"
+      "type":"UncertainBoundedDate",
+      "latest": "1234"
     },
     {
       "readableId": "dissolution-seigneurie-grandson",

@@ -138,11 +138,12 @@ class UncertainBoundedDate(HistoricalDate):
         return date
 
     @staticmethod
-    def new(readable_id, earliest=None, latest=None):
+    def new(readable_id, earliest=None, latest=None, best_guess=None):
         d = UncertainBoundedDate()
         d.readableId=readable_id
         d.earliest=earliest
         d.latest=latest
+        d.bestGuess=best_guess
         return d
 
 
