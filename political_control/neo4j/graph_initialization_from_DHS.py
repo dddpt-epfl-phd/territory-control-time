@@ -1,18 +1,13 @@
 # %%
 import json
-
-from py2neo import Graph
+import re
 
 from graph_data_model import * 
+from graph_utils import * 
 
+tgraph = neo4j_connect()
 
-neo4j_pwd=None
-with open('neo4j_db/.neo4j_pwd', 'r') as file:
-    neo4j_pwd = file.read()
-
-tgraph = Graph(user="neo4j", password=neo4j_pwd)
-neo4j_pwd=None
-
+HDate = HistoricalDate
 
 # %%
 
@@ -105,24 +100,50 @@ for gpe in gpolitical_entities_basis:
         warn("skipping political entity "+str(gpe.dhsId)+", already in neo4j")
 print("done, nb political entities created: "+str(counter))
 
-# %%
+# %% Names corrections: "", Les/a/e"
 
 
-# %%
+gpe_les = PoliticalEntity.match(tgraph).where(r"_.name=~'.*, L\w+'")
+print([gpe.name for gpe in gpe_les])
+for gpe in gpe_les:
+    name_parts = gpe.name.split(", ")
+    print(name_parts)
+    print("new name: "+name_parts[1]+" "+name_parts[0])
+    gpe.name = name_parts[1]+" "+name_parts[0]
+    tgraph.push(gpe)
 
 
-# %%
+gpe_les_check = PoliticalEntity.match(tgraph).where(r"_.name=~'L\w+ \w.+'")
 
 
-# %%
+
+# %% Names corrections: "", L'"
+
+gpe_l = PoliticalEntity.match(tgraph).where(r"_.name=~'.*, L\''")
+print([gpe.name for gpe in gpe_l])
+for gpe in gpe_l:
+    name_parts = gpe.name.split(", ")
+    print(name_parts)
+    print("new name: "+name_parts[1]+name_parts[0])
+    gpe.name = name_parts[1]+name_parts[0]
+    tgraph.push(gpe)
 
 
-# %%
+gpe_l_check = PoliticalEntity.match(tgraph).where(r"_.name=~'.*L\'.*'")
 
 
-# %%
+
+# %% Names corrections: " (commune)"
+
+gpe_commune = PoliticalEntity.match(tgraph).where(r"_.name=~'.*\(.*commune\).*'")
+print([gpe.name for gpe in gpe_commune])
+regex_commune_parentheses = re.compile(r"\W*\(.*commune\)")
+for gpe in gpe_commune:
+    print(gpe.name)
+    gpe.name = regex_commune_parentheses.sub("", gpe.name)
+    print("new name: "+gpe.name)
+    tgraph.push(gpe)
 
 
-# %%
-
+gpe_commune_check = PoliticalEntity.match(tgraph).where(r"_.name=~'.*\(.*commune\).*'")
 
