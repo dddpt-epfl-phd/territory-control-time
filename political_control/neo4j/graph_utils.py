@@ -1,7 +1,7 @@
 
 
 from py2neo import Graph
-
+from py2neo.ogm import GraphObject
 
 def neo4j_connect():
     neo4j_pwd=None
@@ -23,3 +23,10 @@ def regex_name_query(go_class, graph, regex):
 
 def greadableIds(graph_objects):
     return [go.readableId for go in graph_objects]
+
+def list_local_graph_objects(local_res):
+    graph_objects = {k: v
+        for k,v in list(local_res.items())
+        if(isinstance(v, GraphObject))
+    }
+    return graph_objects

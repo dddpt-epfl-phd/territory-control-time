@@ -81,6 +81,7 @@ class HistoricalDate(GraphObject):
                 warn("Date.from_readable_id(): no graph, creating empty HDate for date readableId: "+readableId)
                 date = HistoricalDate()
                 date.readableId=readableId
+                return date
         if len(date)>1:
             warn("Date.from_readable_id(): multiple matches for readableId: "+readableId)
             return list(date)
@@ -225,6 +226,17 @@ class PoliticalEntity(HistoricalEntity):
     def dhs_id(self):
         del self.dhsId """
 
+    def set_first_mention(self, first_mention):
+        for s in self.start:
+            self.start.remove(s)
+        new_start=UncertainBoundedDate(
+            "fondation-"+self.name.lower().replace(" ", "-"),
+            latest=first_mention,
+            best_guess=first_mention
+        )
+        self.start.add(new_start)
+        return new_start
+
     @staticmethod
     def parse_json(pe, graph=None, DHS_sourced = False):
         if isinstance(pe, str):
@@ -276,13 +288,13 @@ class PoliticalEntity(HistoricalEntity):
         return [(go.dhsId,go.name) for go in matches]
 
     @staticmethod
-    def new(name, category, start, end, sources, predecessors=None,
+    def new(name, category, start, end, sources, predecessors=[],
             dhsId=None, description=None):
         pe = PoliticalEntity()
         pe.name=name
         pe.category=category
-        pe.start=start
-        pe.end=end
+        pe.start.add(start)
+        pe.end.add(end)
         if dhsId:
             pe.dhsId=dhsId
         if description:
@@ -562,10 +574,11 @@ class DHSArticle(URLSource):
         
         article = DHSArticle()
         article.dhsId="dhs-"+real_dhsId
+        article.url="dhs-"+url
         for t in tags:
             tag = DHSTag()
-            tag.tag=t["tag"]
-            tag.url=t["url"]
+            tag.tag=str(t["tag"])
+            tag.url=str(t["url"])
             article.tags.add(tag)
         return article
 
