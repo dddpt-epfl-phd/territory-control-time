@@ -29,7 +29,13 @@ dfondation_abbaye_joux = HDate.from_readable_id('fondation-abbaye-lac-de-joux', 
 dfin_conflit_joux_claude = HDate.from_readable_id('fin-conflit-abbayes-joux-st-claude', tgraph)
 dconquete_vaud_par_berne = HDate.from_readable_id('conquete-vaud-par-berne', tgraph)
 dfin_ancien_regime = HDate.from_readable_id('fin-ancien-regime-suisse', tgraph)
-dpartage_seigneurie_grandson = HDate.from_readable_id( "partage-seigneurie-grandson")
+dpartage_seigneurie_grandson = HDate.from_readable_id("partage-seigneurie-grandson", tgraph)
+
+
+dreorganisation_districts_vaud = KnownDate(
+    "reorganisation-districts-vaud",
+    "2008"
+)
 
 # %% global list of objects to save in graph
 
@@ -100,7 +106,7 @@ dhsa_vallee_joux = DHSArticle.scrape_from_dhs("007588")
 dhsa_abbaye = DHSArticle.scrape_from_dhs("002609")
 dhsa_lieu = DHSArticle.scrape_from_dhs("002611")
 dhsa_abbaye_joux = DHSArticle.scrape_from_dhs("012134")
-dhsa_clees = DHSArticle.from_dhsId("002534")
+dhsa_clees = list(gpe_seigneurie_clees.sources)[0]
 
 # 1155-1536 abbaye de joux controls l'abbaye
 pc_abbaye_fondation = DirectControl()
@@ -237,12 +243,12 @@ seigneurie/baronnie de la sarraz:
 """
 
 
-dhsa_seigneurie_grandson = DHSArticle.from_dhsId("007574")
+dhsa_seigneurie_grandson = DHSArticle.from_dhsId(tgraph, "007574")
 
-dhsa_seigneurie_sarraz = DHSArticle.from_dhsId("007575")
+dhsa_seigneurie_sarraz = DHSArticle.from_dhsId(tgraph, "007575")
 
 # seigneurie de ~1000 à 1461
-dsarraz_baronnie=KnownDate(
+dsarraz_baronnie=KnownDate.new(
     "sarraz-devient-baronnie",
     "1461"
 )
@@ -324,15 +330,15 @@ gpe_comte_savoie = PoliticalEntity.from_name(tgraph, "Savoie")[0]
 gpe_comte_savoie.name="Comté de Savoie"
 gpe_comte_savoie.category="comte"
 
-dfondation_savoie = KnownDate(
+dfondation_savoie = KnownDate.new(
     "fondation-comte-savoie",
     "1160"
 )
-dcomte_savoie_devient_duche = KnownDate(
+dcomte_savoie_devient_duche = KnownDate.new(
     "comte-savoie-devient-duche",
     "1416"
 )
-dfin_duche_savoie = KnownDate(
+dfin_duche_savoie = KnownDate.new(
     "fin-duche-savoie",
     "1860"
 )
@@ -352,7 +358,8 @@ gpe_duche_savoie = PoliticalEntity.new(
 # %% Seigneurie des Clées
 
 """
-suzerain des clées
+seigneurie des clées
+suzerains:
 - <1232: duc de Bourgogne
 - 1232: comte de Genève
 - 1237 ?Jean de Chalon? Comte de Genève?
@@ -361,7 +368,7 @@ suzerain des clées
 - 1475 ou 1536: chez les bernois...
 """
 
-gpe_duche_bourgogne = PoliticalEntity.from_dhsId(tgraph,"007281")
+gpe_duche_bourgogne = PoliticalEntity.from_dhsId(tgraph,"007281")[0]
 
 dbourgogne_controle_clees = UncertainBoundedDate.new(
     "bourgogne-controle-clees",
@@ -397,15 +404,15 @@ pc_comte_geneve_clees = DirectControl.new(
     dhsa_clees
 )
 # 1260: comte de savoie controle les clées
-pc_comte_geneve_clees = DirectControl.new(
+pc_comte_savoie_clees = DirectControl.new(
     gpe_comte_savoie,
     gpe_seigneurie_clees,
     dsavoie_controle_clees,
     dcomte_savoie_devient_duche,
     [dhsa_clees]+list(gpe_comte_savoie.sources)
 )
-# 1416: comte de geneve controle les clées
-pc_duche_geneve_clees = DirectControl.new(
+# 1416: comte savoie devient duche
+pc_duche_savoie_clees = DirectControl.new(
     gpe_duche_savoie,
     gpe_seigneurie_clees,
     dcomte_savoie_devient_duche,
@@ -413,7 +420,7 @@ pc_duche_geneve_clees = DirectControl.new(
     [dhsa_clees]+list(gpe_comte_savoie.sources)
 )
 # 1536: conquête bernoise
-pc_duche_geneve_clees = DirectControl.new(
+pc_baillaye_yverdon_clees = DirectControl.new(
     gpe_baillage_yverdon,
     gpe_seigneurie_clees,
     dconquete_vaud_par_berne,
@@ -424,12 +431,5 @@ pc_duche_geneve_clees = DirectControl.new(
 
 
 
-# %%
 
-
-# %%
-
-
-# %%
-
-
+#%%
