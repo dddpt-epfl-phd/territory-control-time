@@ -230,7 +230,7 @@ class PoliticalEntity(HistoricalEntity):
         for s in self.start:
             self.start.remove(s)
         new_start=UncertainBoundedDate(
-            "fondation-"+self.name.lower().replace(" ", "-"),
+            "first-mention-"+self.name.lower().replace(" ", "-"),
             latest=first_mention,
             best_guess=first_mention
         )
@@ -474,6 +474,39 @@ class HasControl(Relationship):
 class ControlOver(Relationship):
     pass
 
+
+# Bags
+#######################################################
+
+class BagDirectControl:
+    def __init__(self, main_controller, sources=[]):
+        self.main_controller = main_controller
+    def to_control(self, controlled, start, end):
+        pass
+
+class BagSharedControl:
+    def __init__(self, controllers, sources=[]):
+        self.controllers = controllers
+    def to_control(self, controlled, start, end):
+        pass
+class BagContestedControl:
+    def __init__(self, controllers, sources=[]):
+        self.controllers = controllers
+    def to_control(self, controlled, start, end):
+        pass
+
+class PolityBag:
+    def __init__(self, dates_controllers, last_date, sources=[]):
+        """
+        start_date
+        """
+        pass
+    def add(pe, date, sources):
+        pass
+    def move_to(pe, date, destination_bag, sources):
+        pass
+    def merge(other_bag, sources):
+        pass
 
 # Sources & references
 #######################################################
