@@ -6,6 +6,22 @@ from py2neo import Graph
 
 tgraph = Graph(user="neo4j", password="test-password")
 
+"""
+Good adresses for neo4j:
+cypher:
+  https://neo4j.com/developer/cypher/
+  https://neo4j.com/developer/cypher/querying/
+  https://neo4j.com/developer/cypher/updating/
+py2neo:
+  https://py2neo.org/2021.1/
+  1-4:
+  https://py2neo.org/v4/data.html#py2neo.data.Node
+  https://py2neo.org/v4/database.html#py2neo.database.Transaction.merge
+  https://py2neo.org/v4/matching.html
+  https://py2neo.org/v4/ogm.html#py2neo.ogm.GraphObject.match
+  example:
+  https://neo4j.com/blog/py2neo-3-1-python-driver-neo4j/
+"""
 
 #%% TESTING
 
