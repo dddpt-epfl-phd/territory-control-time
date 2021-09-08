@@ -187,10 +187,9 @@ Abbaye de Joux:
 - 1566 baillage de romainmotier
 """
 
-dfondation_seigneurie_sarraz = UncertainBoundedDate.new(
+dfondation_seigneurie_sarraz = KnownDate.new(
         "fondation-seigneurie-la-sarraz",
-        "1000",
-        "1100"
+        "1049"
 )
 
 dvente_joux_savoie = UncertainPossibilitiesDate.new(
@@ -206,7 +205,7 @@ pc_grandson_abbjoux = DirectControl.new(
     gpe_seigneurie_grandson,
     gpe_abbaye_joux,
     dfondation_abbaye_joux,
-    dfondation_seigneurie_sarraz,
+    dpartage_seigneurie_grandson,
     dhsa_vallee_joux
 )
 
@@ -214,7 +213,7 @@ pc_grandson_abbjoux = DirectControl.new(
 pc_sarraz_abbjoux = DirectControl.new(
     gpe_seigneurie_sarraz,
     gpe_abbaye_joux,
-    dfondation_seigneurie_sarraz,
+    dpartage_seigneurie_grandson,
     dvente_joux_savoie,
     [dhsa_vallee_joux, dhsa_lieu]
 )
@@ -232,7 +231,7 @@ pc_sarraz_abbjoux = DirectControl.new(
 
 """
 seigneurie/baronnie de la sarraz:
-- 11ième: famille Grandson
+- 1049: fondation par famille Grandson
 - 1234: partage Grandson en 3: indép.
     - 13ième: famille montferrand
 - 1461: seigneurie devient baronnie
@@ -247,7 +246,8 @@ dhsa_seigneurie_grandson = DHSArticle.from_dhsId(tgraph, "007574")
 
 dhsa_seigneurie_sarraz = DHSArticle.from_dhsId(tgraph, "007575")
 
-# seigneurie de ~1000 à 1461
+
+# seigneurie de 1049 à 1461
 dsarraz_baronnie=KnownDate.new(
     "sarraz-devient-baronnie",
     "1461"

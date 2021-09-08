@@ -246,6 +246,82 @@ pc_baillage_rmmtier_chat_vallorbe = DirectControl.new(
     tvallorbe.sources
 )
 
+# %% eveche de Lausanne
+# ===========================================================
+
+gpe_eveche_lausanne = PoliticalEntity.from_dhsId("008559")
+gpe_eveche_lausanne.name = "Évêché de Lausanne"
+dfondation_eveche_lausanne = UncertainBoundedDate.new(
+    "fondation-eveche-lausanne",
+    latest="888",
+    best_guess="888"
+)
+
+for d in gpe_eveche_lausanne.start:
+    gpe_eveche_lausanne.start.remove(d)
+gpe_eveche_lausanne.start.add(dfondation_eveche_lausanne)
+gpe_eveche_lausanne.end.add(dconquete_vaud_par_berne)
+
+
+# %% Abbaye de St-Maurice
+# ===========================================================
+
+gpe_abbaye_maurice = PoliticalEntity.from_dhsId("011411")
+gpe_abbaye_maurice.name = "Abbaye de Saint-Maurice"
+dfondation_abbaye_maurice = KnownDate.new(
+    "fondation-abbaye-maurice",
+    "515"
+)
+
+for d in gpe_abbaye_maurice.start:
+    gpe_abbaye_maurice.start.remove(d)
+gpe_abbaye_maurice.start.add(dfondation_abbaye_maurice)
+gpe_abbaye_maurice.end.add(dconquete_vaud_par_berne)
+
+# %% district cossonay
+dfondation_baronnie_cossonay = UncertainBoundedDate.new(
+    "fondation-baronnie-cossonay"
+    "1000",
+    "1100",
+    "1000"
+)
+dsavoie_controle_cossonay = UncertainBoundedDate.new(
+    "savoie-controle-cossonay"
+    "1406",
+    "1421",
+    "1406"
+)
+
+gpe_baronnie_cossonay = PoliticalEntity.from_dhsId("007573")
+gpe_baronnie_cossonay.name="Baronnie de Cossonay"
+gpe_baronnie_cossonay.category="baronnie"
+for d in gpe_baronnie_cossonay.start:
+    gpe_baronnie_cossonay.start.remove(d)
+gpe_baronnie_cossonay.start.add(dfondation_baronnie_cossonay)
+gpe_baronnie_cossonay.end.add(dsavoie_controle_cossonay)
+
+gpe_chatellenie_cossonay = PoliticalEntity.new(
+    "Châtellenie de Cossonay",
+    "chatellenie",
+    dsavoie_controle_cossonay,
+    dfin_ancien_regime,
+    gpe_baronnie_cossonay.sources,
+    gpe_baronnie_cossonay,
+    "dhs-007573-2"
+)
+
+gpe_district_cossonay = PoliticalEntity.new(
+    "District de Cossonay",
+    "district",
+    dfin_ancien_regime,
+    dreorganisation_districts_vaud,
+    gpe_baronnie_cossonay.sources,
+    gpe_chatellenie_cossonay,
+    "dhs-007573-3"
+)
+
+"007573"
+
 # %% Ferreyres
 # ===========================================================
 
@@ -256,13 +332,142 @@ Ferreyres, controlé par:
     romainmotier
     abbaye de st-maurice
 - 1000: contesté Grandson-rmmtier
-- 1130: rmmtier
+- 1130: rmmtier vvvvvvvvvvvvvAAAAAAAAAA
 - 1141: La Sarraz
 - 1536: baillage de rmmtier
-- 1798: district de cosoonay?
+- 1798: district de cossonay
+
 """
 
-# %% 
+tferreyres = Territory.from_dhsId("002333")
+tferreyres.set_first_mention("814")
+
+
+drmmtier_grandson_conteste_ferreyre = UncertainAroundDate.new(
+    "rmmtier-grandson-controle-conteste-ferreyre",
+    "1000",
+    "20Y"
+)
+drmmtier_controle_ferreyre = KnownDate.new(
+    "rmmtier-controle-ferreyre",
+    "1130"
+)
+dsarraz_controle_ferreyre = KnownDate.new(
+    "lasarraz-controle-ferreyre",
+    "1141"
+)
+
+# <1000, evec de lausanne, abb de st-maurice & rmmtier
+pc_lausanne_stmaurice_rmmtier_controle_ferreyre = SharedControl.new(
+    gpe_prieure_rmmtier,
+    [gpe_prieure_rmmtier, gpe_eveche_lausanne, gpe_abbaye_maurice],
+    tferreyres,
+    list(tferreyres.start)[0],
+    drmmtier_grandson_conteste_ferreyre,
+    tferreyres.sources
+)
+
+# 1000-1130: conteste grandson-rmmtier
+pc_rmmtier_grandson_conteste_ferreyre = ContestedControl.new(
+    gpe_prieure_rmmtier,
+    [gpe_prieure_rmmtier, gpe_seigneurie_grandson],
+    tferreyres,
+    drmmtier_grandson_conteste_ferreyre,
+    drmmtier_grandson_conteste_ferreyre,
+    tferreyres.sources
+)
+
+# 1130-1141: rmmtier controle ferreyres
+pc_rmmtier_controle_ferreyre = DirectControl.new(
+    gpe_prieure_rmmtier,
+    tferreyres,
+    drmmtier_grandson_conteste_ferreyre,
+    dsarraz_controle_ferreyre,
+    tferreyres.sources
+)
+
+# 1141-1537: seigneurie la sarraz controle ferreyres (with baronnie transition)
+pc_sarraz_controle_ferreyre = DirectControl.new(
+    gpe_seigneurie_sarraz,
+    tferreyres,
+    dsarraz_controle_ferreyre,
+    dsarraz_baronnie,
+    list(tferreyres.sources)+list(gpe_seigneurie_sarraz.sources)
+)
+pc_sarraz_baronnie_controle_ferreyre = DirectControl.new(
+    gpe_baronnie_sarraz,
+    tferreyres,
+    dsarraz_baronnie,
+    dfin_prieure_rmmtier,
+    list(tferreyres.sources)+list(gpe_seigneurie_sarraz.sources)
+)
+
+# 1537-1798 baillage rmmtier
+pc_baillage_rmmtier_controle_ferreyre = DirectControl.new(
+    gpe_baillage_rmmtier,
+    tferreyres,
+    dfin_prieure_rmmtier,
+    dfin_ancien_regime,
+    tferreyres.sources
+)
+
+# 1798: district cossonay
+pc_district_cossonay_controle_ferreyre = DirectControl.new(
+    gpe_district_cossonay,
+    tferreyres,
+    dfin_ancien_regime,
+    dreorganisation_districts_vaud,
+    tferreyres.sources
+)
+
+# %% La Sarraz (territoire)
+# ===========================================================
+
+"""
+territoire de la sarraz:
+- <1049: prieuré de rmmtier
+- 1049-1798: seigneurie&baronnie de La sarraz
+- 1798: district de cossonay
+"""
+
+tsarraz = Territory.from_dhsId("002348")
+tsarraz.set_first_mention("1049")
+
+# <1049: rmmtier controle sarraz
+pc_rmmtier_controle_sarraz = DirectControl.new(
+    gpe_prieure_rmmtier,
+    tsarraz,
+    list(tsarraz.start)[0],
+    dfondation_seigneurie_sarraz,
+    tsarraz.sources
+)
+
+# 1049-1461: seigneurie sarraz
+pc_seigneurie_sarraz_controle_sarraz = DirectControl.new(
+    gpe_seigneurie_sarraz,
+    tsarraz,
+    dfondation_seigneurie_sarraz,
+    dsarraz_baronnie,
+    tsarraz.sources
+)
+
+# 1461-1798: seigneurie sarraz
+pc_baronnie_sarraz_controle_sarraz = DirectControl.new(
+    gpe_baronnie_sarraz,
+    tsarraz,
+    dsarraz_baronnie,
+    dfin_ancien_regime,
+    tsarraz.sources
+)
+
+# 1798: district cossonay > sarraz
+pc_district_cossonay_controle_sarraz = DirectControl.new(
+    gpe_district_cossonay,
+    tsarraz,
+    dfin_ancien_regime,
+    dreorganisation_districts_vaud,
+    tsarraz.sources
+)
 
 # %% 
 
