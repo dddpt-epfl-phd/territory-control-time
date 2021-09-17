@@ -1,0 +1,290 @@
+
+https://query.wikidata.org/
+
+https://www.markhneedham.com/blog/2020/01/29/newbie-guide-querying-wikidata/
+
+https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries
+
+https://angryloki.github.io/wikidata-graph-builder/
+
+
+Wikidata ontology:
+https://www.wikidata.org/wiki/Help:Statement
+https://www.wikidata.org/wiki/Help:Qualifiers
+
+WIKIDATA: 
+=============================================
+https://www.wikidata.org/wiki/Help:Items
+https://www.wikidata.org/wiki/Help:Label
+https://www.wikidata.org/wiki/Help:Description
+https://www.wikidata.org/wiki/Help:Aliases
+https://www.wikidata.org/wiki/Help:Statements
+https://www.wikidata.org/wiki/Help:Qualifiers
+https://www.wikidata.org/wiki/Help:Ranking
+https://www.wikidata.org/wiki/Wikidata:List_of_properties
+
+why should an object be on wikidata?
+https://www.wikidata.org/wiki/Wikidata:Notability
+
+
+Structure of Wikidata RDF:
+-------------------------------------------------------
+
+Main objects/concepts:
+- Items are object/subject, ID starts with Q (Q42: Douglas Adams), label+description must be unique
+- Description: short sentence aiming to disambiguate items with same labels
+- Statement: property of an item, how information is stored on wikidata, will have at least 1 value, as well as optional qualifiers or references
+- Qualifier: property of a statement, adding extra info&context on given statement
+
+Relevant properties & entities in wikidata
+-------------------------------------------------------
+
+Dates
+-----------
+https://www.wikidata.org/wiki/Wikidata:List_of_properties/time
+
+inception/foundation property (P571)
+date or point in time when the subject came into existence as defined
+https://www.wikidata.org/wiki/Property:P571
+start time (P580) 
+time an item begins to exist or a statement starts being valid
+
+dissolved, abolished or demolished date (P576)
+point in time at which the subject (organisation, building) ceased to exist;
+https://www.wikidata.org/wiki/Property:P576
+end time (P582)
+time an item ceases to exist or a statement stops being valid
+
+latest start date (P8555)
+(qualifier) latest date on which the statement could have started to be true
+https://www.wikidata.org/wiki/Property:P8555
+
+earliest end date (P8554)
+(qualifier) earliest date on which the statement could have begun to no longer be true
+
+end cause (P1534) 
+
+Control
+---------------------
+https://www.wikidata.org/wiki/Wikidata:List_of_properties/ownership
+
+owned by	P127	
+owner of	P1830
+
+operator/administrator P137
+item operated (P121) 
+
+replaces (P1365)
+replaced by (P1366)
+
+together with (P1706) 
+    -> associated with people
+
+possible classes for adminstrative units:
+-----------------
+
+state (Q7275)
+sovereign state (Q3624078) < state, country
+suzerainty (Q463573)  < state, instance of "form of state"
+great power (Q185145) < state
+
+political territorial entity (Q1048835) 
+administrative territorial entity (Q56061) < human-geographic territorial entity (Q15642541)
+dependent territory (161243) < administrative territorial entity
+client state (Q1151405) < dependent territory, state
+vassal state (Q1371288) < client state
+puppet state (Q208164) < client state
+fiefdom (Q188063)  < administrative territorial entity,  territorial entity (Q1496967), gift, goods
+
+countship (Q353344) < political territorial entity, administrative territorial entity
+county (Q28575) < administrative territorial entity
+
+possible relations/titles for human rulers
+-------------
+
+Relationships:
+position held (P39)
+noble title (P97)
+-> Louis XIV: position held "King of France and Navarre"
+-> Charles the Bold: noble title "Duke of Burgundy"
+applies to jurisdiction (P1001) 
+-> "Duke of Burgundy" applies to "Duchy of Burgundy"
+
+Items:
+noble title (Q355567) 
+hereditary title (Q5737899) < noble title
+
+feudatory/feudal lord (Q1409420) < noble
+vassal (Q223266) < synallagmatic contract
+ruler (Q1097498) < leader, statesperson, position of authority
+monarch (Q116) < sovereign, head of state, position, instance of noble title
+
+duke (Q166886) < monarch, instance of noble title
+count (Q3519259) < hereditary title, noble, ruler, instance of noble title, position
+seigneur (Q2366336) < noble, feudatory, instance of noble title
+lord (Q12826225) < ruler, instance of noble title, position
+
+Example: louis XIV
+----------
+https://www.wikidata.org/wiki/Q7742
+Louis XIV (Q7742)
+    position held (P39) https://www.wikidata.org/wiki/Property:P39
+        King of France and Navarre (Q3439798) 
+        start (P580) & end time (P582)
+        replaces (1365) & replaced by (P1366)
+King of France and Navarre (Q3439798) 
+    applies to jurisdiction( P1001)
+        Kingdom of France (Q70972)
+Kingdom of France (Q70972)
+    instance of (P31)
+        sovereign state
+        historical country
+        kingdom
+        colonial power
+        -> with start&end time
+    basic form of government P122
+        -> with start&end time
+    office held by head of state P1906
+    follows (P155) & followed by (P156)
+
+Example:
+Duchy of Aquitaine (Q7703611) 
+    instance of (P31)
+        duchy (Q154547)
+            part of (P361)
+                Kingdom of France
+    inception (P571)
+    dissolved, abolished or demolished date (P576)
+    office held by head of state P1906
+
+Duchy of Burgundy (Q4712)
+    instance of
+        vassal state (Q1371288)
+        duchy (Q154547)
+
+Duke of Burgundy (Q16145107)
+    subclass of
+        duke
+    applies to jurisdiction
+        Duchy of Burgundy
+
+Other
+---------------------
+
+capital city
+https://www.wikidata.org/wiki/Property:P36
+
+
+WIKIDATA QUESTIONS
+---------------------
+
+Duke & Duchy: instance of vs subclass of
+- duke of burgundy is subclass of duke
+- duchy of burgundy is instance of duchy
+-> lots of nominal duke titles ("Duke of Burgundy") are subclass of duke, some ar instance of
+-> on the contrary most nominal duchies are instance of duchy, rare are those subclassing duchies
+-> there is an error on duke titles! They should be instance of duke!!!
+
+SELECT ?item ?itemLabel
+WHERE 
+{
+  #?item wdt:P31 wd:Q166886 # instance of DUKE
+  #?item wdt:P279 wd:Q166886 # subclass of DUKE
+  ?item wdt:P31 wd:Q154547 # instance of DUCHY
+  #?item wdt:P279 wd:Q154547 # subclass of DUCHY
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+}
+
+
+
+WIKIDATA PROPOSITIONS:
+---------------------
+
+
+
+Savoy problematic
+County of Savoy -> Duchy of Savoy -> Kingdom of Sardinia -> Kingdom of Italy
+proposition 1:
+- 1 wikidata Item per polity, including simple title change
+    -> county of Savoy instance of county, replaced by Duchy of Savoy instance of duchy
+    + graph is better structured
+    - doubles up all links common to County&Duchy
+proposition 2:
+- 1 wikidata Item per polity as a coherent
+    -> county and duchy of Savoy is a single Item with dated instanceof:
+        - instance of county from XX to 1461
+        - instance of duchy from 1461 to 1720
+    + avoid doubling up links
+    - when to draw the line and create a new entity?
+        -> Should the county of Savoy of 1003 of be the same Item as the Kingdom of italy of 1861
+    - RDF/OWL compatibility much worse with this idea!!
+
+
+
+HistHub
+===============================================0
+
+description de l'ontologie:
+https://histhub.ch/fr/tools/typologie-des-lieux/
+
+Explorateur de l'ontologie:
+https://tm.norm.histhub.ch/histhub/tree/
+
+
+PLACES GeoNames Ontology, V3.1 (GeoNames)
+-> nope
+PLACES Getty Place Types Hierarchy, V3.4 (Getty TGN)
+-> nope
+Personenverbände, V1.0 (histHub)
+-> nope
+Pfälzisches Wörterbuch (modifiziert nach Hallig-Wartburg), V1.0 (Schweizerisches Idiotikon)
+
+histHub-famtypes, V2.0 (histHub)
+histHub-geotype, V1.0 (histHub)
+histHub-geotype-functions, V1.0 (histHub)
+histHub-geotype-tags, V1.0 (histHub)
+histHub-geotypes, V2 (histHub)
+histHub-morphology, V1.0 (histHub)
+histHub-temporal-expressions, V1.0 (histHub)
+histHub-name-usage, V1.0 (histHub)
+histHub-naming, V1.0 (histHub)
+histHub-occupations, V1.0 (histHub)
+histHub-sex, V1.0 (histHub)
+
+
+histHub-events, V1.0 (histHub)
+-> first/last mention, birth/death, existent/no longer existent
+
+histHub-geotype, V1.0 (histHub)
+-> mieux que la V2!!!?!!??????
+-> contient toutes les unités administratives pertinentes: comté, duché, seigneurie, chatellenie, baillage, etc
+
+histhub-geotypes V2:
+->contient les unités administrative avant/après 1800:
+après 1800:
+- canton, district, commune, complet pour la Suisse
+avant 1800:
+- canton confédéré, urbain/rural
+- seigneurie
+- principauté episcopale/abbatiale
+- landgraviat, comté carolingien
+- république
+- baillage, baillage comuun
+- châtellenie
+-> manque: dûché, comtés, royaumes, empire
+
+histhub-organization-types, V1
+-> contient des unités administrative avant 1800
+- roman times: Province, Civitas, Colonia, Vicus
+- états en Suisse avant 1800: HRE, Royaume de Bourgogne
+    -> dans une typologie?!?
+
+histHub-relations, V1.0 (histHub)
+-> is part of relation, nothing for control
+
+histHub-rolenames, V1.0 (histHub)
+-> titres: roi, duc, empereur, comte, bailli, etc...
+-> manquent: évêque, seigneur, chatelains
+
+histHub-occupations, V1.0 (histHub)
+-> très complet!! contient tout les titres!!

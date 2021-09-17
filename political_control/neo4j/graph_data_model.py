@@ -168,6 +168,43 @@ class UncertainPossibilitiesDate(HistoricalDate):
         return d
 
 
+"""
+Comparing dates
+=============================
+
+Possible dates:
+- known Y
+- known YM
+- known YMD
+- UncertainBounded Earliest
+- UncertainBounded Latest
+- UncertainAround
+- UncertainPossibilities
+    -> take bestGuess
+
+known Y, YM, YMD, suppose known dates with same Y:
+ kY<kYMD or kY>kYMD are always true
+ kY==kYMD is always false
+
+certainifying comparison of uncertainBoundedDates:
+ubd1 < ubd2:
+    compare in order, with first defined positive result:
+    ubd1.latest   < ubd2.earliest   ||
+    ubd1.earliest < ubd2.earliest   ||
+    ubd1.latest   < ubd2.latest     ||
+    ubd1.earliest < ubd2.earliest   ||
+
+
+proposition:
+- default __lt__() __gt__() override with certainifying reasoning
+- probabilistic comparison method for probabilistic comparison, assuming
+    - normal distrib for uncertainAround
+    - uniform distrib for UncertainBounded and UncertainPOssibilities
+- uncertain comparison method (true, false, None) when not sure
+
+
+"""
+
 # date relationships
 # ------------------------
 
@@ -478,34 +515,132 @@ class ControlOver(Relationship):
 # Bags
 #######################################################
 
-class BagDirectControl:
-    def __init__(self, main_controller, sources=[]):
+class BagControl:
+    def __init__(self, start_date, main_controller, sources=[]):
+        self.start_date = start_date
         self.main_controller = main_controller
-    def to_control(self, controlled, start, end):
+        self.sources = sources
+        if isinstance(sources, Iterable):
+            self.sources=sources
+        else:
+            self.sources=[sources]
+
+class BagDirectControl(BagControl):
+    def __init__(self, start_date, main_controller, sources=[]):
+        super().__init__(self, start_date, main_controller, sources)
+    def to_control(self, controlled, end, sources):
         pass
 
-class BagSharedControl:
-    def __init__(self, controllers, sources=[]):
+class BagSharedControl(BagControl):
+    def __init__(self, start_date, *controllers, sources=[]):
+        super().__init__(self, start_date, controllers[0], sources)
         self.controllers = controllers
-    def to_control(self, controlled, start, end):
+    def to_control(self, controlled, end, sources):
         pass
-class BagContestedControl:
-    def __init__(self, controllers, sources=[]):
+class BagContestedControl(BagControl):
+    def __init__(self, start_date, *controllers, sources=[]):
+        super().__init__(self, start_date, controllers[0], sources)
         self.controllers = controllers
-    def to_control(self, controlled, start, end):
+    def to_control(self, controlled, end, sources):
         pass
+
+class BaggedPolityJoining:
+    def __init__(self, start, polity, sources=[]):
+        self.polity=polity
+        self.sources=sources
+        self.start=start 
+class BaggedPolityLeaving:
+    def __init__(self, move_date, polity, sources=[]):
+        self.polity=polity
+        self.sources=sources
+        self.move_date=move_date 
 
 class PolityBag:
-    def __init__(self, dates_controllers, last_date, sources=[]):
+    """
+    PolityBag: representing loose group of Polities
+    
+    The aim of the polity bag is to avoid multiple entry of the same
+    info and so reduce errors. 
+    """
+    def __init__(self, name, end_date, *date_controller_source_list , sources=[]):
         """
-        start_date
+        PolityBag constructor
+
+        Arguments:
+        name -- informal name 
+        end_date -- the end date of the last control relationship
+        date_controller_source_list -- see below for description of a single date_controller_source
+        sources -- array of Sources that will be shared by all control relationships implied by this PolityBag
+
+        date_controller_source is a tuple of length 2 or 3 with in order:
+        1) a Date object, the start date of the control for those controller(s)
+        2) a controller, see below
+        3) optional, a Source or list of Sources documenting control of the controller
+
+        controller must be one of:
+        - a single polity, implying DirectControl from given Polity
+        - a list of polities, implying SharedControl and main_controller is the first in the list
+        - any BagXXControl object, in most cases a BagContestedControl for contested control
+
         """
+        self.name=name
+        self.end_date=end_date
+
+        self.bag_controls = []
+        for dcs in date_controller_source_list:
+            if len(dcs)>3 or len(dcs)<1:
+                raise Exception("PolityBag.__init__(): PolityBag '"+name+"', date_controller_source not of length 3: "+str(dcs))
+            
+            sources= sources=dcs[2] if len(dcs)>=3 else []                
+
+            if isinstance(dcs[1], BagControl):
+                self.bag_controls.append(dcs[1])
+            if isinstance(dcs[1], PoliticalEntity):
+                self.bag_controls.append(BagDirectControl(dcs[0], dcs[1], sources))
+            if isinstance(dcs[1], Iterable):
+                self.bag_controls.append(BagSharedControl(dcs[0], *dcs[1], sources=sources))    
+        
+        self.all_sources = sources
+        self.bagged_polities_joining = []
+        self.bagged_polities_leaving = []
+
+
+    def add(self, start_date, *joining_polities, sources=[]):
+        """
+        Add one or more polity to the polity bag
+
+        end_date should only be specified if it's not moving to another bag.
+        If it's moving to another bag, use move_to
+        """
+        for polity in joining_polities:
+            self.bagged_polities_joining.append(BaggedPolityJoining(start_date, polity, sources))
+
+    def move_to(self, date, destination_bag, *leaving_polities, sources=[]):
+        """
+        Move one or more polities to another polity bag on given date
+        also calls destination_bag.add(...)
+
+        If a leaving polity is not already in this bag, raises an exception.
+        TODO: check dates and if not already leaving
+        """
+        for polity in leaving_polities:
+            if len([bp.polity for bp in self.bagged_polities_joining if bp.polity==polity])==0:
+                raise Exception("PolityBage.move_to(): moving polity '"+polity.name+"' that isn't in the polity bag")
+            self.bagged_polities_leaving.append(BaggedPolityLeaving(date, polity, sources))
+        destination_bag.add(date, *leaving_polities, sources=sources)
+        
+    def merge(self, other_bag, merge_date, sources):
+        """Create a new PolityBag consisting of the 2 merged polityBags on given date"""
         pass
-    def add(pe, date, sources):
-        pass
-    def move_to(pe, date, destination_bag, sources):
-        pass
-    def merge(other_bag, sources):
+    def to_control_relationships(self):
+        """
+        Assumption:
+        - controllers are already ordered from first to last controller temporally
+        - for each controlled entity, its joining & leaving are ordered temporally and dates are consistent
+
+        Algorithm:
+        - iterate over 
+        """
         pass
 
 # Sources & references

@@ -391,5 +391,8 @@ sketch
 # neo4j files
 **/neo4j_db/
 
+# apache jena
+**/apache-jena-fuseki-4.1.0/
+
 # other
 notes

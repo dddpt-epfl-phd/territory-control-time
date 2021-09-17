@@ -1,0 +1,17 @@
+
+
+Relevant file format for the webapp:
+=================================================
+
+What information do I need?
+-> no uncertainty on dates
+-> hierarchy links of controllers of given territory
+-> colors for each controller (dynamic?)
+-> metadata for each entity
+
+Proposition:
+- list of entities/controllers
+    -> With each its metadata (name, description, etc...)
+    -> but no links
+- list of dated links:
+    -> beginning, end, type of control, controllee, controllers, main controller
