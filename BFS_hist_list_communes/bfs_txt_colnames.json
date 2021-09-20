@@ -1,0 +1,40 @@
+{
+    "municipalities": [
+        "historyMunicipalityId",
+        "districtHistId",
+        "cantonAbbreviation",
+        "municipalityId",
+        "municipalityLongName",
+        "municipalityShortName",
+        "municipalityEntryMode",
+        "municipalityStatus",
+        "municipalityAdmissionNumber",
+        "municipalityAdmissionMode",
+        "municipalityAdmissionDate",
+        "municipalityAbolitionNumber",
+        "municipalityAbolitionMode",
+        "municipalityAbolitionDate",
+        "municipalityDateOfChange"
+    ],
+    "districts": [
+        "districtHistId",
+        "cantonId",
+        "districtId",
+        "districtLongName",
+        "districtShortName",
+        "districtEntryMode",
+        "districtAdmissionNumber",
+        "districtAdmissionMode",
+        "districtAdmissionDate",
+        "districtAbolitionNumber",
+        "districtAbolitionMode",
+        "districtAbolitionDate",
+        "districtDateOfChange"
+    ],
+    "cantons": [
+        "cantonId",
+        "cantonAbbreviation",
+        "cantonLongName",
+        "cantonDateOfChange"
+    ]
+}
