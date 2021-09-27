@@ -15,13 +15,24 @@ camel_to_snake_case_regex = re.compile(r"([A-Z]+)")
 def camel_to_snake_case(s):
     return ''.join(['_'+c.lower() if c.isupper() else c for c in s]).lstrip('_')
 
+DISTRICT_CHANGE_MUTATION = "district/canton change"
+TERRITORY_EXCHANGE_MUTATION = "territory exchange"
+INCLUSION_MUTATION = "inclusion"
+MULTI_INCLUSION_MUTATION = "multi inclusion"
+MULTI_EXCLUSION_MUTATION = "multi exclusion"
+EXCLUSION_MUTATION = "exclusion"
+SCISSION_MUTATION = "scission"
+INITIALIZATION_MUTATION = "initialization"
+RENUMBERING_MUTATION = "renumbering"
+NAME_CHANGE_MUTATION = "name change"
+DISTRICT_NAME_CHANGE_MUTATION = "district name change"
+FUSION_MUTATION = "fusion"
+
 def get_mutation_type(mutation):
     """returns mutation type
     
     expects gde cols with _ad _ab suffixes
     """
-    if any(mutation.mutation_number==3754):
-        print(mutation.iloc[:,5:20])
     nb_admissions = len(mutation.history_municipality_id_ad.unique())
     nb_abolitions = len(mutation.history_municipality_id_ab.unique())
     # scission/exclusion
