@@ -17,7 +17,7 @@ colnames = []
 with open(path_prefix+"bfs_txt_colnames.json") as fcoln:
     colnames = json.load(fcoln)
 
-debug = 42
+debug = []
 
 # %% Municipalities
 
@@ -32,6 +32,8 @@ gde = pd.read_csv(
 
 gde_short_col_names = [ camel_to_snake_case(re.sub("municipality","",c)) for c in gde.columns]
 gde.columns = gde_short_col_names
+gde.admission_date = orderable_dates(gde.admission_date)
+gde.abolition_date = orderable_dates(gde.abolition_date)
 
 # %% Districts
 
@@ -260,7 +262,7 @@ def concat_equivalent_territories(abolished_gde, admitted_gde):
     Control of the territories of abolished_gde is shared among admitted_gde
     """
     global debug
-    debug = (abolished_gde, admitted_gde)
+    debug += ["concat_equivalent_territories", abolished_gde, admitted_gde]
     equivalent_territories = abolished_gde.equivalent_territories if abolished_gde.shape[0]>1 else list(abolished_gde.equivalent_territories)
     ets = [et for ets in equivalent_territories for et in ets]
     return [ets.copy() for i in range(admitted_gde.shape[0])]
@@ -312,10 +314,10 @@ def gde_control_from_mutation(abolished_gde, admitted_gde):
         DISTRICT_NAME_CHANGE_MUTATION = "district name change"
         FUSION_MUTATION 
     """
-    print("gde_control_from_mutation() abolished_gde: ")
-    print(abolished_gde.short_name)
+    #print("gde_control_from_mutation() abolished_gde: ")
+    #print(abolished_gde.short_name)
     global debug
-    debug = (abolished_gde, admitted_gde)
+    debug += ["gde_control_from_mutation", abolished_gde, admitted_gde]
     mutation_type = abolished_gde.abolition_type.unique()[0]
     if mutation_type in [
         DISTRICT_CHANGE_MUTATION,
@@ -323,26 +325,28 @@ def gde_control_from_mutation(abolished_gde, admitted_gde):
         NAME_CHANGE_MUTATION,
         DISTRICT_NAME_CHANGE_MUTATION
     ]:
+        print("renumber-dis change")
         admitted_gde.controller = abolished_gde.controller.copy()
         admitted_gde.equivalent_territories = abolished_gde.equivalent_territories.copy()
     elif mutation_type==TERRITORY_EXCHANGE_MUTATION:
+        print("terr ex")
         admitted_gde.controller = [
             abolished_gde.controller[abolished_gde.id==ad_id].values[0]
             for ad_id in admitted_gde.id
         ]
         admitted_gde.equivalent_territories = copy_equivalent_territories(abolished_gde, admitted_gde)
     elif mutation_type==NAME_CHANGE_MUTATION:
+        print("name change")
         admitted_gde.controller = admitted_gde.history_municipality_id
         admitted_gde.equivalent_territories = concat_equivalent_territories(abolished_gde, admitted_gde)
     elif mutation_type==FUSION_MUTATION:
+        print("fusion")
         admitted_gde.controller = admitted_gde.history_municipality_id
         admitted_gde.equivalent_territories = concat_equivalent_territories(abolished_gde, admitted_gde)
     elif mutation_type==INCLUSION_MUTATION:
+        print("inclusion")
         controller = abolished_gde.loc[abolished_gde.abolition_mode==26,"controller"].values[0]
         admitted_gde.controller=controller
-        admitted_gde.equivalent_territories = concat_equivalent_territories(abolished_gde, admitted_gde)
-    elif mutation_type==FUSION_MUTATION:
-        admitted_gde.controller = admitted_gde.history_municipality_id
         admitted_gde.equivalent_territories = concat_equivalent_territories(abolished_gde, admitted_gde)
     elif mutation_type in [
         MULTI_INCLUSION_MUTATION,
@@ -350,14 +354,15 @@ def gde_control_from_mutation(abolished_gde, admitted_gde):
         EXCLUSION_MUTATION,
         SCISSION_MUTATION
     ]:
+        print("scission/exclusion/multi-...")
         # TODO: improve scission/exclusion to finesse gde control if possible
         admitted_gde.controller = admitted_gde.history_municipality_id
         admitted_gde.equivalent_territories = concat_equivalent_territories(abolished_gde, admitted_gde)
+    print("admitted_gde.controller")
+    print(admitted_gde.controller)
     return admitted_gde
 
 def gde_control(gde):
-    gde.admission_date = orderable_dates(gde.admission_date)
-    gde.abolition_date = orderable_dates(gde.abolition_date)
     gde["controller"]=None
     gde["equivalent_territories"]=None
     gde["origin"]=None
@@ -383,19 +388,15 @@ def gde_control(gde):
     def gde_control_recursive(gde):
         #while still_uncontrolled_gde:
         print(f"number of 'uncontrolled' gde: {gde.controller.isnull().sum()}")
-        abolished_gde = gde[gde.abolition_date==gde.abolition_date.min()].copy()
-        mutation_numbers = abolished_gde.abolition_number.unique()
-        admitted_gde = gde[[adn in mutation_numbers for adn in gde.admission_number]].copy()
+        mutation_number = gde.abolition_number.min()
+        abolished_gde = gde[gde.abolition_number==mutation_number].copy()
+        admitted_gde = gde[gde.admission_number==mutation_number].copy()
         changed_gde_hist_ids = list(abolished_gde.history_municipality_id) + list(admitted_gde.history_municipality_id)
         unchanged_gde = gde[[hid not in changed_gde_hist_ids for hid in gde.history_municipality_id]].copy()
 
-        new_admitted_gde = [
-            gde_control_from_mutation(ab_gde, admitted_gde[admitted_gde.admission_number==mn].copy())
-            for mn, ab_gde
-            in abolished_gde.groupby(abolished_gde.abolition_number)
-        ]
+        new_admitted_gde = gde_control_from_mutation(abolished_gde, admitted_gde)
 
-        new_gde = unchanged_gde.append( new_admitted_gde)
+        new_gde = unchanged_gde.append(new_admitted_gde)
         if False:
             adgde = admitted_gde
             abgde = abolished_gde
@@ -420,7 +421,9 @@ mutations = add_mutations_type(gde)
 print("done adding mutations types")
 
 print("adding controls...")
-dahu = gde_control(gde)
+gde_to1960 = gde[ (gde.admission_date<19600000)].copy()
+new_gde_to1960 = gde_control(gde_to1960)
+#new_gde_from1960 = gde_control(gde[gde.admission_date>=19600000].copy())
 print("done adding controls")
 
 if False:
