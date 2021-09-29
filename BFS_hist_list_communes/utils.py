@@ -15,6 +15,101 @@ camel_to_snake_case_regex = re.compile(r"([A-Z]+)")
 def camel_to_snake_case(s):
     return ''.join(['_'+c.lower() if c.isupper() else c for c in s]).lstrip('_')
 
+
+
+
+
+def get_attributes_string(class_name, object_dict):
+    return f"""{class_name}({', '.join([
+        f"{str(k)}: {str(v)}"
+        for k, v in object_dict.items()
+    ])})"""
+
+class HistoricizedMunicipality:
+    def __init__(self, dict_municipality):
+        self.hid = int(dict_municipality["history_municipality_id"])
+        self.district_hist_id = int(dict_municipality["district_hist_id"])
+        self.canton_abbreviation = dict_municipality["canton_abbreviation"]
+        self.id = int(dict_municipality["id"])
+        self.long_name = dict_municipality["long_name"]
+        self.short_name = dict_municipality["short_name"]
+        self.entry_mode = int(dict_municipality["entry_mode"])
+        self.status = int(dict_municipality["status"])
+        self.admission_number = int(dict_municipality["admission_number"])
+        self.admission_mode = int(dict_municipality["admission_mode"])
+        self.admission_date = orderable_date(dict_municipality["admission_date"])
+        self.abolition_number = int(dict_municipality["abolition_number"]) if dict_municipality["abolition_number"] else None
+        self.abolition_mode = int(dict_municipality["abolition_mode"]) if dict_municipality["abolition_mode"] else None
+        self.abolition_date = orderable_date(dict_municipality["abolition_date"]) if dict_municipality["abolition_date"] else 99999999
+        self.date_of_change = orderable_date(dict_municipality["date_of_change"])
+        self.controller = None
+        self.equivalent_territories = []
+        self.admission=None
+        self.abolition=None
+    def successors(self):
+        if self.abolition is None:
+            return None
+        else:
+            return self.abolition.admitted
+    def predessors(self):
+        if self.admission is None:
+            return None
+        else:
+            return self.admission.abolished
+    def __str__(self):
+        odict = self.__dict__.copy()
+        del odict["admission"]
+        del odict["abolition"]
+        odict["admission_type"] = self.admission.type if self.admission else "?"
+        odict["abolition_type"] = self.abolition.type if self.abolition else "?"
+        return get_attributes_string("HistoricizedMunicipality", odict)
+    def __repr__(self):
+        return self.__str__()
+
+class Mutation:
+    def __init__(self, number,abolished,admitted, date, mutation_type = None):
+        self.number = number
+        self.abolished = abolished
+        self.admitted = admitted
+        self.date = date
+        self.type = mutation_type
+        if self.type is None:
+            self.type = get_mutation_type(self)
+        for ab in self.abolished:
+            ab.abolition = self
+        for ab in self.admitted:
+            ab.admission = self
+    def __str__(self):
+        odict = self.__dict__.copy()
+        odict["abolished"] = [f"HistMun({hm.hid}, {hm.short_name}, ab. mode: {hm.abolition_mode})" for hm in odict["abolished"]]
+        odict["admitted"] = [f"HistMun({hm.hid}, {hm.short_name}, ab. mode: {hm.admission_mode})" for hm in odict["admitted"]]
+        return get_attributes_string("Mutation", odict)
+    def __repr__(self):
+        return self.__str__()
+
+
+
+
+def get_mutations(gdes):
+    # for unclear reasons, admission_number and admission_date pairs are not unique
+    # some admission_number have multiple dates
+    # we always take the earliest admission date
+    mutation_numbers = {gde.admission_number for gde in gdes}
+    mutation_numbers_dates = [(mn,min(gde.admission_date for gde in gdes if gde.admission_number==mn)) for mn in mutation_numbers]
+    mutations = [
+        Mutation(
+            mn,
+            [gde for gde in gdes if gde.abolition_number==mn],
+            [gde for gde in gdes if gde.admission_number==mn],
+            date
+        ) for mn, date in mutation_numbers_dates
+    ]
+    # sort by date&number
+    mutations.sort(key= lambda m: 10000*m.date + m.number)
+    return mutations
+
+
+
 DISTRICT_CHANGE_MUTATION = "district/canton change"
 TERRITORY_EXCHANGE_MUTATION = "territory exchange"
 INCLUSION_MUTATION = "inclusion"
@@ -29,101 +124,105 @@ DISTRICT_NAME_CHANGE_MUTATION = "district name change"
 FUSION_MUTATION = "fusion"
 
 def get_mutation_type(mutation):
-    """returns mutation type
-    
-    expects gde cols with _ad _ab suffixes
-    """
-    nb_admissions = len(mutation.history_municipality_id_ad.unique())
-    nb_abolitions = len(mutation.history_municipality_id_ab.unique())
-    # scission/exclusion
-    if nb_admissions>1:
+    """gets mutation type from a Mutation object"""
+    abolished_gdes = mutation.abolished
+    admitted_gdes = mutation.admitted
+    nb_admissions = len(admitted_gdes)
+    nb_abolitions = len(abolished_gdes)
+
+    if all(gde.admission_mode==20 for gde in admitted_gdes):
+        return "initialization"
+    elif nb_admissions>1:
         # territory exchange/scission/exclusion/multi inclusion
-        if all(mutation["admission_mode_ad"]==26) and nb_abolitions==nb_admissions:
+        if all(gde.admission_mode==26 for gde in admitted_gdes) and nb_abolitions==nb_admissions:
             return "territory exchange"
-        if all(mutation["admission_mode_ad"]==26) and nb_admissions>1:
+        if all(gde.admission_mode==26 for gde in admitted_gdes):
             # multi inclusion: 1 gde is shared in 2 existing gdes
             return "multi inclusion"
-        elif any(mutation["admission_mode_ad"]==26) and nb_abolitions==1:
+        elif any(gde.admission_mode==26 for gde in admitted_gdes)  and nb_abolitions==1:
             return "exclusion"
-        elif any(mutation["admission_mode_ad"]==26) and nb_abolitions>1:
+        elif any(gde.admission_mode==26 for gde in admitted_gdes)  and nb_abolitions>1:
             # multi exclusion: 1 gde is cut out of 2 existing gdes
             return "multi exclusion"
-        elif all(mutation["admission_mode_ad"]==21) and nb_abolitions==1:
+        elif all(gde.admission_mode==21 for gde in admitted_gdes)  and nb_abolitions==1:
             return "scission"
-        else:
-            warn("unknown gemeinde mutation type")
-            return f"unknown"
     else:
-        if any(mutation["admission_mode_ad"]==20):
-            return "initialization"
-        if any(mutation["admission_mode_ad"]==27):
+        admitted_gde = admitted_gdes[0]
+        if admitted_gde.admission_mode==27:
             return "renumbering"
-        elif any(mutation["admission_mode_ad"]==23):
+        elif admitted_gde.admission_mode==23:
             return "name change"
-        elif any(mutation["admission_mode_ad"]==22):
+        elif admitted_gde.admission_mode==22:
             return "district name change"
-        elif any(mutation["admission_mode_ad"]==24):
+        elif admitted_gde.admission_mode==24:
             return "district/canton change"
-        elif any(mutation["admission_mode_ad"]==26):
+        elif admitted_gde.admission_mode==26:
             return "inclusion"
-        elif any(mutation["admission_mode_ad"]==21):
+        elif admitted_gde.admission_mode==21:
             return "fusion"
-        else:
-            warn("unknown gemeinde mutation type")
-            return f"unknown"
+    warn(f"unknown gemeinde mutation type for number: {mutation.number}")
+    return f"unknown"
+
+# %%
 
 
-def add_mutations_type(gde, summary_or_mutations="summary"):
-    """returns mutation type
-    
-    expects gde cols
-    """
-    summary_or_mutations = summary_or_mutations=="summary"
+def gde_control_from_mutation(mutation):
+    nb_abolished = len(mutation.abolished)
+    nb_admitted = len(mutation.admitted)
 
-    gde2=gde.copy()
-    gde2["mutation_number"]  = gde2["admission_number"]
-    gde["mutation_number"] = gde["abolition_number"]
-
-    mutations = gde.merge(gde2, on="mutation_number", suffixes = ("_ab", "_ad"))
-    if not summary_or_mutations:
-        mutations["mutation_type"]=None
-
-    rmutations = []
-    hid_ab = "history_municipality_id_ab"
-    colnames_ab= [
-            "short_name_ab",
-            "abolition_mode_ab",
-    ]
-    hid_ad = "history_municipality_id_ad"
-    colnames_ad= [
-            "short_name_ad",
-            "admission_mode_ad",
-    ]
-
-    gde.loc[gde["admission_mode"]==20,"admission_type"] = "initialization"
-    gde["abolition_type"] = None
-    for jn,mutation in mutations.groupby("mutation_number"):
-        mutation_type = get_mutation_type(mutation)
-        gde.loc[gde.admission_number==jn, "admission_type"] = mutation_type
-        gde.loc[gde.abolition_number==jn, "abolition_type"] = mutation_type
-        gde_ab = mutation[colnames_ab+[hid_ab]].drop_duplicates()
-        gde_ad = mutation[colnames_ad+[hid_ad]].drop_duplicates()
-        if summary_or_mutations:
-            mutation_date = mutation.admission_date_ad.iloc[0]
-            rmutations.append([
-                list(gde_ab.short_name_ab),
-                list(gde_ab.abolition_mode_ab),
-                list(gde_ad.short_name_ad),
-                list(gde_ad.admission_mode_ad),
-                mutation_type,
-                mutation_date,
-                list(gde_ab.history_municipality_id_ab),
-                list(gde_ad.history_municipality_id_ad),
-            ])
-        else:
-            mutations.loc[mutations.mutation_number==jn,["mutation_type"]]=mutation_type
-    if summary_or_mutations:
-        return pd.DataFrame(rmutations, columns = colnames_ab+colnames_ad+["mutation_type", "mutation_date",hid_ab, hid_ab])
+    if mutation.type == INITIALIZATION_MUTATION:
+        for admitted in mutation.admitted:
+            admitted.controller = admitted.hid
+            admitted.equivalent_territories = [admitted.hid]
+        return None
+    if nb_abolished == nb_admitted == 1:
+        # only 1 abolished&admitted:
+        abolished = mutation.abolished[0]
+        admitted = mutation.admitted[0]
+        if mutation.type in [
+            DISTRICT_CHANGE_MUTATION,
+            RENUMBERING_MUTATION,
+            NAME_CHANGE_MUTATION,
+            DISTRICT_NAME_CHANGE_MUTATION
+        ]:
+            admitted.controller = abolished.controller
+            admitted.equivalent_territories = abolished.equivalent_territories.copy()
+            return None
+        elif mutation.type==NAME_CHANGE_MUTATION:
+            admitted.controller = admitted.controller.hid
+            admitted.equivalent_territories = abolished.equivalent_territories.copy()
+            return None
+    elif nb_admitted==1:
+        admitted = mutation.admitted[0]
+        if mutation.type==FUSION_MUTATION:
+            admitted.controller = admitted.hid
+            admitted.equivalent_territories = [et for ab in mutation.abolished for et in ab.equivalent_territories]
+            return None
+        elif mutation.type==INCLUSION_MUTATION:
+            controller = [ab for ab in mutation.abolished if ab.abolition_mode==26]
+            if len(controller)!=1:
+                raise Exception(f"gde_control_from_mutation() inclusion with more than 1 abolition_mode 26 for mutation {mutation.number}")
+            admitted.controller = controller[0].hid
+            admitted.equivalent_territories = [et for ab in mutation.abolished for et in ab.equivalent_territories]
+            return None
     else:
-        del mutations["mutation_number"]
-        return mutations
+        # more than 1 abolished/admitted:
+        if mutation.type==TERRITORY_EXCHANGE_MUTATION:
+            abs = {ab.short_name: ab for ab in mutation.abolished}
+            ads = {ad.short_name: ad for ad in mutation.admitted}
+            for short_name, ab in abs.items():
+                ads[short_name].controller = ab.controller
+                ads[short_name].equivalent_territories = ab.equivalent_territories.copy()
+            return None
+        elif mutation.type in [
+            MULTI_INCLUSION_MUTATION,
+            MULTI_EXCLUSION_MUTATION,
+            EXCLUSION_MUTATION,
+            SCISSION_MUTATION
+        ]:
+            # TODO: improve scission/exclusion to finesse gde control if possible
+            for admitted in mutation.admitted:
+                admitted.controller = admitted.hid
+                admitted.equivalent_territories = [et for ab in mutation.abolished for et in ab.equivalent_territories]
+            return None
+    raise Exception(f"gde_control_from_mutation() unable to match control for mutation {mutation.number}")
