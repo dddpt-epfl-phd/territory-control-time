@@ -76,7 +76,7 @@ def get_gde_control_web(gdes, get_controller=lambda g: g.controller):
     territories_to_controller = dict()
 
 
-    def get_controls_at_date(date, gdes, previous_date_t_to_c, previous_controls):
+    def get_controls_at_date(date, gdes, previous_date_t_to_c, last_controls):
         changed_gdes = [gde for gde in gdes if gde.admission_date==date]
 
         territories_to_controller = previous_date_t_to_c
@@ -88,30 +88,42 @@ def get_gde_control_web(gdes, get_controller=lambda g: g.controller):
         for t, c in territories_to_controller.items():
             controls[c].add(t)
         
-        filtered_controls = {c:ts for c,ts in controls.items() if c not in previous_controls or ts!=previous_controls[c]}
+        filtered_controls = {c:ts for c,ts in controls.items() if c not in last_controls or ts!=last_controls[c]}
 
         return filtered_controls, controls
 
     controls_at_dates = []
-    previous_controls =  dict()
+    last_controls =  dict()
     for d in dates:
-        filtered_controls_at_d, controls_at_d = get_controls_at_date(d, gdes, territories_to_controller, previous_controls)
+        filtered_controls_at_d, controls_at_d = get_controls_at_date(d, gdes, territories_to_controller, last_controls)
         controls_at_dates.append((d, filtered_controls_at_d))
-        previous_controls = controls_at_d
+        last_controls = controls_at_d
 
-    controls_at_dates_only_list = [(d, [(c, list(ts)) for c,ts in c_to_ts.items()]) for d,c_to_ts in controls_at_dates]
+    #controls_at_dates_only_list = [(d, [(c, list(ts)) for c,ts in c_to_ts.items()]) for d,c_to_ts in controls_at_dates]
 
-    return [(d, c_to_ts) for d,c_to_ts in controls_at_dates_only_list if len(c_to_ts)>0]
+    controls_by_controller = [(
+        c,
+        [
+            (d, list(c_to_ts[c]))
+            for d, c_to_ts
+            in controls_at_dates
+            if c in c_to_ts
+            #if len(c_to_ts[c])>0
+        ])
+        for c in controllers
+    ]
 
+    #return [(d, c_to_ts) for d,c_to_ts in controls_at_dates_only_list if len(c_to_ts)>0]
+    return controls_by_controller
 
 controls_at_dates_gde = get_gde_control_web(gdes)
 with open("controls_at_dates_gde.json", "w") as outfile:
-    json.dump(controls_at_dates_gde, outfile)
+    json.dump(controls_at_dates_gde, outfile, indent=2)
 
 
 controls_at_dates_bez = get_gde_control_web(gdes, lambda g: g.district_hist_id)
 with open("controls_at_dates_bez.json", "w") as outfile:
-    json.dump(controls_at_dates_bez, outfile)
+    json.dump(controls_at_dates_bez, outfile, indent=2)
 
 controls_at_dates_kt = get_gde_control_web(gdes, lambda g: g.canton_abbreviation)
 with open("controls_at_dates_kt.json", "w") as outfile:

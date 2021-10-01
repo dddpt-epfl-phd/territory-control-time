@@ -15,3 +15,13 @@ Proposition:
     -> but no links
 - list of dated links:
     -> beginning, end, type of control, controllee, controllers, main controller
+
+
+Webapp MVP 30.9.2021
+=================================================
+
+Proposition:
+- DONE load CH on mapbox
+- DONE load polygons on map
+- style polygon according to controller
+- add slider

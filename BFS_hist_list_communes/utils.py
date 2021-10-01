@@ -25,6 +25,37 @@ def get_attributes_string(class_name, object_dict):
         for k, v in object_dict.items()
     ])})"""
 
+
+
+
+DISTRICT_CHANGE_MUTATION = "district/canton change"
+TERRITORY_EXCHANGE_MUTATION = "territory exchange"
+INCLUSION_MUTATION = "inclusion"
+MULTI_INCLUSION_MUTATION = "multi inclusion"
+MULTI_EXCLUSION_MUTATION = "multi exclusion"
+EXCLUSION_MUTATION = "exclusion"
+SCISSION_MUTATION = "scission"
+INITIALIZATION_MUTATION = "initialization"
+RENUMBERING_MUTATION = "renumbering"
+NAME_CHANGE_MUTATION = "name change"
+DISTRICT_NAME_CHANGE_MUTATION = "district name change"
+FUSION_MUTATION = "fusion"
+MUTATION_TYPES = [
+    DISTRICT_CHANGE_MUTATION,
+    TERRITORY_EXCHANGE_MUTATION,
+    INCLUSION_MUTATION,
+    MULTI_INCLUSION_MUTATION,
+    MULTI_EXCLUSION_MUTATION,
+    EXCLUSION_MUTATION,
+    SCISSION_MUTATION,
+    INITIALIZATION_MUTATION,
+    RENUMBERING_MUTATION,
+    NAME_CHANGE_MUTATION,
+    DISTRICT_NAME_CHANGE_MUTATION,
+    FUSION_MUTATION
+]
+
+
 class HistoricizedMunicipality:
     def __init__(self, dict_municipality):
         self.hid = int(dict_municipality["history_municipality_id"])
@@ -46,6 +77,7 @@ class HistoricizedMunicipality:
         self.equivalent_territories = []
         self.admission=None
         self.abolition=None
+        self.mutations_history=[]
     def successors(self):
         if self.abolition is None:
             return None
@@ -110,18 +142,6 @@ def get_mutations(gdes):
 
 
 
-DISTRICT_CHANGE_MUTATION = "district/canton change"
-TERRITORY_EXCHANGE_MUTATION = "territory exchange"
-INCLUSION_MUTATION = "inclusion"
-MULTI_INCLUSION_MUTATION = "multi inclusion"
-MULTI_EXCLUSION_MUTATION = "multi exclusion"
-EXCLUSION_MUTATION = "exclusion"
-SCISSION_MUTATION = "scission"
-INITIALIZATION_MUTATION = "initialization"
-RENUMBERING_MUTATION = "renumbering"
-NAME_CHANGE_MUTATION = "name change"
-DISTRICT_NAME_CHANGE_MUTATION = "district name change"
-FUSION_MUTATION = "fusion"
 
 def get_mutation_type(mutation):
     """gets mutation type from a Mutation object"""
@@ -169,6 +189,13 @@ def get_mutation_type(mutation):
 def gde_control_from_mutation(mutation):
     nb_abolished = len(mutation.abolished)
     nb_admitted = len(mutation.admitted)
+
+    # adding mutation_history
+    for admitted in mutation.admitted:
+        admitted.mutations_history = [mutation]+[
+           m for abolished in mutation.abolished
+           for m in abolished.mutations_history
+        ]
 
     if mutation.type == INITIALIZATION_MUTATION:
         for admitted in mutation.admitted:
