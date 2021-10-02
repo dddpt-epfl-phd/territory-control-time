@@ -20,8 +20,8 @@ layers
 
 for l in layers:
     layer = gpd.read_file(gde1848_gdbfile, layer = l)
-    print("\nlayer "+l)
-    print(layer.columns)
+    #print("\nlayer "+l)
+    #print(layer.columns)
     layer.to_file('./geojson/'+l+'.geojson', driver='GeoJSON')  
 
 # %% gde layer is layer 1
@@ -44,5 +44,15 @@ gdeVD = gdeVD[["GDEHISTID","GDENR","GdeName"]]
 gdeVD.sort_values(by="GdeName", inplace=True)
 gdeVD.to_csv("BFS_communes.csv",sep=";", index=False)
 
-
-
+# to given epsg 
+espg = 4326
+for l in layers:
+    layer = gpd.read_file(gde1848_gdbfile, layer = l)
+    #print("\nlayer "+l)
+    #print(layer.columns)
+    print("\nlayer "+l+" crs:")
+    print(layer.crs)
+    layer = layer.to_crs(epsg=espg)
+    print("layer "+l+" new crs:")
+    print(layer.crs)
+    layer.to_file(f'./geojson/epsg{espg}_'+l+'.geojson', driver='GeoJSON')  
