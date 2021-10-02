@@ -101,15 +101,15 @@ def get_gde_control_web(gdes, get_controller=lambda g: g.controller):
 
     #controls_at_dates_only_list = [(d, [(c, list(ts)) for c,ts in c_to_ts.items()]) for d,c_to_ts in controls_at_dates]
 
-    controls_by_controller = [(
-        c,
-        [
-            (d, list(c_to_ts[c]))
+    controls_by_controller = [{
+        "controller": {"id":c},
+        "controlledAtDates": [
+            {"date":d, "controlledEntities":list(c_to_ts[c])}
             for d, c_to_ts
             in controls_at_dates
             if c in c_to_ts
             #if len(c_to_ts[c])>0
-        ])
+        ]}
         for c in controllers
     ]
 

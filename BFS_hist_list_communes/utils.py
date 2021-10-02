@@ -1,3 +1,5 @@
+from math import ceil
+from os import POSIX_FADV_NOREUSE
 import pandas as pd
 import re
 from warnings import warn
@@ -253,3 +255,14 @@ def gde_control_from_mutation(mutation):
                 admitted.equivalent_territories = [et for ab in mutation.abolished for et in ab.equivalent_territories]
             return None
     raise Exception(f"gde_control_from_mutation() unable to match control for mutation {mutation.number}")
+
+
+def color_cuboid_subdivision(nb_colors, rmin, rmax, gmin, gmax, bmin, bmax):
+    nb_per_color = ceil(nb_colors **(1./3.))
+    rstep = int((rmax-rmin)/nb_per_color)
+    gstep = int((gmax-gmin)/nb_per_color)
+    bstep = int((bmax-bmin)/nb_per_color)
+    rrange = range(int(rmin+rstep/2), rmax, rstep)
+    grange = range(int(gmin+rstep/2), gmax, gstep)
+    brange = range(int(bmin+rstep/2), bmax, bstep)
+    return [(r,g,b) for r in rrange for g in grange for b in brange][0:nb_colors]
