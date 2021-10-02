@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Swiss</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 95%;
+      }
+      #year-level-selector {
+        position: absolute;
+        top: 95%;
+        width: 100%;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id='map'></div>
+    <form id='year-level-selector' onsubmit="return false" >
+      <fieldset>
+        <label>Level:</label>
+        <select id="level-selector" name="level-selector">
+          <option value="gde">Communes</option>
+          <option value="bez" selected>Districts</option>
+          <option value="kt">Cantons</option>
+        </select>
+        <label for="year">Year:</label> <input id="year-selector" name="year" type="text" value="1879">
+      </fieldset>
+    </form>
+    <script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2NhbnZhbi1kaGxhYiIsImEiOiJja2lwd29qam8wYTE2MnFwandrODQ3NmcxIn0.aeqc4_YClf5MIp2x3dH8hg';
+const map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/light-v10', // stylesheet location
+    center: [8.2,46.8], // starting position [lng, lat]
+    zoom: 7 // starting zoom
+});
+
+map.on('load', () => {
+  map.addSource('territories', {
+      type: 'geojson',
+      // Use a URL for the value for the `data` property.
+      data: 'http://localhost:8000/epsg4326_K4_1850_gde.geojson'
+  });
+
+  map.addLayer({
+      'id': 'territories-fill',
+      'type': 'fill',
+      'source': 'territories',
+      layout:{},
+      'paint': {
+          "fill-color": "rgb(123,40,30)",
+          "fill-opacity": 1
+      }
+  });
+  // Add a black outline around the polygon.
+  map.addLayer({
+      'id': 'territories-outline',
+      'type': 'line',
+      'source': 'territories',
+      'layout': {},
+      'paint': {
+          'line-color': '#000',
+          'line-width': 0.5
+      }
+  });
+
+  map.addLayer({
+    id: "territories-hid",
+    type: "symbol",
+    source: "territories",
+    minzoom: 8,
+    layout: {
+      "text-field": ["concat", ["get", "GdeName"], "\n",["get", "GDEHISTID"]],
+      "text-font": [
+        "case",
+        ["has", "GDEHISTID"],
+        ["literal", ["Open Sans Bold"]],
+        ["literal", ["Open Sans Regular"]],
+      ],
+      //"text-variable-anchor": ["top", "bottom", "left", "right"],
+      //"text-radial-offset": 0.5,
+      "text-justify": "center",
+      "text-size": [
+        "interpolate",
+        ["exponential", 0.5],
+        ["zoom"],
+        16,
+        8,
+        22,
+        16,
+      ],
+    }
+  })
+  setControlsAtDateAndLevel(yearSelector.value, levelSelector.value)
+  console.log("done")
+});
+
+let GDE = "gde"
+let BEZ = "bez"
+let KT = "kt"
+let levels=[GDE, BEZ, KT]
+
+let gdes=false
+let bez=false
+let kt=false
+let levelsControllers = {}
+levelsControllers[GDE] = gdes
+levelsControllers[BEZ] = bez
+levelsControllers[KT] = kt
+
+/** Loads control relationships at level for all dates, from static jsons
+*/
+async function loadControlsAtLevel(level){
+  if(!levels.includes(level)) {
+    throw new Error("loadControlsAtLevel(), Invalid level", level);
+  }
+  if(!levelsControllers[level]){
+    let resp = await fetch("http://localhost:8000/controls_at_dates_"+level+".json")
+    let levelControllers = await resp.json()
+    levelsControllers[level] = levelControllers
+    gdes = level==GDE? levelControllers : gdes
+    bez = level==BEZ? levelControllers : bez
+    kt = level==KT? levelControllers : kt
+  }
+  return levelsControllers[level]
+}
+
+/** Loads control relationships at given level and date
+ * 
+ * level: one of "gde", "bez", "kt"
+*/
+async function loadControlsAtDateAndLevel(date, level){
+  date = ensureDateFormat(date)
+  let controllers = await loadControlsAtLevel(level)
+  return controllers.map(c=>{
+    let controlsBefore = c.controlledAtDates.filter(cad=>cad.date<date)
+    let controlBefore = controlsBefore.length>0? controlsBefore[controlsBefore.length-1] : false
+    return ({
+      controller: c.controller,
+      controlledAtDate: controlBefore
+    })
+  }).filter(c=>c.controlledAtDate!==false)
+}
+
+loadControlsAtLevel(GDE)
+
+let controlsAtDateAndLevel = false
+async function setControlsAtDateAndLevel(date, level){
+  controlsAtDateAndLevel = await loadControlsAtDateAndLevel(date,level)
+  
+  let fillColorMatch = controlsAtDateAndLevel.filter(c=>c.controlledAtDate.controlledEntities.length>0)
+  .map( c=> [
+    c.controlledAtDate.controlledEntities,
+    "rgb("+randomInt(0,256)+","+randomInt(0,256)+","+randomInt(0,256)+")"
+  ]).flat()
+  console.log("fillColorMatch:", fillColorMatch)
+
+  map.setPaintProperty(
+    'territories-fill', 
+    'fill-color', 
+    ['match', ['get', 'GDEHISTID'], ...fillColorMatch, "white"]
+  );
+
+}
+
+let levelSelector = document.getElementById("level-selector")
+levelSelector.addEventListener("change",()=>{
+  console.log("level changed:", levelSelector.value)
+  setControlsAtDateAndLevel(yearSelector.value, levelSelector.value)
+})
+let yearSelector = document.getElementById("year-selector")
+yearSelector.addEventListener("change",()=>{
+  console.log("year changed:", yearSelector.value)
+  setControlsAtDateAndLevel(yearSelector.value, levelSelector.value)
+})
+
+// ===================================================================================
+
+function ensureDateFormat(date){
+  return date>=1000 && date<10000? date*10000 : (date>=10*8&& date<2030*10**4? date : 18500000)
+}
+
+function range(start, stop, step=1, length=Math.ceil((stop-start)/step)){
+  return Array.from({length}, (x,i)=> start+i*step)
+}
+
+function randomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+}
+
+
+function color_cuboid_subdivision(nbColors, rmin, rmax, gmin, gmax, bmin, bmax){
+    nbPerColor = Math.ceil(nbColors **(1./3.))
+    rstep = Math.floor((rmax-rmin)/nbPerColor)
+    gstep = Math.floor((gmax-gmin)/nbPerColor)
+    bstep = Math.floor((bmax-bmin)/nbPerColor)
+    
+    rrange = range(rmin+Math.round(rstep/2), rmax, rstep)
+    grange = range(gmin+Math.round(gstep/2), gmax, gstep)
+    brange = range(bmin+Math.round(bstep/2), bmax, bstep)
+
+    colors = []
+    rrange.forEach(r=> grange.forEach(g=> forEach(brange.forEach(b=> colors.push(r,g,b)))))
+    return colors
+}
+  </script>
+
+  </body>
+</html>
