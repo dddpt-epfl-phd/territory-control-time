@@ -3705,7 +3705,6 @@
       {
         "date": 20180101,
         "controlledEntities": [
-          10241,
           11649,
           10883,
           11523,
@@ -3717,7 +3716,6 @@
           11920,
           16274,
           11667,
-          10260,
           12819,
           16275,
           16276,
@@ -6387,7 +6385,6 @@
       {
         "date": 18480912,
         "controlledEntities": [
-          10247,
           11784,
           12950,
           12952,
@@ -6701,9 +6698,7 @@
       {
         "date": 18480912,
         "controlledEntities": [
-          10245,
           11753,
-          10284,
           12718,
           12688,
           13009,
@@ -8058,12 +8053,10 @@
           10598,
           12389,
           12517,
-          10249,
           12551,
           12176,
           10323,
           10457,
-          10299,
           10844,
           11711
         ]
@@ -8081,7 +8074,6 @@
           12418,
           12425,
           16266,
-          10254,
           12558,
           12948,
           12824,
@@ -8121,7 +8113,6 @@
         "date": 18500101,
         "controlledEntities": [
           12290,
-          10244,
           11465,
           12300,
           12556,
@@ -8160,36 +8151,6 @@
           10578,
           12309,
           11580
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10112
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10291,
-          10292
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10113
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10265,
-          10250,
-          10243,
-          10246
         ]
       }
     ]
@@ -8467,24 +8428,6 @@
   },
   {
     "controller": {
-      "id": 10121
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10241,
-          10260
-        ]
-      },
-      {
-        "date": 20180101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
       "id": 10122
     },
     "controlledAtDates": [
@@ -8650,92 +8593,6 @@
           10860,
           12015,
           12151
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10126
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10252
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10127
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10256,
-          10264,
-          10294
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10128
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10295
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10129
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10297,
-          10258,
-          10298
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10134
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10248,
-          10251,
-          10253,
-          10255,
-          10270
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10135
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10288
         ]
       }
     ]
@@ -9175,19 +9032,6 @@
       {
         "date": 19790101,
         "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10148
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10293
-        ]
       }
     ]
   },
@@ -9808,22 +9652,6 @@
   },
   {
     "controller": {
-      "id": 10168
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10296,
-          10257,
-          10290,
-          10289
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
       "id": 10169
     },
     "controlledAtDates": [
@@ -10351,7 +10179,6 @@
           10918,
           11431,
           10921,
-          10287,
           11439,
           16445,
           11582,
@@ -10642,36 +10469,6 @@
       {
         "date": 19970101,
         "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10199
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10266,
-          10267
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 10200
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          10259,
-          10261,
-          10262,
-          10263
-        ]
       }
     ]
   },
