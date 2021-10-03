@@ -1,21 +1,19 @@
 # %%
 
-import json
 import csv
+import json
+import os
 import pandas as pd
 import re
 
+path_prefix = "../"
+working_directory = "BFS_hist_list_communes/"
+os.chdir(path_prefix+working_directory)
+
 from utils import *#orderable_dates, camel_to_snake_case, add_mutations_type
 
-"""
-Heuristics to control graph:
-- if entity doesn't change name: still the same one!
-- if it changes name: create new entity.
-"""
-path_prefix = ""#"BFS_hist_list_communes/"
-
 colnames = []
-with open(path_prefix+"bfs_txt_colnames.json") as fcoln:
+with open("bfs_txt_colnames.json") as fcoln:
     colnames = json.load(fcoln)
 
 gde_short_col_names = [ camel_to_snake_case(re.sub("municipality","",c)) for c in colnames["municipalities"]]
@@ -23,7 +21,7 @@ gde_short_col_names = [ camel_to_snake_case(re.sub("municipality","",c)) for c i
 
 # %% Municipalities
 
-gdes = [HistoricizedMunicipality(g) for g in csv.DictReader(open(path_prefix+"bfs_txt/01.2/20210701_GDEHist_GDE.txt", encoding="Windows 1252"), fieldnames=gde_short_col_names)]
+gdes = [HistoricizedMunicipality(g) for g in csv.DictReader(open("bfs_txt/01.2/20210701_GDEHist_GDE.txt", encoding="Windows 1252"), fieldnames=gde_short_col_names)]
 
 for gde in gdes:
     # Wolfenschiessen error: admission_mode 26 as it is initialized in mutation 1000 (init!)
@@ -42,6 +40,12 @@ if False:
 
 mutations = get_mutations(gdes)
 
+# %% remove lakes before adding control relations
+
+lakes = [g for g in gdes if g.entry_mode==13]
+gdes = [g for g in gdes if g.entry_mode!=13]
+
+
 # %% Control
 
 for m in mutations:
@@ -53,6 +57,8 @@ for m in mutations:
 gdes_dtf = pd.DataFrame({
     "hid": [g.hid for g in gdes],
     "name": [g.short_name for g in gdes],
+    "lname": [g.long_name for g in gdes],
+    "entry_mode": [g.entry_mode for g in gdes],
     "controller": [g.controller for g in gdes],
     "nb_territories": [len(g.equivalent_territories) for g in gdes]
 })
@@ -116,6 +122,9 @@ def get_gde_control_web(gdes, get_controller=lambda g: g.controller):
     #return [(d, c_to_ts) for d,c_to_ts in controls_at_dates_only_list if len(c_to_ts)>0]
     return controls_by_controller
 
+# display non 11 entries
+# [(g.short_name, g.entry_mode, g.admission_date,g.abolition_date) for g in gdes if g.entry_mode!=11]
+
 controls_at_dates_gde = get_gde_control_web(gdes)
 with open("controls_at_dates_gde.json", "w") as outfile:
     json.dump(controls_at_dates_gde, outfile, indent=2)
@@ -129,4 +138,35 @@ controls_at_dates_kt = get_gde_control_web(gdes, lambda g: g.canton_abbreviation
 with open("controls_at_dates_kt.json", "w") as outfile:
     json.dump(controls_at_dates_kt, outfile, indent=2)
 
-# %%
+
+
+
+# BFS geometries ID <-> BFS hist list hid discrepancy investigation
+# -> solved: use g0g1848 shapefile instead of the other one.
+# %% Davos
+
+if False:
+    davos = [g for g in gdes if re.search("Davos", g.short_name)]
+    davos.sort(key=lambda g: g.admission_date)
+    [
+        (
+            g.hid,
+            g.id,
+            g.short_name,
+            g.admission_date,
+            g.abolition_date,
+            g.abolition.type if g.abolition else ""
+        ) 
+        for g in davos
+    ]
+
+    # %% GDEs in 1848
+
+    gdes1848 = [g for g in gdes if g.admission_date==18480912]
+
+    # %% GDEs in 1850
+    def get_gdes_state_at_date(gdes,date):
+        return [g for g in gdes if g.admission_date<date and g.abolition_date>date]
+
+    gdes1850 = get_gdes_state_at_date(gdes, 18500202)
+    # %%

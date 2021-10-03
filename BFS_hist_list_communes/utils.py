@@ -96,6 +96,7 @@ class HistoricizedMunicipality:
         del odict["abolition"]
         odict["admission_type"] = self.admission.type if self.admission else "?"
         odict["abolition_type"] = self.abolition.type if self.abolition else "?"
+        odict["mutations_history"] = [(m.number, m.type) for m in odict["mutations_history"]]
         return get_attributes_string("HistoricizedMunicipality", odict)
     def __repr__(self):
         return self.__str__()

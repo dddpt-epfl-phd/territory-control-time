@@ -20,8 +20,11 @@
       }
       #year-level-selector {
         position: absolute;
-        top: 95%;
+        bottom: 0;
         width: 100%;
+        /*min-height: 40px;*/
+        background-color: white;
+        z-index: 1000;
       }
 
     </style>
@@ -53,7 +56,7 @@ map.on('load', () => {
   map.addSource('territories', {
       type: 'geojson',
       // Use a URL for the value for the `data` property.
-      data: 'http://localhost:8000/epsg4326_K4_1850_gde.geojson'
+      data: 'http://localhost:8000/epsg4326_g0g1848_no_lakes.geojson'//'http://localhost:8000/epsg4326_K4_1850_gde.geojson' //
   });
 
   map.addLayer({
@@ -84,10 +87,10 @@ map.on('load', () => {
     source: "territories",
     minzoom: 8,
     layout: {
-      "text-field": ["concat", ["get", "GdeName"], "\n",["get", "GDEHISTID"]],
+      "text-field": ["concat", ["get", "GdeName"], "\n",["get", "histid"]],
       "text-font": [
         "case",
-        ["has", "GDEHISTID"],
+        ["has", "histid"],
         ["literal", ["Open Sans Bold"]],
         ["literal", ["Open Sans Regular"]],
       ],
@@ -98,10 +101,10 @@ map.on('load', () => {
         "interpolate",
         ["exponential", 0.5],
         ["zoom"],
-        16,
-        8,
+        10,
+        12,
         22,
-        16,
+        18,
       ],
     }
   })
@@ -172,7 +175,7 @@ async function setControlsAtDateAndLevel(date, level){
   map.setPaintProperty(
     'territories-fill', 
     'fill-color', 
-    ['match', ['get', 'GDEHISTID'], ...fillColorMatch, "white"]
+    ['match', ['get', 'histid'], ...fillColorMatch, "transparent"]
   );
 
 }
