@@ -56,7 +56,7 @@ map.on('load', () => {
   map.addSource('territories', {
       type: 'geojson',
       // Use a URL for the value for the `data` property.
-      data: 'http://localhost:8000/epsg4326_g0g1848_no_lakes.geojson'//'http://localhost:8000/epsg4326_K4_1850_gde.geojson' //
+      data: 'web/epsg4326_g0g1848_no_lakes.geojson'//'http://localhost:8000/epsg4326_K4_1850_gde.geojson' //
   });
 
   map.addLayer({
@@ -132,7 +132,7 @@ async function loadControlsAtLevel(level){
     throw new Error("loadControlsAtLevel(), Invalid level", level);
   }
   if(!levelsControllers[level]){
-    let resp = await fetch("http://localhost:8000/controls_at_dates_"+level+".json")
+    let resp = await fetch("/web/controls_at_dates_"+level+".json")
     let levelControllers = await resp.json()
     levelsControllers[level] = levelControllers
     gdes = level==GDE? levelControllers : gdes

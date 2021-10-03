@@ -126,16 +126,16 @@ def get_gde_control_web(gdes, get_controller=lambda g: g.controller):
 # [(g.short_name, g.entry_mode, g.admission_date,g.abolition_date) for g in gdes if g.entry_mode!=11]
 
 controls_at_dates_gde = get_gde_control_web(gdes)
-with open("../webapp/controls_at_dates_gde.json", "w") as outfile:
+with open("../web/controls_at_dates_gde.json", "w") as outfile:
     json.dump(controls_at_dates_gde, outfile, indent=2)
 
 
 controls_at_dates_bez = get_gde_control_web(gdes, lambda g: g.district_hist_id)
-with open("../webapp/controls_at_dates_bez.json", "w") as outfile:
+with open("../web/controls_at_dates_bez.json", "w") as outfile:
     json.dump(controls_at_dates_bez, outfile, indent=2)
 
 controls_at_dates_kt = get_gde_control_web(gdes, lambda g: g.canton_abbreviation)
-with open("../webapp/controls_at_dates_kt.json", "w") as outfile:
+with open("../web/controls_at_dates_kt.json", "w") as outfile:
     json.dump(controls_at_dates_kt, outfile, indent=2)
 
 
