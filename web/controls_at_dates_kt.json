@@ -2633,7 +2633,7 @@
   {
     "controller": {
       "id": "GE",
-      "color": "#e8423f"
+      "color": "#e7423f"
     },
     "controlledAtDates": [
       {
@@ -3156,7 +3156,7 @@
   {
     "controller": {
       "id": "LU",
-      "color": "#16a74e"
+      "color": "#248BCC"
     },
     "controlledAtDates": [
       {
@@ -3279,7 +3279,7 @@
   {
     "controller": {
       "id": "NE",
-      "color": "#e8423f"
+      "color": "#e7423f"
     },
     "controlledAtDates": [
       {
@@ -3754,7 +3754,7 @@
   {
     "controller": {
       "id": "TG",
-      "color": "#0eaa4e"
+      "color": "#e7423f"
     },
     "controlledAtDates": [
       {
@@ -4690,7 +4690,7 @@
   {
     "controller": {
       "id": "VS",
-      "color": "#e8423f"
+      "color": "#e7423f"
     },
     "controlledAtDates": [
       {

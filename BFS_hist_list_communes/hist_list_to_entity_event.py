@@ -148,23 +148,23 @@ kt_colors = {
   "BL": "#e7423f",
   "BS": "#444444",
   "FR": "#444444",
-  "GE": "#e8423f",
+  "GE": "#e7423f",
   "GL": "#fecf01",
   "GR": "#248BCC",
   "JU": "#16a74e",
-  "LU": "#16a74e",
-  "NE": "#e8423f",
+  "LU": "#248BCC",
+  "NE": "#e7423f",
   "NW": "#eeeecc",
   "OW": "#e7423f",
   "SG": "#0ea94d",
   "SH": "#fecf01",
   "SO": "#eeeecc",
   "SZ": "#e7423f",
-  "TG": "#0eaa4e", # #ffde2d
+  "TG": "#e7423f", # #ffde2d
   "TI": "#fecf01", #b300b3", # #e9403d #0000ff
   "UR": "#444444",
   "VD": "#16a74e", #008000
-  "VS": "#e8423f",
+  "VS": "#e7423f",
   "ZG": "#eeeecc",
   "ZH": "#248BCC"
 }
