@@ -56,7 +56,8 @@ map.on('load', () => {
   map.addSource('territories', {
       type: 'geojson',
       // Use a URL for the value for the `data` property.
-      data: './web/epsg4326_g0g1848_no_lakes.geojson'//'http://localhost:8000/epsg4326_K4_1850_gde.geojson' //
+      data: './web/epsg4326_g0g1848_no_lakes.geojson',//'./web/epsg4326_K4_1850_gde.geojson' //
+      //maxzoom: 12
   });
 
   map.addLayer({
@@ -70,7 +71,7 @@ map.on('load', () => {
       }
   });
   // Add a black outline around the polygon.
-  map.addLayer({
+  /*map.addLayer({
       'id': 'territories-outline',
       'type': 'line',
       'source': 'territories',
@@ -79,9 +80,9 @@ map.on('load', () => {
           'line-color': '#000',
           'line-width': 0.5
       }
-  });
+  });*/
 
-  map.addLayer({
+  /*map.addLayer({
     id: "territories-hid",
     type: "symbol",
     source: "territories",
@@ -107,7 +108,7 @@ map.on('load', () => {
         18,
       ],
     }
-  })
+  })*/
   setControlsAtDateAndLevel(yearSelector.value, levelSelector.value)
   console.log("done")
 });
