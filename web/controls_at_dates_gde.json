@@ -1,3425 +1,6 @@
 [
   {
     "controller": {
-      "id": 16384
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16384
-        ]
-      },
-      {
-        "date": 19140101,
-        "controlledEntities": [
-          16384,
-          16385
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16385
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16385
-        ]
-      },
-      {
-        "date": 19140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16386
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16386
-        ]
-      },
-      {
-        "date": 19160101,
-        "controlledEntities": [
-          16386,
-          16387
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16387
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16387
-        ]
-      },
-      {
-        "date": 19160101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16388
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16388
-        ]
-      },
-      {
-        "date": 19170101,
-        "controlledEntities": [
-          16388,
-          16389
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16389
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16389
-        ]
-      },
-      {
-        "date": 19170101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16390
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 19170101,
-        "controlledEntities": [
-          16320,
-          16321,
-          16391
-        ]
-      },
-      {
-        "date": 19200101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16391
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16391
-        ]
-      },
-      {
-        "date": 19170101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16392
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16392
-        ]
-      },
-      {
-        "date": 19180101,
-        "controlledEntities": [
-          16392,
-          16393,
-          16394
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16393
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16393
-        ]
-      },
-      {
-        "date": 19180101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16394
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16394
-        ]
-      },
-      {
-        "date": 19180101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16395
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16395
-        ]
-      },
-      {
-        "date": 19190101,
-        "controlledEntities": [
-          16395,
-          16396,
-          16397,
-          16398,
-          16399,
-          16400
-        ]
-      },
-      {
-        "date": 19971231,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16396
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16396
-        ]
-      },
-      {
-        "date": 19190101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16397
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16397
-        ]
-      },
-      {
-        "date": 19190101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16398
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16398
-        ]
-      },
-      {
-        "date": 19190101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16399
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16399
-        ]
-      },
-      {
-        "date": 19190101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16400
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16400
-        ]
-      },
-      {
-        "date": 19190101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16401
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16401
-        ]
-      },
-      {
-        "date": 19190101,
-        "controlledEntities": [
-          16401,
-          16402
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16402
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16402
-        ]
-      },
-      {
-        "date": 19190101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16403
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 19200101,
-        "controlledEntities": [
-          16378,
-          16379,
-          16404
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16404
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16404
-        ]
-      },
-      {
-        "date": 19200101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16405
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 19200101,
-        "controlledEntities": [
-          16320,
-          16321,
-          16391,
-          16406,
-          16407
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16406
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16406
-        ]
-      },
-      {
-        "date": 19200101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16407
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16407
-        ]
-      },
-      {
-        "date": 19200101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16408
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 19200101,
-        "controlledEntities": [
-          16376,
-          16409,
-          16375
-        ]
-      },
-      {
-        "date": 20180101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16409
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16409
-        ]
-      },
-      {
-        "date": 19200101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16410
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16410
-        ]
-      },
-      {
-        "date": 19220101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16411
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16411
-        ]
-      },
-      {
-        "date": 19220101,
-        "controlledEntities": [
-          16416,
-          16411,
-          16412,
-          16413,
-          16414,
-          16415
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16412
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16412
-        ]
-      },
-      {
-        "date": 19220101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16413
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16413
-        ]
-      },
-      {
-        "date": 19220101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16414
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16414
-        ]
-      },
-      {
-        "date": 19220101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16415
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16415
-        ]
-      },
-      {
-        "date": 19220101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16416
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16416
-        ]
-      },
-      {
-        "date": 19220101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16417
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16417
-        ]
-      },
-      {
-        "date": 19220101,
-        "controlledEntities": [
-          16417,
-          16418
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16418
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16418
-        ]
-      },
-      {
-        "date": 19220101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16419
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16419
-        ]
-      },
-      {
-        "date": 19230101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16420
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16420
-        ]
-      },
-      {
-        "date": 19230101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16421
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16421
-        ]
-      },
-      {
-        "date": 19230101,
-        "controlledEntities": [
-          16421,
-          16422
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16422
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16422
-        ]
-      },
-      {
-        "date": 19230101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16423
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16423
-        ]
-      },
-      {
-        "date": 19250101,
-        "controlledEntities": [
-          16424,
-          16423
-        ]
-      },
-      {
-        "date": 19320101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16424
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16424
-        ]
-      },
-      {
-        "date": 19250101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16425
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16425
-        ]
-      },
-      {
-        "date": 19250101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16426
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16426
-        ]
-      },
-      {
-        "date": 19250101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16427
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16427
-        ]
-      },
-      {
-        "date": 19250101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16428
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16428
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16429
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 19270101,
-        "controlledEntities": [
-          16430,
-          16223
-        ]
-      },
-      {
-        "date": 19280101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16430
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16430
-        ]
-      },
-      {
-        "date": 19270101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16431
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 19280101,
-        "controlledEntities": [
-          16432,
-          16430,
-          16223
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16432
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16432
-        ]
-      },
-      {
-        "date": 19280101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16433
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16433
-        ]
-      },
-      {
-        "date": 19280101,
-        "controlledEntities": [
-          16433,
-          16434
-        ]
-      },
-      {
-        "date": 20061022,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16434
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16434
-        ]
-      },
-      {
-        "date": 19280101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16435
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16435
-        ]
-      },
-      {
-        "date": 19280101,
-        "controlledEntities": [
-          16435,
-          16436
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16436
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16436
-        ]
-      },
-      {
-        "date": 19280101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16437
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16437
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16438
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16438
-        ]
-      },
-      {
-        "date": 19300101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16439
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16439
-        ]
-      },
-      {
-        "date": 19300101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16440
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16440
-        ]
-      },
-      {
-        "date": 19300101,
-        "controlledEntities": [
-          16440,
-          16441
-        ]
-      },
-      {
-        "date": 20210101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16441
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16441
-        ]
-      },
-      {
-        "date": 19300101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16442
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16442
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16443
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16443
-        ]
-      },
-      {
-        "date": 19310101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16444
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16444
-        ]
-      },
-      {
-        "date": 19310101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16445
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16445
-        ]
-      },
-      {
-        "date": 19310101,
-        "controlledEntities": [
-          16448,
-          16445,
-          16446,
-          16447
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16446
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16446
-        ]
-      },
-      {
-        "date": 19310101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16447
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16447
-        ]
-      },
-      {
-        "date": 19310101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16448
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16448
-        ]
-      },
-      {
-        "date": 19310101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16449
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16449
-        ]
-      },
-      {
-        "date": 19320101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16450
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 19320101,
-        "controlledEntities": [
-          16424,
-          16449,
-          16423
-        ]
-      },
-      {
-        "date": 19790101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16451
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16451
-        ]
-      },
-      {
-        "date": 19330101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16452
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16452
-        ]
-      },
-      {
-        "date": 19330101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16453
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 19340101,
-        "controlledEntities": [
-          16286,
-          16287,
-          16289,
-          16290,
-          16291,
-          16292,
-          16293,
-          16294,
-          16295,
-          16296,
-          16297,
-          16298,
-          16454,
-          16455,
-          16456,
-          16457,
-          16460,
-          16461,
-          16220
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16454
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16454
-        ]
-      },
-      {
-        "date": 19340101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16455
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16455
-        ]
-      },
-      {
-        "date": 19340101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16456
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16456
-        ]
-      },
-      {
-        "date": 19340101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16457
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16457
-        ]
-      },
-      {
-        "date": 19340101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16458
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16459
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 18720101,
-        "controlledEntities": [
-          16220
-        ]
-      },
-      {
-        "date": 19340101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16460
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16460
-        ]
-      },
-      {
-        "date": 19340101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16461
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16461
-        ]
-      },
-      {
-        "date": 19340101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16462
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16462
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16463
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16463
-        ]
-      },
-      {
-        "date": 20040901,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16464
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16464
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16465
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16465
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16466
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16466
-        ]
-      },
-      {
-        "date": 20140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16467
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16467
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16468
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16468
-        ]
-      },
-      {
-        "date": 20200101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16469
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16469
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16470
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16470
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16471
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16471
-        ]
-      },
-      {
-        "date": 19390101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16472
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16472
-        ]
-      },
-      {
-        "date": 19400101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16473
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16473
-        ]
-      },
-      {
-        "date": 19400101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16474
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16474
-        ]
-      },
-      {
-        "date": 19400101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16475
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16475
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16476
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16476
-        ]
-      },
-      {
-        "date": 20180101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16478
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16478
-        ]
-      },
-      {
-        "date": 20120101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16479
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16479
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16480
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16480
-        ]
-      },
-      {
-        "date": 20090101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16481
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16481
-        ]
-      },
-      {
-        "date": 19980701,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16482
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16482
-        ]
-      },
-      {
-        "date": 20150101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16483
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16483
-        ]
-      },
-      {
-        "date": 20150101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16484
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16484
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16485
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16485
-        ]
-      },
-      {
-        "date": 20140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16486
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16486
-        ]
-      },
-      {
-        "date": 20140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16487
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16487
-        ]
-      },
-      {
-        "date": 20150101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16488
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16488
-        ]
-      },
-      {
-        "date": 20130101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16489
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16489
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16490
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16490
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16491
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16491
-        ]
-      },
-      {
-        "date": 20160101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16492
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16492
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16493
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16493
-        ]
-      },
-      {
-        "date": 20140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16494
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16494
-        ]
-      },
-      {
-        "date": 19980701,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16495
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16495
-        ]
-      },
-      {
-        "date": 20130101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16496
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16496
-        ]
-      },
-      {
-        "date": 19790101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16497
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16497
-        ]
-      },
-      {
-        "date": 19790101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16498
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16498
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16499
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16499
-        ]
-      },
-      {
-        "date": 20140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16500
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16500
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16501
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16501
-        ]
-      },
-      {
-        "date": 20020101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16502
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16502
-        ]
-      },
-      {
-        "date": 20090101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16503
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16503
-        ]
-      },
-      {
-        "date": 20090101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16504
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16504
-        ]
-      },
-      {
-        "date": 20160101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16505
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16505
-        ]
-      },
-      {
-        "date": 20150101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16506
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16506
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16507
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16507
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16508
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16508
-        ]
-      },
-      {
-        "date": 20140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16509
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16509
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16510
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16510
-        ]
-      },
-      {
-        "date": 20140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16511
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16511
-        ]
-      },
-      {
-        "date": 19630524,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16512
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16512
-        ]
-      },
-      {
-        "date": 20150101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16513
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16513
-        ]
-      },
-      {
-        "date": 20090101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16514
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16514
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16515
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16515
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16516
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16516
-        ]
-      },
-      {
-        "date": 20160101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16517
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16517
-        ]
-      },
-      {
-        "date": 20090101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16518
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16518
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16519
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16519
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16520
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16520
-        ]
-      },
-      {
-        "date": 20180101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16521
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16521
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16523
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16523
-        ]
-      },
-      {
-        "date": 20180101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16525
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16525
-        ]
-      },
-      {
-        "date": 20140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16526
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16526
-        ]
-      },
-      {
-        "date": 19460101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16527
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16527
-        ]
-      },
-      {
-        "date": 19460101,
-        "controlledEntities": [
-          16526,
-          16527
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16529
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16529
-        ]
-      },
-      {
-        "date": 19460101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16530
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16530
-        ]
-      },
-      {
-        "date": 19460101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16531
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16531
-        ]
-      },
-      {
-        "date": 19470101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16532
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16532
-        ]
-      },
-      {
-        "date": 19470101,
-        "controlledEntities": [
-          16531,
-          16532
-        ]
-      },
-      {
-        "date": 19640101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16533
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16533
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16535
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 18710101,
-        "controlledEntities": [
-          16200,
-          16201,
-          16199
-        ]
-      },
-      {
-        "date": 19500101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16536
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16536
-        ]
-      },
-      {
-        "date": 19500101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16537
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16537
-        ]
-      },
-      {
-        "date": 19500101,
-        "controlledEntities": [
-          16199,
-          16200,
-          16201,
-          16536,
-          16537
-        ]
-      },
-      {
-        "date": 19961231,
-        "controlledEntities": [
-          16536,
-          16537
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16538
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16538
-        ]
-      },
-      {
-        "date": 20130101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16539
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16539
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16540
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16540
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16541
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16541
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16542
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16542
-        ]
-      },
-      {
-        "date": 19520101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16543
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16543
-        ]
-      },
-      {
-        "date": 19520101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16544
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16544
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16545
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16545
-        ]
-      },
-      {
-        "date": 19790101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16546
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16546
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16547
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16547
-        ]
-      },
-      {
-        "date": 20090101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16548
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16548
-        ]
-      },
-      {
-        "date": 20130101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16549
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16549
-        ]
-      },
-      {
-        "date": 20040101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16550
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16550
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16551
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16551
-        ]
-      },
-      {
-        "date": 19620101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16552
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16552
-        ]
-      },
-      {
-        "date": 19620101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16553
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16553
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16554
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16554
-        ]
-      },
-      {
-        "date": 20140101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16555
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16555
-        ]
-      },
-      {
-        "date": 19990101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16556
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16556
-        ]
-      },
-      {
-        "date": 20110701,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16558
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16558
-        ]
-      },
-      {
-        "date": 19760404,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16559
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16559
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16560
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16560
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16561
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16561
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16562
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16562
-        ]
-      },
-      {
-        "date": 20050101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16563
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16563
-        ]
-      },
-      {
-        "date": 20130101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16564
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16564
-        ]
-      },
-      {
-        "date": 19790101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16565
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16565
-        ]
-      },
-      {
-        "date": 19950101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16566
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16566
-        ]
-      },
-      {
-        "date": 19950101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16567
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16567
-        ]
-      },
-      {
-        "date": 19720423,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16568
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16568
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16569
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16569
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16570
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16570
-        ]
-      },
-      {
-        "date": 20070101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16571
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16571
-        ]
-      },
-      {
-        "date": 19560101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16572
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16572
-        ]
-      },
-      {
-        "date": 19560101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16573
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16573
-        ]
-      },
-      {
-        "date": 19560101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16574
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16574
-        ]
-      },
-      {
-        "date": 19560101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16575
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16575
-        ]
-      },
-      {
-        "date": 19560101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16576
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16576
-        ]
-      },
-      {
-        "date": 19560101,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16577
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16577
-        ]
-      },
-      {
-        "date": 19560101,
-        "controlledEntities": [
-          16576,
-          16577
-        ]
-      },
-      {
-        "date": 19640801,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16578
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16578
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16579
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16579
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16580
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16580
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16581
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16581
-        ]
-      },
-      {
-        "date": 20120401,
-        "controlledEntities": []
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16582
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16582
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16583
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": [
-          16583
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16594
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 20210101,
-        "controlledEntities": [
-          12997,
-          11345,
-          11762,
-          11333
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16596
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 20210101,
-        "controlledEntities": [
-          11024,
-          11033
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16598
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 20210101,
-        "controlledEntities": [
-          10240,
-          16419,
-          16420,
-          10220,
-          10221,
-          10222
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16601
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 20210101,
-        "controlledEntities": [
-          10369,
-          11705
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16603
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 20210101,
-        "controlledEntities": [
-          10912,
-          12444,
-          10926
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16611
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 20210418,
-        "controlledEntities": [
-          12993,
-          12326,
-          13066,
-          16558,
-          11353
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
-      "id": 16612
-    },
-    "controlledAtDates": [
-      {
-        "date": 18480912,
-        "controlledEntities": []
-      },
-      {
-        "date": 20210701,
-        "controlledEntities": [
-          11242,
-          11243,
-          11755,
-          13006,
-          12913,
-          13117,
-          11550
-        ]
-      }
-    ]
-  },
-  {
-    "controller": {
       "id": 10001
     },
     "controlledAtDates": [
@@ -57996,6 +54577,3425 @@
       {
         "date": 19140101,
         "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16384
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16384
+        ]
+      },
+      {
+        "date": 19140101,
+        "controlledEntities": [
+          16384,
+          16385
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16385
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16385
+        ]
+      },
+      {
+        "date": 19140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16386
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16386
+        ]
+      },
+      {
+        "date": 19160101,
+        "controlledEntities": [
+          16386,
+          16387
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16387
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16387
+        ]
+      },
+      {
+        "date": 19160101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16388
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16388
+        ]
+      },
+      {
+        "date": 19170101,
+        "controlledEntities": [
+          16388,
+          16389
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16389
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16389
+        ]
+      },
+      {
+        "date": 19170101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16390
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 19170101,
+        "controlledEntities": [
+          16320,
+          16321,
+          16391
+        ]
+      },
+      {
+        "date": 19200101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16391
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16391
+        ]
+      },
+      {
+        "date": 19170101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16392
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16392
+        ]
+      },
+      {
+        "date": 19180101,
+        "controlledEntities": [
+          16392,
+          16393,
+          16394
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16393
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16393
+        ]
+      },
+      {
+        "date": 19180101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16394
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16394
+        ]
+      },
+      {
+        "date": 19180101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16395
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16395
+        ]
+      },
+      {
+        "date": 19190101,
+        "controlledEntities": [
+          16395,
+          16396,
+          16397,
+          16398,
+          16399,
+          16400
+        ]
+      },
+      {
+        "date": 19971231,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16396
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16396
+        ]
+      },
+      {
+        "date": 19190101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16397
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16397
+        ]
+      },
+      {
+        "date": 19190101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16398
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16398
+        ]
+      },
+      {
+        "date": 19190101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16399
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16399
+        ]
+      },
+      {
+        "date": 19190101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16400
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16400
+        ]
+      },
+      {
+        "date": 19190101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16401
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16401
+        ]
+      },
+      {
+        "date": 19190101,
+        "controlledEntities": [
+          16401,
+          16402
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16402
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16402
+        ]
+      },
+      {
+        "date": 19190101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16403
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 19200101,
+        "controlledEntities": [
+          16378,
+          16379,
+          16404
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16404
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16404
+        ]
+      },
+      {
+        "date": 19200101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16405
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 19200101,
+        "controlledEntities": [
+          16320,
+          16321,
+          16391,
+          16406,
+          16407
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16406
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16406
+        ]
+      },
+      {
+        "date": 19200101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16407
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16407
+        ]
+      },
+      {
+        "date": 19200101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16408
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 19200101,
+        "controlledEntities": [
+          16376,
+          16409,
+          16375
+        ]
+      },
+      {
+        "date": 20180101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16409
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16409
+        ]
+      },
+      {
+        "date": 19200101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16410
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16410
+        ]
+      },
+      {
+        "date": 19220101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16411
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16411
+        ]
+      },
+      {
+        "date": 19220101,
+        "controlledEntities": [
+          16416,
+          16411,
+          16412,
+          16413,
+          16414,
+          16415
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16412
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16412
+        ]
+      },
+      {
+        "date": 19220101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16413
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16413
+        ]
+      },
+      {
+        "date": 19220101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16414
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16414
+        ]
+      },
+      {
+        "date": 19220101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16415
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16415
+        ]
+      },
+      {
+        "date": 19220101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16416
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16416
+        ]
+      },
+      {
+        "date": 19220101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16417
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16417
+        ]
+      },
+      {
+        "date": 19220101,
+        "controlledEntities": [
+          16417,
+          16418
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16418
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16418
+        ]
+      },
+      {
+        "date": 19220101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16419
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16419
+        ]
+      },
+      {
+        "date": 19230101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16420
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16420
+        ]
+      },
+      {
+        "date": 19230101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16421
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16421
+        ]
+      },
+      {
+        "date": 19230101,
+        "controlledEntities": [
+          16421,
+          16422
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16422
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16422
+        ]
+      },
+      {
+        "date": 19230101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16423
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16423
+        ]
+      },
+      {
+        "date": 19250101,
+        "controlledEntities": [
+          16424,
+          16423
+        ]
+      },
+      {
+        "date": 19320101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16424
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16424
+        ]
+      },
+      {
+        "date": 19250101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16425
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16425
+        ]
+      },
+      {
+        "date": 19250101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16426
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16426
+        ]
+      },
+      {
+        "date": 19250101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16427
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16427
+        ]
+      },
+      {
+        "date": 19250101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16428
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16428
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16429
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 19270101,
+        "controlledEntities": [
+          16430,
+          16223
+        ]
+      },
+      {
+        "date": 19280101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16430
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16430
+        ]
+      },
+      {
+        "date": 19270101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16431
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 19280101,
+        "controlledEntities": [
+          16432,
+          16430,
+          16223
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16432
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16432
+        ]
+      },
+      {
+        "date": 19280101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16433
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16433
+        ]
+      },
+      {
+        "date": 19280101,
+        "controlledEntities": [
+          16433,
+          16434
+        ]
+      },
+      {
+        "date": 20061022,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16434
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16434
+        ]
+      },
+      {
+        "date": 19280101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16435
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16435
+        ]
+      },
+      {
+        "date": 19280101,
+        "controlledEntities": [
+          16435,
+          16436
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16436
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16436
+        ]
+      },
+      {
+        "date": 19280101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16437
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16437
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16438
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16438
+        ]
+      },
+      {
+        "date": 19300101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16439
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16439
+        ]
+      },
+      {
+        "date": 19300101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16440
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16440
+        ]
+      },
+      {
+        "date": 19300101,
+        "controlledEntities": [
+          16440,
+          16441
+        ]
+      },
+      {
+        "date": 20210101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16441
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16441
+        ]
+      },
+      {
+        "date": 19300101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16442
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16442
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16443
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16443
+        ]
+      },
+      {
+        "date": 19310101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16444
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16444
+        ]
+      },
+      {
+        "date": 19310101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16445
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16445
+        ]
+      },
+      {
+        "date": 19310101,
+        "controlledEntities": [
+          16448,
+          16445,
+          16446,
+          16447
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16446
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16446
+        ]
+      },
+      {
+        "date": 19310101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16447
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16447
+        ]
+      },
+      {
+        "date": 19310101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16448
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16448
+        ]
+      },
+      {
+        "date": 19310101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16449
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16449
+        ]
+      },
+      {
+        "date": 19320101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16450
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 19320101,
+        "controlledEntities": [
+          16424,
+          16449,
+          16423
+        ]
+      },
+      {
+        "date": 19790101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16451
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16451
+        ]
+      },
+      {
+        "date": 19330101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16452
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16452
+        ]
+      },
+      {
+        "date": 19330101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16453
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 19340101,
+        "controlledEntities": [
+          16286,
+          16287,
+          16289,
+          16290,
+          16291,
+          16292,
+          16293,
+          16294,
+          16295,
+          16296,
+          16297,
+          16298,
+          16454,
+          16455,
+          16456,
+          16457,
+          16460,
+          16461,
+          16220
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16454
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16454
+        ]
+      },
+      {
+        "date": 19340101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16455
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16455
+        ]
+      },
+      {
+        "date": 19340101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16456
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16456
+        ]
+      },
+      {
+        "date": 19340101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16457
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16457
+        ]
+      },
+      {
+        "date": 19340101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16458
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16459
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 18720101,
+        "controlledEntities": [
+          16220
+        ]
+      },
+      {
+        "date": 19340101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16460
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16460
+        ]
+      },
+      {
+        "date": 19340101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16461
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16461
+        ]
+      },
+      {
+        "date": 19340101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16462
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16462
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16463
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16463
+        ]
+      },
+      {
+        "date": 20040901,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16464
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16464
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16465
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16465
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16466
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16466
+        ]
+      },
+      {
+        "date": 20140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16467
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16467
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16468
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16468
+        ]
+      },
+      {
+        "date": 20200101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16469
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16469
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16470
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16470
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16471
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16471
+        ]
+      },
+      {
+        "date": 19390101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16472
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16472
+        ]
+      },
+      {
+        "date": 19400101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16473
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16473
+        ]
+      },
+      {
+        "date": 19400101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16474
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16474
+        ]
+      },
+      {
+        "date": 19400101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16475
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16475
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16476
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16476
+        ]
+      },
+      {
+        "date": 20180101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16478
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16478
+        ]
+      },
+      {
+        "date": 20120101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16479
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16479
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16480
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16480
+        ]
+      },
+      {
+        "date": 20090101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16481
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16481
+        ]
+      },
+      {
+        "date": 19980701,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16482
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16482
+        ]
+      },
+      {
+        "date": 20150101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16483
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16483
+        ]
+      },
+      {
+        "date": 20150101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16484
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16484
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16485
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16485
+        ]
+      },
+      {
+        "date": 20140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16486
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16486
+        ]
+      },
+      {
+        "date": 20140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16487
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16487
+        ]
+      },
+      {
+        "date": 20150101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16488
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16488
+        ]
+      },
+      {
+        "date": 20130101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16489
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16489
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16490
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16490
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16491
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16491
+        ]
+      },
+      {
+        "date": 20160101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16492
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16492
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16493
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16493
+        ]
+      },
+      {
+        "date": 20140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16494
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16494
+        ]
+      },
+      {
+        "date": 19980701,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16495
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16495
+        ]
+      },
+      {
+        "date": 20130101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16496
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16496
+        ]
+      },
+      {
+        "date": 19790101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16497
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16497
+        ]
+      },
+      {
+        "date": 19790101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16498
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16498
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16499
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16499
+        ]
+      },
+      {
+        "date": 20140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16500
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16500
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16501
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16501
+        ]
+      },
+      {
+        "date": 20020101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16502
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16502
+        ]
+      },
+      {
+        "date": 20090101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16503
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16503
+        ]
+      },
+      {
+        "date": 20090101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16504
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16504
+        ]
+      },
+      {
+        "date": 20160101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16505
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16505
+        ]
+      },
+      {
+        "date": 20150101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16506
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16506
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16507
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16507
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16508
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16508
+        ]
+      },
+      {
+        "date": 20140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16509
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16509
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16510
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16510
+        ]
+      },
+      {
+        "date": 20140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16511
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16511
+        ]
+      },
+      {
+        "date": 19630524,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16512
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16512
+        ]
+      },
+      {
+        "date": 20150101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16513
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16513
+        ]
+      },
+      {
+        "date": 20090101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16514
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16514
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16515
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16515
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16516
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16516
+        ]
+      },
+      {
+        "date": 20160101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16517
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16517
+        ]
+      },
+      {
+        "date": 20090101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16518
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16518
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16519
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16519
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16520
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16520
+        ]
+      },
+      {
+        "date": 20180101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16521
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16521
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16523
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16523
+        ]
+      },
+      {
+        "date": 20180101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16525
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16525
+        ]
+      },
+      {
+        "date": 20140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16526
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16526
+        ]
+      },
+      {
+        "date": 19460101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16527
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16527
+        ]
+      },
+      {
+        "date": 19460101,
+        "controlledEntities": [
+          16526,
+          16527
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16529
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16529
+        ]
+      },
+      {
+        "date": 19460101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16530
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16530
+        ]
+      },
+      {
+        "date": 19460101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16531
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16531
+        ]
+      },
+      {
+        "date": 19470101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16532
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16532
+        ]
+      },
+      {
+        "date": 19470101,
+        "controlledEntities": [
+          16531,
+          16532
+        ]
+      },
+      {
+        "date": 19640101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16533
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16533
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16535
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 18710101,
+        "controlledEntities": [
+          16200,
+          16201,
+          16199
+        ]
+      },
+      {
+        "date": 19500101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16536
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16536
+        ]
+      },
+      {
+        "date": 19500101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16537
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16537
+        ]
+      },
+      {
+        "date": 19500101,
+        "controlledEntities": [
+          16199,
+          16200,
+          16201,
+          16536,
+          16537
+        ]
+      },
+      {
+        "date": 19961231,
+        "controlledEntities": [
+          16536,
+          16537
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16538
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16538
+        ]
+      },
+      {
+        "date": 20130101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16539
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16539
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16540
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16540
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16541
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16541
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16542
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16542
+        ]
+      },
+      {
+        "date": 19520101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16543
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16543
+        ]
+      },
+      {
+        "date": 19520101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16544
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16544
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16545
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16545
+        ]
+      },
+      {
+        "date": 19790101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16546
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16546
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16547
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16547
+        ]
+      },
+      {
+        "date": 20090101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16548
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16548
+        ]
+      },
+      {
+        "date": 20130101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16549
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16549
+        ]
+      },
+      {
+        "date": 20040101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16550
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16550
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16551
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16551
+        ]
+      },
+      {
+        "date": 19620101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16552
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16552
+        ]
+      },
+      {
+        "date": 19620101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16553
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16553
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16554
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16554
+        ]
+      },
+      {
+        "date": 20140101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16555
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16555
+        ]
+      },
+      {
+        "date": 19990101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16556
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16556
+        ]
+      },
+      {
+        "date": 20110701,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16558
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16558
+        ]
+      },
+      {
+        "date": 19760404,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16559
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16559
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16560
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16560
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16561
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16561
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16562
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16562
+        ]
+      },
+      {
+        "date": 20050101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16563
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16563
+        ]
+      },
+      {
+        "date": 20130101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16564
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16564
+        ]
+      },
+      {
+        "date": 19790101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16565
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16565
+        ]
+      },
+      {
+        "date": 19950101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16566
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16566
+        ]
+      },
+      {
+        "date": 19950101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16567
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16567
+        ]
+      },
+      {
+        "date": 19720423,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16568
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16568
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16569
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16569
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16570
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16570
+        ]
+      },
+      {
+        "date": 20070101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16571
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16571
+        ]
+      },
+      {
+        "date": 19560101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16572
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16572
+        ]
+      },
+      {
+        "date": 19560101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16573
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16573
+        ]
+      },
+      {
+        "date": 19560101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16574
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16574
+        ]
+      },
+      {
+        "date": 19560101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16575
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16575
+        ]
+      },
+      {
+        "date": 19560101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16576
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16576
+        ]
+      },
+      {
+        "date": 19560101,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16577
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16577
+        ]
+      },
+      {
+        "date": 19560101,
+        "controlledEntities": [
+          16576,
+          16577
+        ]
+      },
+      {
+        "date": 19640801,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16578
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16578
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16579
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16579
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16580
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16580
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16581
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16581
+        ]
+      },
+      {
+        "date": 20120401,
+        "controlledEntities": []
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16582
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16582
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16583
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": [
+          16583
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16594
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 20210101,
+        "controlledEntities": [
+          12997,
+          11345,
+          11762,
+          11333
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16596
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 20210101,
+        "controlledEntities": [
+          11024,
+          11033
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16598
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 20210101,
+        "controlledEntities": [
+          10240,
+          16419,
+          16420,
+          10220,
+          10221,
+          10222
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16601
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 20210101,
+        "controlledEntities": [
+          10369,
+          11705
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16603
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 20210101,
+        "controlledEntities": [
+          10912,
+          12444,
+          10926
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16611
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 20210418,
+        "controlledEntities": [
+          12993,
+          12326,
+          13066,
+          16558,
+          11353
+        ]
+      }
+    ]
+  },
+  {
+    "controller": {
+      "id": 16612
+    },
+    "controlledAtDates": [
+      {
+        "date": 18480912,
+        "controlledEntities": []
+      },
+      {
+        "date": 20210701,
+        "controlledEntities": [
+          11242,
+          11243,
+          11755,
+          13006,
+          12913,
+          13117,
+          11550
+        ]
       }
     ]
   }

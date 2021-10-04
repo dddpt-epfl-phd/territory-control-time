@@ -119,8 +119,11 @@ def get_gde_control_web(gdes, get_controller=lambda g: g.controller):
         for c in controllers
     ]
 
+    controls_by_controller.sort(key= lambda cbc: cbc["controller"]["id"])
+
     #return [(d, c_to_ts) for d,c_to_ts in controls_at_dates_only_list if len(c_to_ts)>0]
     return controls_by_controller
+
 
 # display non 11 entries
 # [(g.short_name, g.entry_mode, g.admission_date,g.abolition_date) for g in gdes if g.entry_mode!=11]
@@ -134,7 +137,43 @@ controls_at_dates_bez = get_gde_control_web(gdes, lambda g: g.district_hist_id)
 with open("../web/controls_at_dates_bez.json", "w") as outfile:
     json.dump(controls_at_dates_bez, outfile, indent=2)
 
+# %%
+
+
+kt_colors = {
+  "AG": "#444444", ##87ceeb
+  "AI": "#eeeecc",
+  "AR": "#444444",
+  "BE": "#fecf01", #"#e7423f",
+  "BL": "#e7423f",
+  "BS": "#444444",
+  "FR": "#444444",
+  "GE": "#e8423f",
+  "GL": "#fecf01",
+  "GR": "#248BCC",
+  "JU": "#16a74e",
+  "LU": "#16a74e",
+  "NE": "#e8423f",
+  "NW": "#eeeecc",
+  "OW": "#e7423f",
+  "SG": "#0ea94d",
+  "SH": "#fecf01",
+  "SO": "#eeeecc",
+  "SZ": "#e7423f",
+  "TG": "#0eaa4e", # #ffde2d
+  "TI": "#fecf01", #b300b3", # #e9403d #0000ff
+  "UR": "#444444",
+  "VD": "#16a74e", #008000
+  "VS": "#e8423f",
+  "ZG": "#eeeecc",
+  "ZH": "#248BCC"
+}
+
 controls_at_dates_kt = get_gde_control_web(gdes, lambda g: g.canton_abbreviation)
+
+for kt in controls_at_dates_kt:
+    kt["controller"]["color"] = kt_colors[kt["controller"]["id"]]
+
 with open("../web/controls_at_dates_kt.json", "w") as outfile:
     json.dump(controls_at_dates_kt, outfile, indent=2)
 

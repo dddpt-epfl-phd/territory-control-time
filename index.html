@@ -37,10 +37,10 @@
         <label>Level:</label>
         <select id="level-selector" name="level-selector">
           <option value="gde">Communes</option>
-          <option value="bez" selected>Districts</option>
-          <option value="kt">Cantons</option>
+          <option value="bez">Districts</option>
+          <option value="kt" selected>Cantons</option>
         </select>
-        <label for="year">Year:</label> <input id="year-selector" name="year" type="text" value="1879">
+        <label for="year">Year:</label> <input id="year-selector" name="year" type="text" value="2012">
       </fieldset>
     </form>
     <script>
@@ -167,10 +167,17 @@ async function setControlsAtDateAndLevel(date, level){
   controlsAtDateAndLevel = await loadControlsAtDateAndLevel(date,level)
   
   let fillColorMatch = controlsAtDateAndLevel.filter(c=>c.controlledAtDate.controlledEntities.length>0)
-  .map( c=> [
+  .map( c=> {
+    color = "rgb("+randomInt(0,256)+","+randomInt(0,256)+","+randomInt(0,256)+")"
+    if(level=="kt"){
+      color = c.controller.color
+      console.log("setControlsAtDateAndLevel() level KT, c:",c, ", c.controller.color:", c.controller.color)
+    }
+    return [
     c.controlledAtDate.controlledEntities,
-    "rgb("+randomInt(0,256)+","+randomInt(0,256)+","+randomInt(0,256)+")"
-  ]).flat()
+    color
+    ]
+  }).flat()
   console.log("fillColorMatch:", fillColorMatch)
 
   map.setPaintProperty(
