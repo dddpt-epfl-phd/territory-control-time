@@ -1,6 +1,6 @@
 # Political Territorial Control through Time
 
-This project's main aim is to propose a data model to encode control of land over time and propose an interactive interface to explore and search in a given control dataset. [__Interface accessible here.__](https://dddpt-epfl-phd.github.io/territory-control-time/)
+This project's main aim is to propose a data model to encode control of land over time and propose an interactive interface to explore and search in a given control dataset. [__Interface accessible here.__](https://dddpt-epfl-phd.github.io/territory-control-time/){:target="_blank"}
 
 As a practical case study, we will create a dataset for political territorial control relationships in Switzerland from 1000 to today based on the Historical Dictionary of Switzerland (DHS).
 
