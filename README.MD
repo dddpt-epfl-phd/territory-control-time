@@ -1,6 +1,8 @@
 # Political Territorial Control through Time
 
-This project's main aim is to propose a data model to encode control of land over time and propose an interactive interface to explore and search in a given control dataset.
+This project's main aim is to propose a data model to encode control of land over time and propose an interactive interface to explore and search in a given control dataset. [__Interface accessible here.__](https://dddpt-epfl-phd.github.io/territory-control-time/)
+
+
 
 The data model should englobe the following aspects of political control:
 - generic polities at all level of the control ladder (small lordships, administrative subunits, duchies, etc...)
