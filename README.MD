@@ -2,7 +2,9 @@
 
 This project's main aim is to propose a data model to encode control of land over time and propose an interactive interface to explore and search in a given control dataset. [__Interface accessible here.__](https://dddpt-epfl-phd.github.io/territory-control-time/)
 
+As a practical case study, we will create a dataset for political territorial control relationships in Switzerland from 1000 to today based on the Historical Dictionary of Switzerland (DHS).
 
+## Data Model
 
 The data model should englobe the following aspects of political control:
 - generic polities at all level of the control ladder (small lordships, administrative subunits, duchies, etc...)
@@ -10,8 +12,6 @@ The data model should englobe the following aspects of political control:
 - events delimitating control relationships (date, duration, description)
 - sources, references and how to document polities, relationships and events
 - uncertainty and ongoing discussions on polities, relationships and events in poorly documented times
-
-As a practical case study, we will create a dataset for political territorial control relationships in Switzerland from 1000 to today based on the Historical Dictionary of Switzerland (DHS).
 
 ## folders structures
 
