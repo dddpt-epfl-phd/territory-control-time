@@ -32,7 +32,7 @@ dfin_ancien_regime = HDate.from_readable_id('fin-ancien-regime-suisse', tgraph)
 dpartage_seigneurie_grandson = HDate.from_readable_id("partage-seigneurie-grandson", tgraph)
 
 
-dreorganisation_districts_vaud = KnownDate(
+dreorganisation_districts_vaud = KnownDate.new(
     "reorganisation-districts-vaud",
     "2008"
 )

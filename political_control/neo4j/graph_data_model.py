@@ -266,7 +266,7 @@ class PoliticalEntity(HistoricalEntity):
     def set_first_mention(self, first_mention):
         for s in self.start:
             self.start.remove(s)
-        new_start=UncertainBoundedDate(
+        new_start=UncertainBoundedDate.new(
             "first-mention-"+self.name.lower().replace(" ", "-"),
             latest=first_mention,
             best_guess=first_mention
