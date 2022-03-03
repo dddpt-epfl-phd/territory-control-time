@@ -6,6 +6,7 @@ from s1_database_population_1 import *
 
 
 gpe_second_royaume_bourgogne = PoliticalEntity.from_dhsId(tgraph, "006620")[0]
+gos.append(gpe_second_royaume_bourgogne)
 gpe_second_royaume_bourgogne.name="Second Royaume de Bourgogne"
 dfondation_second_royaume_bourgogne = KnownDate.new(
     "fondation-second-royaume-bourgogne",
@@ -21,6 +22,7 @@ gpe_second_royaume_bourgogne.end.add(dfin_second_royaume_bourgogne)
 # %% Prieuré de Romainmôtier
 
 gpe_prieure_rmmtier = PoliticalEntity.from_dhsId(tgraph, "011867")[0]
+gos.append(gpe_prieure_rmmtier)
 gpe_prieure_rmmtier.name="Prieuré de Romainmôtier"
 
 dfondation_rmmtier = UncertainAroundDate.new(
@@ -50,21 +52,28 @@ gpe_district_orbe = PoliticalEntity.new(
 # %% territoire always part of rmmtier
 # ===========================================================
 trmmtier = PoliticalEntity.from_dhsId(tgraph, "002544")[0]
+gos.append(trmmtier)
 trmmtier.name="Romainmôtier"
 for s in trmmtier.start:
     trmmtier.start.remove(s)
 trmmtier.start.add(dfondation_rmmtier)
 
 tcroy = Territory.from_dhsId(tgraph, "002536")[0]
+gos.append(tcroy)
 tenvy = Territory.from_dhsId(tgraph, "003326")[0] # fondation <1216, fusion 1970
+gos.append(tenvy)
 tenvy.set_first_mention("1216")
 tbretonnieres = Territory.from_dhsId(tgraph, "002532")[0] # fondation <1154
+gos.append(tbretonnieres)
 tbretonnieres.set_first_mention("1154")
 tpremier = Territory.from_dhsId(tgraph, "002542")[0]
+gos.append(tpremier)
 tpremier.set_first_mention("1396")
 tjuriens = Territory.from_dhsId(tgraph, "002537")[0] # fondation <1263
+gos.append(tjuriens)
 tjuriens.set_first_mention("1263")
 tlapraz = Territory.from_dhsId(tgraph, "002541")[0]
+gos.append(tlapraz)
 tlapraz.set_first_mention("996")
 
 t_of_rmmtier_tjrs = [trmmtier, tcroy, tenvy, tbretonnieres, tpremier, tjuriens, tlapraz]
@@ -82,8 +91,10 @@ pc_prieure_rmmtier_tjrs = DirectControl.new(
 # ===========================================================
 
 tbofflens = Territory.from_dhsId(tgraph, "002531")[0] # fondation <1007
+gos.append(tbofflens)
 tbofflens.set_first_mention("1007")
 tagiez = Territory.from_dhsId(tgraph, "002526")[0] # fondation <1011
+gos.append(tagiez)
 tagiez.set_first_mention("1011")
 t_of_rmmtier_1011 = [tbofflens, tagiez]
 
@@ -119,6 +130,7 @@ pc_prieure_rmmtier_tjrs = DirectControl.new(
 # ===========================================================
 
 tarnex = Territory.from_dhsId(tgraph, "002527")[0] # fondation <1049
+gos.append(tarnex)
 dfirst_mention_arnex = tarnex.set_first_mention("1049")
 
 pc_grandson_arnex = DirectControl.new(
@@ -140,6 +152,7 @@ pc_prieure_rmmtier_arnex = DirectControl.new(
 # ===========================================================
 
 tvaulion = Territory.from_dhsId(tgraph, "002548")[0]
+gos.append(tvaulion)
 
 dirst_mention_vaulion = tvaulion.set_first_mention(1097)
 
@@ -195,6 +208,7 @@ Vallorbe, suzerain
 """
 
 tvallorbe = Territory.from_dhsId(tgraph, "002547")[0]
+gos.append(tvallorbe)
 tvallorbe.set_first_mention("1139")
 
 dfondation_chatellenie_vallorbe = KnownDate.new(
@@ -251,6 +265,7 @@ pc_baillage_rmmtier_chat_vallorbe = DirectControl.new(
 # ===========================================================
 
 gpe_eveche_lausanne = PoliticalEntity.from_dhsId(tgraph, "008559")[0]
+gos.append(gpe_eveche_lausanne)
 gpe_eveche_lausanne.name = "Évêché de Lausanne"
 dfondation_eveche_lausanne = UncertainBoundedDate.new(
     "fondation-eveche-lausanne",
@@ -268,6 +283,7 @@ gpe_eveche_lausanne.end.add(dconquete_vaud_par_berne)
 # ===========================================================
 
 gpe_abbaye_maurice = PoliticalEntity.from_dhsId(tgraph, "011411")[0]
+gos.append(gpe_abbaye_maurice)
 gpe_abbaye_maurice.name = "Abbaye de Saint-Maurice"
 dfondation_abbaye_maurice = KnownDate.new(
     "fondation-abbaye-maurice",
@@ -294,6 +310,7 @@ dsavoie_controle_cossonay = UncertainBoundedDate.new(
 )
 
 gpe_baronnie_cossonay = PoliticalEntity.from_dhsId(tgraph, "007573")[0]
+gos.append(gpe_baronnie_cossonay)
 gpe_baronnie_cossonay.name="Baronnie de Cossonay"
 gpe_baronnie_cossonay.category="baronnie"
 for d in gpe_baronnie_cossonay.start:
@@ -341,6 +358,7 @@ Ferreyres, controlé par:
 """
 
 tferreyres = Territory.from_dhsId(tgraph, "002333")[0]
+gos.append(tferreyres)
 tferreyres.set_first_mention("814")
 
 
@@ -432,6 +450,7 @@ territoire de la sarraz:
 """
 
 tsarraz = Territory.from_dhsId(tgraph, "002348")[0]
+gos.append(tsarraz)
 tsarraz.set_first_mention("1049")
 
 # <1049: rmmtier controle sarraz
@@ -508,7 +527,6 @@ gpe_seigneurie_champvent
 gpe_territoires_champvent = Territory.from_name(tgraph,
     "(Champvent|Mathod|Susc|Orges|Vugelles|Vuiteb|Sainte-Croix|Bullet)"
 )
-
 # %% Seigneuries du baillage d'Yverdon
 
 """

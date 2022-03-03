@@ -33,10 +33,15 @@ dates = [HDate.wrap(d["d"]) for d in tgraph.run("Match (d:HistoricalDate) where 
  'fin-conflit-abbayes-joux-st-claude']"""
 
 dfondation_abbaye_joux = HDate.from_readable_id('fondation-abbaye-lac-de-joux', tgraph)
+gos.append(dfondation_abbaye_joux)
 dfin_conflit_joux_claude = HDate.from_readable_id('fin-conflit-abbayes-joux-st-claude', tgraph)
+gos.append(dfin_conflit_joux_claude)
 dconquete_vaud_par_berne = HDate.from_readable_id('conquete-vaud-par-berne', tgraph)
+gos.append(dconquete_vaud_par_berne)
 dfin_ancien_regime = HDate.from_readable_id('fin-ancien-regime-suisse', tgraph)
+gos.append(dfin_ancien_regime)
 dpartage_seigneurie_grandson = HDate.from_readable_id("partage-seigneurie-grandson", tgraph)
+gos.append(dpartage_seigneurie_grandson)
 
 
 dreorganisation_districts_vaud = KnownDate.new(
@@ -49,30 +54,29 @@ goc.append(dreorganisation_districts_vaud)
 # %% Seigneuries de Grandson, Champvent, Les Clées et La Sarraz
 
 gpe_seigneurie_grandson = PoliticalEntity.from_name(tgraph,"Seigneurie de Grandson")[0]
+gos.append(gpe_seigneurie_grandson)
 gpe_baillage_grandson = PoliticalEntity.from_name(tgraph,"Baillage de Grandson")[0]
+gos.append(gpe_baillage_grandson)
 gpe_seigneurie_grandson.successors.add(gpe_baillage_grandson)
 
 gpe_seigneurie_sarraz = PoliticalEntity.from_dhsId(tgraph, "007575")[0]
+gos.append(gpe_seigneurie_sarraz)
 gpe_seigneurie_champvent = PoliticalEntity.from_dhsId(tgraph, "007572")[0]
+gos.append(gpe_seigneurie_champvent)
 gpe_seigneurie_clees = PoliticalEntity.from_dhsId(tgraph, "002534-2")[0]
+gos.append(gpe_seigneurie_clees)
 
 
 gpe_baillage_yverdon = PoliticalEntity.from_name(tgraph,r"Baillage d\'Yverdon")[0]
+gos.append(gpe_baillage_yverdon)
 gpe_baillage_rmmtier = PoliticalEntity.from_dhsId(tgraph,"007582")[0]
+gos.append(gpe_baillage_rmmtier)
 
 gpe_baillage_moudon = PoliticalEntity.from_dhsId(tgraph,"007578")[0]
+gos.append(gpe_baillage_moudon)
 gpe_baillage_moudon.dhsId+="-2" # châtellenie before baillage
 gpe_baillage_moudon.name="Baillage de Moudon"
 
-gos = gos +[
-    gpe_seigneurie_grandson,
-    gpe_baillage_grandson,
-    gpe_seigneurie_sarraz,
-    gpe_seigneurie_champvent,
-    gpe_baillage_yverdon,
-    gpe_baillage_rmmtier,
-    gpe_baillage_moudon
-]
 
 # %% Communes de la Vallée de joux
 
@@ -91,18 +95,16 @@ contrôle:
 """
 
 gpe_abbaye_joux = PoliticalEntity.from_dhsId(tgraph, "012134")[0]
+gos.append(gpe_abbaye_joux)
 gpe_abbaye_claude = PoliticalEntity.from_dhsId(tgraph, "007107")[0]
+gos.append(gpe_abbaye_claude)
 
 tabbaye = PoliticalEntity.from_dhsId(tgraph, "002609")[0]
+gos.append(tabbaye)
 tchenit = PoliticalEntity.from_dhsId(tgraph, "002610")[0]
+gos.append(tchenit)
 tlieu = PoliticalEntity.from_dhsId(tgraph, "002611")[0]
-gos = gos +[
-    gpe_abbaye_joux,
-    gpe_abbaye_claude,
-    tabbaye,
-    tchenit,
-    tlieu
-]
+gos.append(tlieu)
 
 dhsa_vallee_joux = DHSArticle.scrape_from_dhs("007588")
 dhsa_abbaye = DHSArticle.scrape_from_dhs("002609")
@@ -250,8 +252,10 @@ seigneurie/baronnie de la sarraz:
 
 
 dhsa_seigneurie_grandson = DHSArticle.from_dhsId(tgraph, "007574")
+gos.append(dhsa_seigneurie_grandson)
 
 dhsa_seigneurie_sarraz = DHSArticle.from_dhsId(tgraph, "007575")
+gos.append(dhsa_seigneurie_sarraz)
 
 
 # seigneurie de 1049 à 1461
@@ -342,6 +346,7 @@ goc.append(gpe_comte_geneve)
 
 
 gpe_comte_savoie = PoliticalEntity.from_name(tgraph, "Savoie")[0]
+gos.append(gpe_comte_savoie)
 gpe_comte_savoie.name="Comté de Savoie"
 gpe_comte_savoie.category="comte"
 
@@ -388,6 +393,7 @@ suzerains:
 """
 
 gpe_duche_bourgogne = PoliticalEntity.from_dhsId(tgraph,"007281")[0]
+gos.append(gpe_duche_bourgogne)
 
 dbourgogne_controle_clees = UncertainBoundedDate.new(
     "bourgogne-controle-clees",
@@ -403,7 +409,7 @@ dgeneve_controle_clees = KnownDate.new(
 goc.append(dgeneve_controle_clees)
 
 dsavoie_controle_clees = KnownDate.new(
-    "comte-geneve-controle-clees",
+    "duc-savoie-controle-clees",
     "1260"
 )
 goc.append(dsavoie_controle_clees)
