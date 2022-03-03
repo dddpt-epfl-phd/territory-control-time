@@ -12,6 +12,13 @@ HDate = HistoricalDate
 # %%
 
 
+# %% global list of objects to save in graph
+
+# graph objects to create
+goc = []
+# graph objects to save
+gos = []
+
 # %% Dates
 
 
@@ -36,13 +43,8 @@ dreorganisation_districts_vaud = KnownDate.new(
     "reorganisation-districts-vaud",
     "2008"
 )
+goc.append(dreorganisation_districts_vaud)
 
-# %% global list of objects to save in graph
-
-# graph objects to create
-goc = []
-# graph objects to save
-gos = []
 
 # %% Seigneuries de Grandson, Champvent, Les Clées et La Sarraz
 
@@ -191,6 +193,7 @@ dfondation_seigneurie_sarraz = KnownDate.new(
         "fondation-seigneurie-la-sarraz",
         "1049"
 )
+goc.append(dfondation_seigneurie_sarraz)
 
 dvente_joux_savoie = UncertainPossibilitiesDate.new(
     "vente-joux-savoie",
@@ -199,6 +202,7 @@ dvente_joux_savoie = UncertainPossibilitiesDate.new(
         KnownDate.new("vente-joux-1344", 1344)
     ]
 )
+goc.append(dvente_joux_savoie)
 
 # 1126: grandson
 pc_grandson_abbjoux = DirectControl.new(
@@ -208,6 +212,7 @@ pc_grandson_abbjoux = DirectControl.new(
     dpartage_seigneurie_grandson,
     dhsa_vallee_joux
 )
+goc.append(pc_grandson_abbjoux)
 
 # <1234: La Sarraz
 pc_sarraz_abbjoux = DirectControl.new(
@@ -217,6 +222,7 @@ pc_sarraz_abbjoux = DirectControl.new(
     dvente_joux_savoie,
     [dhsa_vallee_joux, dhsa_lieu]
 )
+goc.append(pc_sarraz_abbjoux)
 
 # 1334/1344-1536: chatellenie des clées (sous les savoie)
 pc_sarraz_abbjoux = DirectControl.new(
@@ -226,6 +232,7 @@ pc_sarraz_abbjoux = DirectControl.new(
     dconquete_vaud_par_berne,
     [dhsa_vallee_joux, dhsa_lieu]
 )
+goc.append(pc_sarraz_abbjoux)
 
 # %% seigneurie de la Sarraz
 
@@ -252,6 +259,7 @@ dsarraz_baronnie=KnownDate.new(
     "sarraz-devient-baronnie",
     "1461"
 )
+goc.append(dsarraz_baronnie)
 for d in gpe_seigneurie_sarraz.start:
     gpe_seigneurie_sarraz.start.remove(d)
 for d in gpe_seigneurie_sarraz.end:
@@ -267,6 +275,7 @@ pc_grandson_sarraz = DirectControl.new(
     dpartage_seigneurie_grandson,
     dhsa_seigneurie_grandson
 )
+goc.append(pc_grandson_sarraz)
 
 # 1461: devient baronnie
 gpe_baronnie_sarraz = PoliticalEntity.new(
@@ -278,6 +287,7 @@ gpe_baronnie_sarraz = PoliticalEntity.new(
     gpe_seigneurie_sarraz,
     "007575-2",
 )
+goc.append(gpe_baronnie_sarraz)
 
 drmmtier_controle_sarraz = KnownDate.new("rmmtier-controle-sarraz", "1598")
 
@@ -289,6 +299,7 @@ pc_grandson_sarraz = DirectControl.new(
     drmmtier_controle_sarraz,
     dhsa_seigneurie_sarraz
 )
+goc.append(drmmtier_controle_sarraz)
 # 1598: baillage de rmmtier controle la sarraz
 pc_grandson_sarraz = DirectControl.new(
     gpe_baillage_rmmtier,
@@ -297,6 +308,7 @@ pc_grandson_sarraz = DirectControl.new(
     dfin_ancien_regime,
     dhsa_seigneurie_sarraz
 )
+goc.append(pc_grandson_sarraz)
 
 # %% Comté de Genève
 
@@ -306,6 +318,7 @@ dfondation_comte_geneve = UncertainBoundedDate.new(
     "fondation-comte-geneve",
     latest="1034"
 )
+goc.append(dfondation_comte_geneve)
 
 dfin_comte_geneve = UncertainBoundedDate.new(
     "fin-comte-geneve",
@@ -313,6 +326,7 @@ dfin_comte_geneve = UncertainBoundedDate.new(
     "1798",
     best_guess = "1402"
 )
+goc.append(dfin_comte_geneve)
 
 gpe_comte_geneve = PoliticalEntity.new(
     "Comté de Genève",
@@ -322,6 +336,7 @@ gpe_comte_geneve = PoliticalEntity.new(
     dhsa_dynastie_geneve,
     dhsId="dhs-019515"
 )
+goc.append(gpe_comte_geneve)
 
 # %% Comté et duché de Savoie
 
@@ -334,14 +349,17 @@ dfondation_savoie = KnownDate.new(
     "fondation-comte-savoie",
     "1160"
 )
+goc.append(dfondation_savoie)
 dcomte_savoie_devient_duche = KnownDate.new(
     "comte-savoie-devient-duche",
     "1416"
 )
+goc.append(dcomte_savoie_devient_duche)
 dfin_duche_savoie = KnownDate.new(
     "fin-duche-savoie",
     "1860"
 )
+goc.append(dfin_duche_savoie)
 gpe_comte_savoie.start.add(dfondation_savoie)
 gpe_comte_savoie.end.add(dcomte_savoie_devient_duche)
 
@@ -354,6 +372,7 @@ gpe_duche_savoie = PoliticalEntity.new(
     gpe_comte_savoie,
     "dhs-006641-2"
 )
+goc.append(gpe_duche_savoie)
 
 # %% Seigneurie des Clées
 
@@ -375,16 +394,19 @@ dbourgogne_controle_clees = UncertainBoundedDate.new(
     latest="1232",
     best_guess="1000"
 )
+goc.append(dbourgogne_controle_clees)
 
 dgeneve_controle_clees = KnownDate.new(
     "comte-geneve-controle-clees",
     "1232"
 )
+goc.append(dgeneve_controle_clees)
 
 dsavoie_controle_clees = KnownDate.new(
     "comte-geneve-controle-clees",
     "1260"
 )
+goc.append(dsavoie_controle_clees)
 
 
 # <1232: duc de bourgnogne controle les clées
@@ -395,6 +417,7 @@ pc_bourgnogne_clees = DirectControl.new(
     dgeneve_controle_clees,
     dhsa_clees
 )
+goc.append(pc_bourgnogne_clees)
 # 1232: comte de geneve controle les clées
 pc_comte_geneve_clees = DirectControl.new(
     gpe_comte_geneve,
@@ -403,6 +426,7 @@ pc_comte_geneve_clees = DirectControl.new(
     dsavoie_controle_clees,
     dhsa_clees
 )
+goc.append(pc_comte_geneve_clees)
 # 1260: comte de savoie controle les clées
 pc_comte_savoie_clees = DirectControl.new(
     gpe_comte_savoie,
@@ -411,6 +435,7 @@ pc_comte_savoie_clees = DirectControl.new(
     dcomte_savoie_devient_duche,
     [dhsa_clees]+list(gpe_comte_savoie.sources)
 )
+goc.append(pc_comte_savoie_clees)
 # 1416: comte savoie devient duche
 pc_duche_savoie_clees = DirectControl.new(
     gpe_duche_savoie,
@@ -419,6 +444,7 @@ pc_duche_savoie_clees = DirectControl.new(
     dconquete_vaud_par_berne,
     [dhsa_clees]+list(gpe_comte_savoie.sources)
 )
+goc.append(pc_duche_savoie_clees)
 # 1536: conquête bernoise
 pc_baillaye_yverdon_clees = DirectControl.new(
     gpe_baillage_yverdon,
@@ -427,7 +453,7 @@ pc_baillaye_yverdon_clees = DirectControl.new(
     dfin_ancien_regime,
     [dhsa_clees]+list(gpe_baillage_yverdon.sources)
 )
-
+goc.append(pc_baillaye_yverdon_clees)
 
 
 

@@ -1,7 +1,7 @@
 
 # %% 
 
-from database_population_1 import *
+from s1_database_population_1 import *
 
 
 
